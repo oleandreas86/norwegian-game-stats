@@ -195,10 +195,6 @@ function populateLeaderboard(tableId, data, games, countKey) {
             <td>
                 <div class="game-name-flex">
                     <div class="game-name">${game.name} ${badges}</div>
-                    <div class="game-links">
-                        <a href="https://store.steampowered.com/app/${game.id}" target="_blank" class="icon-link steam" title="View on Steam">${STEAM_SVG}</a>
-                        <a href="https://steamdb.info/app/${game.id}/" target="_blank" class="icon-link steamdb" title="View on SteamDB">${STEAMDB_SVG}</a>
-                    </div>
                 </div>
                 <div class="game-studio">${game.developer}</div>
             </td>
