@@ -7,8 +7,12 @@ const CHART_BORDER_COLOR = '#66c0f4';
 const TEXT_COLOR = '#c5c3c0';
 const GRID_COLOR = 'rgba(255, 255, 255, 0.1)';
 
+const STEAM_SVG = `<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 .007c-.125 0-.252.004-.377.008L4.662 10.02c-.896-.036-1.742.368-2.235 1.096L0 12.871l5.248 2.162c.245-.075.502-.115.768-.115.53 0 1.026.16 1.442.433l3.522-5.087V10.2c0-2.522 2.044-4.566 4.566-4.566 2.521 0 4.565 2.044 4.565 4.566s-2.044 4.565-4.565 4.565c-.053 0-.106-.002-.158-.004l-5.115 3.511c.006.082.012.164.012.247 0 2.376-1.926 4.303-4.302 4.303-.508 0-1-.088-1.455-.25L5.732 24H12c6.627 0 12-5.373 12-12S18.627.007 12 .007zm3.442 8.358c1.012 0 1.832.82 1.832 1.833 0 1.012-.82 1.832-1.832 1.832s-1.832-.82-1.832-1.832c0-1.013.82-1.833 1.832-1.833z"/></svg>`;
+const STEAMDB_SVG = `<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M2.5 19h19v2h-19zm4.5-4h3v3h-3zm5-5h3v8h-3zm5-5h3v13h-3z"/></svg>`;
+
 let chartInstances = {};
 let allGames = [];
+let allMetadata = [];
 let observer;
 
 async function init() {
@@ -31,6 +35,7 @@ async function init() {
 
     const leaderboardsResponse = await fetch('/api/leaderboards');
     const leaderboards = await leaderboardsResponse.json();
+    allMetadata = leaderboards.metadata || [];
 
     // Populate Leaderboards
     populateLeaderboard('current-leaderboard', leaderboards.current, allGames, 'player_count');
@@ -176,12 +181,28 @@ function populateLeaderboard(tableId, data, games, countKey) {
         if (game.store === 'Delisted/Retired') badges += '<span class="badge badge-delisted">Delisted</span> ';
 
         const row = document.createElement('tr');
+        
+        let scoreCell = '';
+        if (tableId === 'sales-leaderboard') {
+            const score = item.review_score !== null ? `${item.review_score}%` : '-';
+            const scoreDesc = item.review_score_desc || '';
+            const reviewCount = item.reviews !== null ? `<div class="review-count-small">${item.reviews.toLocaleString()} reviews</div>` : '';
+            scoreCell = `<td title="${scoreDesc}">${score}${reviewCount}</td>`;
+        }
+
         row.innerHTML = `
             <td class="rank-cell">${rank++}</td>
             <td>
-                <div class="game-name">${game.name} ${badges}</div>
+                <div class="game-name-flex">
+                    <div class="game-name">${game.name} ${badges}</div>
+                    <div class="game-links">
+                        <a href="https://store.steampowered.com/app/${game.id}" target="_blank" class="icon-link steam" title="View on Steam">${STEAM_SVG}</a>
+                        <a href="https://steamdb.info/app/${game.id}/" target="_blank" class="icon-link steamdb" title="View on SteamDB">${STEAMDB_SVG}</a>
+                    </div>
+                </div>
                 <div class="game-studio">${game.developer}</div>
             </td>
+            ${scoreCell}
             <td class="count-cell">
                 <div class="count-flex">
                     <span title="${countTitle}">${item[countKey].toLocaleString()}</span>
@@ -330,7 +351,13 @@ function initializeChartGrid() {
         wrapper.innerHTML = `
             <div class="chart-header">
                 <div class="title-container">
-                    <h3>${game.name} ${badges}</h3>
+                    <div class="title-flex">
+                        <h3>${game.name} ${badges}</h3>
+                        <div class="game-links">
+                            <a href="https://store.steampowered.com/app/${game.id}" target="_blank" class="icon-link steam" title="View on Steam">${STEAM_SVG}</a>
+                            <a href="https://steamdb.info/app/${game.id}/" target="_blank" class="icon-link steamdb" title="View on SteamDB">${STEAMDB_SVG}</a>
+                        </div>
+                    </div>
                     <div class="game-studio">${game.developer}</div>
                 </div>
                 <button class="compare-toggle ${isComparing ? 'active' : ''}" 
@@ -338,6 +365,20 @@ function initializeChartGrid() {
                         onclick="toggleComparison(${game.id})">
                     ${isComparing ? 'Comparing' : 'Compare'}
                 </button>
+            </div>
+            <div class="game-stats-row">
+                <div class="game-stat">
+                    <span class="label">All-Time Score</span>
+                    <span class="value" id="reviews-all-${game.id}">-</span>
+                </div>
+                <div class="game-stat">
+                    <span class="label">Recent Score</span>
+                    <span class="value" id="reviews-recent-${game.id}">-</span>
+                </div>
+                <div class="game-stat">
+                    <span class="label">Est. Owners</span>
+                    <span class="value" id="sales-${game.id}">-</span>
+                </div>
             </div>
             <div class="chart-container">
                 <canvas id="chart-${game.id}"></canvas>
@@ -441,6 +482,32 @@ async function renderGameChart(appid, name) {
 
     const canvas = document.getElementById(`chart-${appid}`);
     if (!canvas) return;
+
+    // Update stats from metadata
+    const metadata = allMetadata.find(m => m.appid == appid);
+    if (metadata) {
+        if (metadata.estimated_sales) {
+            const salesEl = document.getElementById(`sales-${appid}`);
+            if (salesEl) salesEl.textContent = metadata.estimated_sales.toLocaleString();
+        }
+        
+        const allScoreEl = document.getElementById(`reviews-all-${appid}`);
+        if (allScoreEl) {
+            const score = metadata.review_score !== null ? `${metadata.review_score}%` : '-';
+            const desc = metadata.review_score_desc || '';
+            const count = metadata.reviews !== null ? `<div class="review-count">${metadata.reviews.toLocaleString()} reviews</div>` : '';
+            allScoreEl.innerHTML = `${score}${desc ? ` <span class="review-desc">(${desc})</span>` : ''}${count}`;
+        }
+
+        const recentScoreEl = document.getElementById(`reviews-recent-${appid}`);
+        if (recentScoreEl) {
+            const score = metadata.recent_review_score !== null ? `${metadata.recent_review_score}%` : '-';
+            const desc = metadata.recent_review_score_desc || '';
+            const count = metadata.recent_reviews !== null ? `<div class="review-count">${metadata.recent_reviews.toLocaleString()} reviews</div>` : '';
+            recentScoreEl.innerHTML = `${score}${desc ? ` <span class="review-desc">(${desc})</span>` : ''}${count}`;
+        }
+    }
+
     const ctx = canvas.getContext('2d');
     
     if (stats.length === 0) {

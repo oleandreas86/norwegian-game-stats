@@ -24,8 +24,28 @@ db.serialize(() => {
     appid INTEGER PRIMARY KEY,
     reviews INTEGER,
     estimated_sales INTEGER,
+    review_score INTEGER,
+    review_score_desc TEXT,
+    recent_review_score INTEGER,
+    recent_review_score_desc TEXT,
+    recent_reviews INTEGER,
     last_updated DATETIME DEFAULT CURRENT_TIMESTAMP
   )`);
+
+  // Migration for existing databases
+  const columns = [
+    { name: 'review_score', type: 'INTEGER' },
+    { name: 'review_score_desc', type: 'TEXT' },
+    { name: 'recent_review_score', type: 'INTEGER' },
+    { name: 'recent_review_score_desc', type: 'TEXT' },
+    { name: 'recent_reviews', type: 'INTEGER' }
+  ];
+
+  columns.forEach(col => {
+    db.run(`ALTER TABLE game_metadata ADD COLUMN ${col.name} ${col.type}`, (err) => {
+      // Column might already exist, which is fine
+    });
+  });
   
   db.run(`CREATE UNIQUE INDEX IF NOT EXISTS idx_appid_timestamp ON game_stats (appid, timestamp)`);
 });
@@ -44,17 +64,33 @@ module.exports = {
       });
     });
   },
-  updateMetadata: (appid, reviews, estimated_sales) => {
+  updateMetadata: (appid, reviews, estimated_sales, review_score, review_score_desc, recent_review_score, recent_review_score_desc, recent_reviews) => {
     return new Promise((resolve, reject) => {
       const query = `
-        INSERT INTO game_metadata (appid, reviews, estimated_sales, last_updated)
-        VALUES (?, ?, ?, CURRENT_TIMESTAMP)
+        INSERT INTO game_metadata (
+          appid, reviews, estimated_sales, 
+          review_score, review_score_desc, 
+          recent_review_score, recent_review_score_desc,
+          recent_reviews,
+          last_updated
+        )
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
         ON CONFLICT(appid) DO UPDATE SET
           reviews = excluded.reviews,
           estimated_sales = excluded.estimated_sales,
+          review_score = excluded.review_score,
+          review_score_desc = excluded.review_score_desc,
+          recent_review_score = excluded.recent_review_score,
+          recent_review_score_desc = excluded.recent_review_score_desc,
+          recent_reviews = excluded.recent_reviews,
           last_updated = CURRENT_TIMESTAMP
       `;
-      db.run(query, [appid, reviews, estimated_sales], function(err) {
+      db.run(query, [
+        appid, reviews, estimated_sales, 
+        review_score, review_score_desc, 
+        recent_review_score, recent_review_score_desc,
+        recent_reviews
+      ], function(err) {
         if (err) reject(err);
         else resolve();
       });

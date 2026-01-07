@@ -18,12 +18,40 @@ async function fetchPlayerCount(appid) {
 
 async function fetchReviews(appid) {
   try {
-    const url = `https://store.steampowered.com/appreviews/${appid}?json=1&num_per_page=0&purchase_type=all&language=all`;
-    const response = await axios.get(url);
-    if (response.data && response.data.success === 1) {
-      return response.data.query_summary.total_reviews;
+    const allTimeUrl = `https://store.steampowered.com/appreviews/${appid}?json=1&num_per_page=0&purchase_type=all&language=all`;
+    const allTimeResponse = await axios.get(allTimeUrl);
+    
+    const recentUrl = `https://store.steampowered.com/appreviews/${appid}?json=1&num_per_page=0&purchase_type=all&language=all&day_range=30`;
+    const recentResponse = await axios.get(recentUrl);
+
+    let result = {
+      total_reviews: null,
+      review_score: null,
+      review_score_desc: null,
+      recent_review_score: null,
+      recent_review_score_desc: null,
+      recent_reviews: null
+    };
+
+    if (allTimeResponse.data && allTimeResponse.data.success === 1) {
+      const summary = allTimeResponse.data.query_summary;
+      result.total_reviews = summary.total_reviews;
+      result.review_score = summary.total_reviews > 0 
+        ? Math.round((summary.total_positive / summary.total_reviews) * 100) 
+        : null;
+      result.review_score_desc = summary.review_score_desc;
     }
-    return null;
+
+    if (recentResponse.data && recentResponse.data.success === 1) {
+      const summary = recentResponse.data.query_summary;
+      result.recent_reviews = summary.total_reviews;
+      result.recent_review_score = summary.total_reviews > 0 
+        ? Math.round((summary.total_positive / summary.total_reviews) * 100) 
+        : null;
+      result.recent_review_score_desc = summary.review_score_desc;
+    }
+
+    return result;
   } catch (error) {
     console.error(`Error fetching reviews for ${appid}:`, error.message);
     return null;
@@ -98,10 +126,11 @@ async function collectAll() {
       }
 
       // Collect review metadata
-      const reviews = await fetchReviews(game.id);
+      const reviewData = await fetchReviews(game.id);
       const appDetails = await fetchAppDetails(game.id);
 
-      if (reviews !== null) {
+      if (reviewData && reviewData.total_reviews !== null) {
+        const reviews = reviewData.total_reviews;
         let multiplier = 15; // Base multiplier adjusted for language=all and purchase_type=all
 
         if (appDetails) {
@@ -136,8 +165,17 @@ async function collectAll() {
         }
 
         const estimatedSales = Math.round(reviews * multiplier);
-        await db.updateMetadata(game.id, reviews, estimatedSales);
-        console.log(`Updated metadata for ${game.name}: ${reviews} reviews (multiplier ${multiplier.toFixed(1)}x), ~${estimatedSales} owners`);
+        await db.updateMetadata(
+          game.id, 
+          reviews, 
+          estimatedSales,
+          reviewData.review_score,
+          reviewData.review_score_desc,
+          reviewData.recent_review_score,
+          reviewData.recent_review_score_desc,
+          reviewData.recent_reviews
+        );
+        console.log(`Updated metadata for ${game.name}: ${reviews} reviews (${reviewData.review_score}%), ~${estimatedSales} owners`);
       }
 
       // Respectful delay between requests
