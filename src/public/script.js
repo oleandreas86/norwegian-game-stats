@@ -22,6 +22,13 @@ async function init() {
     allGames = await gamesResponse.json();
     allGames.sort((a, b) => a.name.localeCompare(b.name));
 
+    // Filter out comparisonAppids that no longer exist in current config
+    const originalCount = comparisonAppids.length;
+    comparisonAppids = comparisonAppids.filter(id => allGames.some(g => g.id === id));
+    if (comparisonAppids.length !== originalCount) {
+        saveComparisonState();
+    }
+
     const leaderboardsResponse = await fetch('/api/leaderboards');
     const leaderboards = await leaderboardsResponse.json();
 
@@ -84,18 +91,38 @@ async function init() {
 function updateGlobalStats(leaderboards) {
     const current = leaderboards.current || [];
     const peaks = leaderboards.peaks || [];
+    const metadata = leaderboards.metadata || [];
+    
     const totalPlayers = current.reduce((sum, item) => sum + item.player_count, 0);
     
     const topGameItem = current.length > 0 ? current[0] : null;
     const topGame = topGameItem ? allGames.find(g => g.id === topGameItem.appid) : null;
 
+    const sortedMetadata = [...metadata].sort((a, b) => b.estimated_sales - a.estimated_sales);
+    const topSellerItem = sortedMetadata.length > 0 ? sortedMetadata[0] : null;
+    const topSeller = topSellerItem ? allGames.find(g => g.id === topSellerItem.appid) : null;
+
     const peakGameItem = peaks.length > 0 ? peaks[0] : null;
     const peakGame = peakGameItem ? allGames.find(g => g.id === peakGameItem.appid) : null;
 
     document.getElementById('total-players').textContent = totalPlayers.toLocaleString();
+    
     document.getElementById('top-game').textContent = topGame ? topGame.name : '-';
+    document.getElementById('top-game-val').textContent = topGameItem ? `${topGameItem.player_count.toLocaleString()} Players` : '';
+
+    document.getElementById('top-seller').textContent = topSeller ? topSeller.name : '-';
+    document.getElementById('top-seller-val').textContent = topSellerItem ? `${formatSales(topSellerItem.estimated_sales)} Est. Owners` : '';
+
     document.getElementById('peak-record').textContent = peakGame ? peakGame.name : '-';
+    document.getElementById('peak-record-val').textContent = peakGameItem ? `${peakGameItem.peak_player_count.toLocaleString()} Peak` : '';
+
     document.getElementById('total-games').textContent = allGames.length;
+}
+
+function formatSales(sales) {
+    if (sales >= 1000000) return (sales / 1000000).toFixed(1) + 'M';
+    if (sales >= 1000) return (sales / 1000).toFixed(0) + 'K';
+    return sales.toLocaleString();
 }
 
 function filterGames(query) {
@@ -104,7 +131,10 @@ function filterGames(query) {
     wrappers.forEach(wrapper => {
         const name = (wrapper.dataset.name || '').toLowerCase();
         const developer = (wrapper.dataset.developer || '').toLowerCase();
-        if (name.includes(q) || developer.includes(q)) {
+        const release = (wrapper.dataset.release || '').toLowerCase();
+        const store = (wrapper.dataset.store || '').toLowerCase();
+        
+        if (name.includes(q) || developer.includes(q) || release.includes(q) || store.includes(q)) {
             wrapper.style.display = 'flex';
         } else {
             wrapper.style.display = 'none';
@@ -127,22 +157,30 @@ function populateLeaderboard(tableId, data, games, countKey) {
     const tbody = document.querySelector(`#${tableId} tbody`);
     tbody.innerHTML = '';
     
-    data.forEach((item, index) => {
+    let rank = 1;
+    data.forEach((item) => {
         const game = games.find(g => g.id === item.appid);
+        if (!game) return; // Skip games that are no longer in config
+        
         const isComparing = comparisonAppids.includes(item.appid);
         
         let countTitle = '';
         if (countKey === 'estimated_sales' && item.reviews !== undefined) {
             const multiplier = item.reviews > 0 ? (item.estimated_sales / item.reviews).toFixed(1) : '0';
-            countTitle = `${game ? game.name : 'Unknown'}: Based on ${item.reviews.toLocaleString()} reviews (Multiplier: ${multiplier}x)`;
+            countTitle = `${game.name}: Based on ${item.reviews.toLocaleString()} reviews (Multiplier: ${multiplier}x)`;
         }
+
+        let badges = '';
+        if (game.release === 'Upcoming') badges += '<span class="badge badge-upcoming">Upcoming</span> ';
+        if (game.release === 'Early Access') badges += '<span class="badge badge-early-access">EA</span> ';
+        if (game.store === 'Delisted/Retired') badges += '<span class="badge badge-delisted">Delisted</span> ';
 
         const row = document.createElement('tr');
         row.innerHTML = `
-            <td class="rank-cell">${index + 1}</td>
+            <td class="rank-cell">${rank++}</td>
             <td>
-                <div class="game-name">${game ? game.name : 'Unknown'}</div>
-                <div class="game-studio">${game ? game.developer : ''}</div>
+                <div class="game-name">${game.name} ${badges}</div>
+                <div class="game-studio">${game.developer}</div>
             </td>
             <td class="count-cell">
                 <div class="count-flex">
@@ -172,13 +210,15 @@ function updateControlsUI() {
 
     comparisonAppids.forEach((appid, index) => {
         const game = allGames.find(g => g.id === appid);
+        if (!game) return;
+
         const tag = document.createElement('div');
         tag.className = 'comparison-tag';
         tag.style.backgroundColor = COLORS[index % COLORS.length] + '33';
         tag.style.borderColor = COLORS[index % COLORS.length];
         
         tag.innerHTML = `
-            <span>${game ? game.name : 'Unknown'}</span>
+            <span>${game.name}</span>
             <button onclick="toggleComparison(${appid})" title="Remove">×</button>
         `;
         container.appendChild(tag);
@@ -279,10 +319,18 @@ function initializeChartGrid() {
         wrapper.dataset.appid = game.id;
         wrapper.dataset.name = game.name;
         wrapper.dataset.developer = game.developer;
+        wrapper.dataset.release = game.release || '';
+        wrapper.dataset.store = game.store || '';
+
+        let badges = '';
+        if (game.release === 'Upcoming') badges += '<span class="badge badge-upcoming">Upcoming</span> ';
+        if (game.release === 'Early Access') badges += '<span class="badge badge-early-access">Early Access</span> ';
+        if (game.store === 'Delisted/Retired') badges += '<span class="badge badge-delisted">Delisted</span> ';
+
         wrapper.innerHTML = `
             <div class="chart-header">
                 <div class="title-container">
-                    <h3>${game.name}</h3>
+                    <h3>${game.name} ${badges}</h3>
                     <div class="game-studio">${game.developer}</div>
                 </div>
                 <button class="compare-toggle ${isComparing ? 'active' : ''}" 

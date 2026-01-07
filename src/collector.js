@@ -18,7 +18,7 @@ async function fetchPlayerCount(appid) {
 
 async function fetchReviews(appid) {
   try {
-    const url = `https://store.steampowered.com/appreviews/${appid}?json=1&num_per_page=0&purchase_type=all`;
+    const url = `https://store.steampowered.com/appreviews/${appid}?json=1&num_per_page=0&purchase_type=all&language=all`;
     const response = await axios.get(url);
     if (response.data && response.data.success === 1) {
       return response.data.query_summary.total_reviews;
@@ -102,16 +102,16 @@ async function collectAll() {
       const appDetails = await fetchAppDetails(game.id);
 
       if (reviews !== null) {
-        let multiplier = 50; // Default fallback if appDetails missing
+        let multiplier = 30; // Default fallback if appDetails missing
 
         if (appDetails) {
           let priceFactor = 1.0;
           if (appDetails.is_free) {
-            priceFactor = 1.3;
+            priceFactor = 0.9; // Free games often have more reviews per owner (lower multiplier)
           } else if (appDetails.price_overview) {
-            const price = appDetails.price_overview.final / 100; // in NOK (due to cc=no)
-            if (price < 150) priceFactor = 2.3;
-            else if (price < 350) priceFactor = 1.8;
+            const price = appDetails.price_overview.final / 100; // in NOK
+            if (price < 100) priceFactor = 1.5;
+            else if (price < 300) priceFactor = 1.2;
             else priceFactor = 1.0;
           }
 
@@ -121,18 +121,18 @@ async function collectAll() {
             if (yearMatch) {
               const year = parseInt(yearMatch[0]);
               if (year >= 2024) yearFactor = 1.0;
-              else if (year >= 2020) yearFactor = 1.5;
-              else if (year >= 2015) yearFactor = 3.5;
-              else yearFactor = 1.8;
+              else if (year >= 2020) yearFactor = 1.2;
+              else if (year >= 2015) yearFactor = 1.4;
+              else yearFactor = 1.7; // Older games had fewer reviews per owner (higher multiplier)
             }
           }
 
           let specialFactor = 1.0;
-          if (appDetails.is_free && appDetails.genres && appDetails.genres.some(g => g.description === 'Massively Multiplayer')) {
-            specialFactor = 1.75;
+          if (appDetails.genres && appDetails.genres.some(g => g.description === 'Massively Multiplayer')) {
+            specialFactor = 2.0; // MMOs have much higher player-to-review ratios
           }
 
-          multiplier = 30 * priceFactor * yearFactor * specialFactor;
+          multiplier = 25 * priceFactor * yearFactor * specialFactor;
         }
 
         const estimatedSales = Math.round(reviews * multiplier);

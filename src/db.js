@@ -62,7 +62,11 @@ module.exports = {
   },
   getMetadata: () => {
     return new Promise((resolve, reject) => {
-      db.all(`SELECT * FROM game_metadata`, [], (err, rows) => {
+      const gameIds = config.games.map(g => g.id);
+      if (gameIds.length === 0) return resolve([]);
+      
+      const placeholders = gameIds.map(() => '?').join(',');
+      db.all(`SELECT * FROM game_metadata WHERE appid IN (${placeholders})`, gameIds, (err, rows) => {
         if (err) reject(err);
         else resolve(rows);
       });
