@@ -444,6 +444,15 @@ button.secondary {
     gap: 8px;
 }
 
+.methodology-note {
+    font-size: 0.75em;
+    color: var(--text-color);
+    opacity: 0.6;
+    margin-top: 15px;
+    font-style: italic;
+    padding: 0 10px;
+}
+
 .compare-btn-small {
     background: none;
     border: 1px solid var(--border-color);

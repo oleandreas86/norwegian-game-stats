@@ -48,13 +48,15 @@ app.get('/api/leaderboards', async (req, res) => {
   try {
     const current = await db.getLatestStats();
     const peaks = await db.getHistoricalPeaks();
+    const metadata = await db.getMetadata();
     
     // Sort current by player count descending
     current.sort((a, b) => b.player_count - a.player_count);
 
     res.json({
       current,
-      peaks
+      peaks,
+      metadata
     });
   } catch (err) {
     res.status(500).json({ error: err.message });

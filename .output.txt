@@ -1,603 +1,595 @@
-﻿Duplicates found: [
-  {
-    appid: 368430,
-    player_count: 0,
-    timestamp: '2016-03-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 0,
-    timestamp: '2016-04-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 0,
-    timestamp: '2016-05-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 0,
-    timestamp: '2016-06-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 0,
-    timestamp: '2016-07-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 0,
-    timestamp: '2016-08-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 0,
-    timestamp: '2016-09-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 110,
-    timestamp: '2016-10-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 82,
-    timestamp: '2016-11-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 14,
-    timestamp: '2016-12-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 14,
-    timestamp: '2017-01-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 14,
-    timestamp: '2017-02-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 11,
-    timestamp: '2017-03-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 9,
-    timestamp: '2017-04-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 7,
-    timestamp: '2017-05-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 22,
-    timestamp: '2017-06-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 13,
-    timestamp: '2017-07-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 11,
-    timestamp: '2017-08-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 8,
-    timestamp: '2017-09-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 14,
-    timestamp: '2017-10-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 12,
-    timestamp: '2017-11-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 10,
-    timestamp: '2017-12-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 11,
-    timestamp: '2018-01-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 9,
-    timestamp: '2018-02-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 8,
-    timestamp: '2018-03-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 13,
-    timestamp: '2018-04-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 13,
-    timestamp: '2018-05-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 9,
-    timestamp: '2018-06-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 8,
-    timestamp: '2018-07-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 12,
-    timestamp: '2018-08-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 8,
-    timestamp: '2018-09-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 51,
-    timestamp: '2018-10-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 35,
-    timestamp: '2018-11-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 17,
-    timestamp: '2018-12-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 11,
-    timestamp: '2019-01-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 8,
-    timestamp: '2019-02-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 18,
-    timestamp: '2019-03-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 6,
-    timestamp: '2019-04-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 6,
-    timestamp: '2019-05-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 25,
-    timestamp: '2019-06-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 7,
-    timestamp: '2019-07-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 5,
-    timestamp: '2019-08-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 9,
-    timestamp: '2019-09-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 6,
-    timestamp: '2019-10-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 20,
-    timestamp: '2019-11-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 7,
-    timestamp: '2019-12-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 16,
-    timestamp: '2020-01-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 12,
-    timestamp: '2020-02-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 19,
-    timestamp: '2020-03-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 9,
-    timestamp: '2020-04-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 14,
-    timestamp: '2020-05-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 18,
-    timestamp: '2020-06-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 9,
-    timestamp: '2020-07-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 13,
-    timestamp: '2020-08-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 11,
-    timestamp: '2020-09-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 141,
-    timestamp: '2020-10-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 71,
-    timestamp: '2020-11-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 14,
-    timestamp: '2020-12-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 15,
-    timestamp: '2021-01-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 16,
-    timestamp: '2021-02-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 11,
-    timestamp: '2021-03-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 13,
-    timestamp: '2021-04-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 15,
-    timestamp: '2021-05-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 8,
-    timestamp: '2021-06-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 9,
-    timestamp: '2021-07-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 5,
-    timestamp: '2021-08-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 7,
-    timestamp: '2021-09-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 11,
-    timestamp: '2021-10-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 9,
-    timestamp: '2021-11-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 17,
-    timestamp: '2021-12-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 7,
-    timestamp: '2022-01-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 6,
-    timestamp: '2022-02-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 5,
-    timestamp: '2022-03-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 5,
-    timestamp: '2022-04-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 5,
-    timestamp: '2022-05-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 8,
-    timestamp: '2022-06-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 6,
-    timestamp: '2022-07-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 8,
-    timestamp: '2022-08-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 6,
-    timestamp: '2022-09-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 15,
-    timestamp: '2022-10-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 7,
-    timestamp: '2022-11-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 4,
-    timestamp: '2022-12-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 8,
-    timestamp: '2023-01-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 6,
-    timestamp: '2023-02-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 5,
-    timestamp: '2023-03-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 16,
-    timestamp: '2023-04-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 6,
-    timestamp: '2023-05-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 4,
-    timestamp: '2023-06-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 5,
-    timestamp: '2023-07-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 7,
-    timestamp: '2023-08-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 4,
-    timestamp: '2023-09-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 6,
-    timestamp: '2023-10-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 6,
-    timestamp: '2023-11-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 5,
-    timestamp: '2023-12-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 8,
-    timestamp: '2024-01-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 5,
-    timestamp: '2024-02-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 4,
-    timestamp: '2024-03-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 13,
-    timestamp: '2024-04-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 5,
-    timestamp: '2024-05-01 00:00:00',
-    count: 2
-  },
-  {
-    appid: 368430,
-    player_count: 4,
-    timestamp: '2024-06-01 00:00:00',
-    count: 2
-  },
-  ... 1327 more items
-]
+﻿{
+  "type": "game",
+  "name": "Dune: Awakening",
+  "steam_appid": 1172710,
+  "required_age": "16",
+  "is_free": false,
+  "controller_support": "full",
+  "dlc": [
+    3596920,
+    3596810,
+    3596900,
+    4156640
+  ],
+  "detailed_description": "<h1>Special Edition</h1><p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/dea4b251b1157d79543be0a8cfffcee2.avif?t=1766090061\" width=780 height=344 /></span></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/20efc1981c568cbf242b353aa4a89c1f.avif?t=1766090061\" width=780 height=760 /></span></p></p><br><h1>ULTIMATE EDITION</h1><p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/98ef7b0ee4597d219094e8b5f14c060a.avif?t=1766090061\" width=780 height=1192 /></span></p></p><br><h1>DELUXE EDITION</h1><p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/cba8ff132ac18485499a8c79e6943c36.avif?t=1766090061\" width=780 height=904 /></span></p></p><br><h1>About the Game</h1><p class=\"bb_paragraph\" ><strong>Dune: Awakening is an epic Open World Survival RPG where you get to fully immerse yourself in the legendary world of Dune.</strong></p><p class=\"bb_paragraph\" >You have been chosen by the Bene Gesserit to go to Arrakis as their agent, to uncover the mystery of the missing Fremen. Visit locations such as Arrakeen and Hagga Basin and meet familiar characters such as Duke Leto Atreides and Feyd-Rautha Harkonnen, as you unravel an epic Dune story never told before: yours.</p><p class=\"bb_paragraph\" >Whether you prefer to play alone or together with friends, Dune: Awakening gives you the opportunity to explore a vast, open world Arrakis brimming with secrets to discover, stories to investigate, and the opportunity for you to rise from survival to greatness.</p><p class=\"bb_paragraph\" >Avoid the roaming sandworms. Seek shadows to stay out of the scorching sun. Study the slow blade or learn to master the powers of the Bene Gesserit. Build a modest home or a massive base and decorate it to reflect your character’s unique personality. Climb mountains or craft your ornithopter and take to the skies. The choice is yours.</p><p class=\"bb_paragraph\" ><strong>Dune: Awakening gives you a living, breathing Dune on a scale never seen before.</strong></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/99ddf27a36ee52bc6e8865f439d079b0.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/99ddf27a36ee52bc6e8865f439d079b0.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Explore a dynamic and immersive Arrakis, from the vast sand dunes of the Deep Desert to hidden Fremen caves and the bustling city streets of Arrakeen. Climb towering mountains with the Shigawire hook and fly across sandworm-infested sands in your own, crafted ornithopter. Witness massive sandstorms towering above you as they sweep across the landscape.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/a0e3a089d668aaed1f6a9402ab6fe231.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/a0e3a089d668aaed1f6a9402ab6fe231.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Experience an epic, cinematically told Dune story that asks the mind-bending question: what if Paul Atreides was never born? What would be different? Meet familiar characters from the books and movies including Duke Leto and Feyd-Rautha, investigate the mysterious disappearance of the Fremen, and discover the truth about your own past. Join the Atreides or the Harkonnen and rise through their ranks as you explore their unique stories.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/8bf97e96058381c220561d0dbe6bcf58.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/8bf97e96058381c220561d0dbe6bcf58.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Seek shadows in the scorching heat of the day. Craft a stillsuit to reclaim your bodily fluids. Look for wormsign or risk being eaten by Shai-Hulud himself. Arrakis is a test, and to succeed, you must uncover the secret knowledge of the Fremen and study the teachings of the Schools of the Imperium to unlock a powerful repertoire of abilities, weapons, and tools.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/7b962584c50540f6ce193d36b2d32752.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/7b962584c50540f6ce193d36b2d32752.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Carve out a piece of Arrakis for yourself. Discover unique resources to mine and craft hundreds of items, armors, gadgets, vehicles, and base parts. Build and decorate a modest home just for yourself, set up an efficient spice refinery with your friends, or construct a massive seat of power for your guild. Scavenge, craft, build, and trade your way to fortune.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/ae193db99d3b769e51f3de1cf3cac293.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/ae193db99d3b769e51f3de1cf3cac293.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Play alone, with a handful of friends, or head into the wider world filled with hundreds of other players and engage in the politics of Arrakis. Unlock powerful new abilities to become a master of hand-to-hand and ranged combat or pursue the life of a planetologist, surveying Arrakis and uncovering its ancient mysteries. <i>You</i> decide how to spend your time on Arrakis.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Private Servers</h2><p class=\"bb_paragraph\" >You can play Dune: Awakening on an official server or a private server rented from a third-party provider. </p>",
+  "about_the_game": "<p class=\"bb_paragraph\" ><strong>Dune: Awakening is an epic Open World Survival RPG where you get to fully immerse yourself in the legendary world of Dune.</strong></p><p class=\"bb_paragraph\" >You have been chosen by the Bene Gesserit to go to Arrakis as their agent, to uncover the mystery of the missing Fremen. Visit locations such as Arrakeen and Hagga Basin and meet familiar characters such as Duke Leto Atreides and Feyd-Rautha Harkonnen, as you unravel an epic Dune story never told before: yours.</p><p class=\"bb_paragraph\" >Whether you prefer to play alone or together with friends, Dune: Awakening gives you the opportunity to explore a vast, open world Arrakis brimming with secrets to discover, stories to investigate, and the opportunity for you to rise from survival to greatness.</p><p class=\"bb_paragraph\" >Avoid the roaming sandworms. Seek shadows to stay out of the scorching sun. Study the slow blade or learn to master the powers of the Bene Gesserit. Build a modest home or a massive base and decorate it to reflect your character’s unique personality. Climb mountains or craft your ornithopter and take to the skies. The choice is yours.</p><p class=\"bb_paragraph\" ><strong>Dune: Awakening gives you a living, breathing Dune on a scale never seen before.</strong></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/99ddf27a36ee52bc6e8865f439d079b0.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/99ddf27a36ee52bc6e8865f439d079b0.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Explore a dynamic and immersive Arrakis, from the vast sand dunes of the Deep Desert to hidden Fremen caves and the bustling city streets of Arrakeen. Climb towering mountains with the Shigawire hook and fly across sandworm-infested sands in your own, crafted ornithopter. Witness massive sandstorms towering above you as they sweep across the landscape.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/a0e3a089d668aaed1f6a9402ab6fe231.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/a0e3a089d668aaed1f6a9402ab6fe231.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Experience an epic, cinematically told Dune story that asks the mind-bending question: what if Paul Atreides was never born? What would be different? Meet familiar characters from the books and movies including Duke Leto and Feyd-Rautha, investigate the mysterious disappearance of the Fremen, and discover the truth about your own past. Join the Atreides or the Harkonnen and rise through their ranks as you explore their unique stories.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/8bf97e96058381c220561d0dbe6bcf58.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/8bf97e96058381c220561d0dbe6bcf58.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Seek shadows in the scorching heat of the day. Craft a stillsuit to reclaim your bodily fluids. Look for wormsign or risk being eaten by Shai-Hulud himself. Arrakis is a test, and to succeed, you must uncover the secret knowledge of the Fremen and study the teachings of the Schools of the Imperium to unlock a powerful repertoire of abilities, weapons, and tools.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/7b962584c50540f6ce193d36b2d32752.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/7b962584c50540f6ce193d36b2d32752.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Carve out a piece of Arrakis for yourself. Discover unique resources to mine and craft hundreds of items, armors, gadgets, vehicles, and base parts. Build and decorate a modest home just for yourself, set up an efficient spice refinery with your friends, or construct a massive seat of power for your guild. Scavenge, craft, build, and trade your way to fortune.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/ae193db99d3b769e51f3de1cf3cac293.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/ae193db99d3b769e51f3de1cf3cac293.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Play alone, with a handful of friends, or head into the wider world filled with hundreds of other players and engage in the politics of Arrakis. Unlock powerful new abilities to become a master of hand-to-hand and ranged combat or pursue the life of a planetologist, surveying Arrakis and uncovering its ancient mysteries. <i>You</i> decide how to spend your time on Arrakis.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Private Servers</h2><p class=\"bb_paragraph\" >You can play Dune: Awakening on an official server or a private server rented from a third-party provider. </p>",
+  "short_description": "Dune: Awakening is an Open World Survival RPG where you can fully immerse yourself in the epic world of Dune. Alone or with friends, explore a vast open world Arrakis, survive the sandworms, build a home, craft an ornithopter, and unravel the mystery of the missing Fremen.",
+  "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Turkish, Ukrainian<br><strong>*</strong>languages with full audio support",
+  "reviews": "“Fantastic base-building, immersive and unique character development, and a seamless open world.”<br>9/10 – DualShockers<br><br>“If there's one thing that Dune: Awakening does extremely well, it's offering a world and atmosphere that are immersive and engrossing.”<br>8/10 – Game Rant<br><br>“One of the most impressive online survival games ever made.”<br>9/10 – GamersHeroes<br>",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/e934cbd04b40a615b3306797bd7be76610904f0e/header.jpg?t=1766090061",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/4226e40ecd3f34c27a9ede320af531af24a57721/capsule_231x87.jpg?t=1766090061",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/4226e40ecd3f34c27a9ede320af531af24a57721/capsule_184x69.jpg?t=1766090061",
+  "website": "https://duneawakening.com/",
+  "pc_requirements": {
+    "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit (or newer)<br></li><li><strong>Processor:</strong> Intel Core i5-7400 / AMD Ryzen 3 1200<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1060 (6 GB) / AMD Radeon 5600XT (6 GB)<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 60 GB available space<br></li><li><strong>Additional Notes:</strong> SSD required</li></ul>",
+    "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit (or newer)<br></li><li><strong>Processor:</strong> Intel Core i7-10700K / AMD Ryzen 5 2600X<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce RTX 3070 (8 GB) / AMD Radeon 6700XT (12 GB)<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 75 GB available space<br></li><li><strong>Additional Notes:</strong> SSD required</li></ul>"
+  },
+  "mac_requirements": {
+    "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+    "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+  },
+  "linux_requirements": {
+    "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
+    "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
+  },
+  "legal_notice": "DUNE: AWAKENING TM & © 2025 Legendary. DUNE, DUNE: AWAKENING, LEGENDARY, and the Knot logo are registered trademarks of Legendary. Used with permission by Funcom. All Rights Reserved. Funcom and the Funcom logo are trademarks of Funcom Oslo AS.",
+  "developers": [
+    "Funcom"
+  ],
+  "publishers": [
+    "Funcom"
+  ],
+  "price_overview": {
+    "currency": "NOK",
+    "initial": 55900,
+    "final": 55900,
+    "discount_percent": 0,
+    "initial_formatted": "",
+    "final_formatted": "559,00 kr"
+  },
+  "packages": [
+    1274037
+  ],
+  "package_groups": [
+    {
+      "name": "default",
+      "title": "Buy Dune: Awakening",
+      "description": "",
+      "selection_text": "Select a purchase option",
+      "save_text": "",
+      "display_type": 0,
+      "is_recurring_subscription": "false",
+      "subs": [
+        {
+          "packageid": 1274037,
+          "percent_savings_text": " ",
+          "percent_savings": 0,
+          "option_text": "Dune: Awakening - 559,00 kr",
+          "option_description": "",
+          "can_get_free_license": "0",
+          "is_free_license": false,
+          "price_in_cents_with_discount": 55900
+        }
+      ]
+    }
+  ],
+  "platforms": {
+    "windows": true,
+    "mac": false,
+    "linux": false
+  },
+  "categories": [
+    {
+      "id": 2,
+      "description": "Single-player"
+    },
+    {
+      "id": 1,
+      "description": "Multi-player"
+    },
+    {
+      "id": 9,
+      "description": "Co-op"
+    },
+    {
+      "id": 38,
+      "description": "Online Co-op"
+    },
+    {
+      "id": 22,
+      "description": "Steam Achievements"
+    },
+    {
+      "id": 28,
+      "description": "Full controller support"
+    },
+    {
+      "id": 64,
+      "description": "Adjustable Text Size"
+    },
+    {
+      "id": 67,
+      "description": "Camera Comfort"
+    },
+    {
+      "id": 66,
+      "description": "Color Alternatives"
+    },
+    {
+      "id": 68,
+      "description": "Custom Volume Controls"
+    },
+    {
+      "id": 74,
+      "description": "Playable without Timed Input"
+    },
+    {
+      "id": 79,
+      "description": "Save Anytime"
+    },
+    {
+      "id": 69,
+      "description": "Stereo Sound"
+    },
+    {
+      "id": 65,
+      "description": "Subtitle Options"
+    },
+    {
+      "id": 70,
+      "description": "Surround Sound"
+    },
+    {
+      "id": 23,
+      "description": "Steam Cloud"
+    }
+  ],
+  "genres": [
+    {
+      "id": "1",
+      "description": "Action"
+    },
+    {
+      "id": "25",
+      "description": "Adventure"
+    },
+    {
+      "id": "29",
+      "description": "Massively Multiplayer"
+    },
+    {
+      "id": "3",
+      "description": "RPG"
+    }
+  ],
+  "screenshots": [
+    {
+      "id": 0,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_8616aceb30a8b01979c16a5aea46f9ef587f7ff3.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_8616aceb30a8b01979c16a5aea46f9ef587f7ff3.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 1,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/da2ffcd522b6cf3415e8e3ce96873f0252beb2e9/ss_da2ffcd522b6cf3415e8e3ce96873f0252beb2e9.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/da2ffcd522b6cf3415e8e3ce96873f0252beb2e9/ss_da2ffcd522b6cf3415e8e3ce96873f0252beb2e9.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 2,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/aead40cd6f0584258da020f92ec4c4795fddb136/ss_aead40cd6f0584258da020f92ec4c4795fddb136.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/aead40cd6f0584258da020f92ec4c4795fddb136/ss_aead40cd6f0584258da020f92ec4c4795fddb136.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 3,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/e5d642e9f47be7696adfcb562039dc346f577b26/ss_e5d642e9f47be7696adfcb562039dc346f577b26.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/e5d642e9f47be7696adfcb562039dc346f577b26/ss_e5d642e9f47be7696adfcb562039dc346f577b26.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 4,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/1207f5e089b470563143e39f9e31c4c134444270/ss_1207f5e089b470563143e39f9e31c4c134444270.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/1207f5e089b470563143e39f9e31c4c134444270/ss_1207f5e089b470563143e39f9e31c4c134444270.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 5,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/abc35b93b74f8d84bc4dce2c318509e299a1d26b/ss_abc35b93b74f8d84bc4dce2c318509e299a1d26b.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/abc35b93b74f8d84bc4dce2c318509e299a1d26b/ss_abc35b93b74f8d84bc4dce2c318509e299a1d26b.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 6,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_8f82e5566057ef9fc8f876e27849bac8326c7259.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_8f82e5566057ef9fc8f876e27849bac8326c7259.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 7,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_f43cd464307d27d2d20e94f31e1d5c01965be0ce.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_f43cd464307d27d2d20e94f31e1d5c01965be0ce.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 8,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/27bff0e5581d3d241469b8a27200ce16f3269224/ss_27bff0e5581d3d241469b8a27200ce16f3269224.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/27bff0e5581d3d241469b8a27200ce16f3269224/ss_27bff0e5581d3d241469b8a27200ce16f3269224.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 9,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/45924e55eb2d04831e1e47f96949d6b673790fe4/ss_45924e55eb2d04831e1e47f96949d6b673790fe4.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/45924e55eb2d04831e1e47f96949d6b673790fe4/ss_45924e55eb2d04831e1e47f96949d6b673790fe4.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 10,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/034269a815262f33fc9cd5aa163b9aa47f83fea8/ss_034269a815262f33fc9cd5aa163b9aa47f83fea8.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/034269a815262f33fc9cd5aa163b9aa47f83fea8/ss_034269a815262f33fc9cd5aa163b9aa47f83fea8.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 11,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/53d51a7cad16a346d6bb4a0679fdb1cf99fd97c7/ss_53d51a7cad16a346d6bb4a0679fdb1cf99fd97c7.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/53d51a7cad16a346d6bb4a0679fdb1cf99fd97c7/ss_53d51a7cad16a346d6bb4a0679fdb1cf99fd97c7.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 12,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_8ace925beea49012a4d95cbfecdcd3dbe01f0abc.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_8ace925beea49012a4d95cbfecdcd3dbe01f0abc.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 13,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/7b2a71a1f2c5020b0e059d18ae0889903213de72/ss_7b2a71a1f2c5020b0e059d18ae0889903213de72.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/7b2a71a1f2c5020b0e059d18ae0889903213de72/ss_7b2a71a1f2c5020b0e059d18ae0889903213de72.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 14,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_05842a4fb5b78e2844676d2f29e0e2042cf3dfcd.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_05842a4fb5b78e2844676d2f29e0e2042cf3dfcd.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 15,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_e2dcbea6d7eea2ad04c783913e43eff8446d8f37.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_e2dcbea6d7eea2ad04c783913e43eff8446d8f37.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 16,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/2d14c21e39b7ff307f1405c57bb7ec02cd3021e0/ss_2d14c21e39b7ff307f1405c57bb7ec02cd3021e0.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/2d14c21e39b7ff307f1405c57bb7ec02cd3021e0/ss_2d14c21e39b7ff307f1405c57bb7ec02cd3021e0.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 17,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_6ccb80881330f9657541ab3efecb45b78a7ef756.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_6ccb80881330f9657541ab3efecb45b78a7ef756.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 18,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/cfeb978353707ff52d5b33d853be3d3892d6eaec/ss_cfeb978353707ff52d5b33d853be3d3892d6eaec.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/cfeb978353707ff52d5b33d853be3d3892d6eaec/ss_cfeb978353707ff52d5b33d853be3d3892d6eaec.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 19,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/fae646d174d2c76345c69470a3e0dc9a9905bf4f/ss_fae646d174d2c76345c69470a3e0dc9a9905bf4f.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/fae646d174d2c76345c69470a3e0dc9a9905bf4f/ss_fae646d174d2c76345c69470a3e0dc9a9905bf4f.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 20,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/7884f1a28a95790981c22375997b2c08288ec8da/ss_7884f1a28a95790981c22375997b2c08288ec8da.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/7884f1a28a95790981c22375997b2c08288ec8da/ss_7884f1a28a95790981c22375997b2c08288ec8da.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 21,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ea0c516831519ca1e3d47329ef9874d45a156cfa/ss_ea0c516831519ca1e3d47329ef9874d45a156cfa.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ea0c516831519ca1e3d47329ef9874d45a156cfa/ss_ea0c516831519ca1e3d47329ef9874d45a156cfa.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 22,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/012751e14fcfc591ce470e055fbd7edc48f86f85/ss_012751e14fcfc591ce470e055fbd7edc48f86f85.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/012751e14fcfc591ce470e055fbd7edc48f86f85/ss_012751e14fcfc591ce470e055fbd7edc48f86f85.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 23,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/d82e4cf337316d328e719f32b4f42f16c2f9ef30/ss_d82e4cf337316d328e719f32b4f42f16c2f9ef30.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/d82e4cf337316d328e719f32b4f42f16c2f9ef30/ss_d82e4cf337316d328e719f32b4f42f16c2f9ef30.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 24,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_7b14458c9c9d8e11fadb04e0e788218ec1d3fedd.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_7b14458c9c9d8e11fadb04e0e788218ec1d3fedd.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 25,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/07515e3d2292a4c73224e5935dbd990aea081486/ss_07515e3d2292a4c73224e5935dbd990aea081486.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/07515e3d2292a4c73224e5935dbd990aea081486/ss_07515e3d2292a4c73224e5935dbd990aea081486.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 26,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_baf102a033632fcc6163080e10345b889fe30d65.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_baf102a033632fcc6163080e10345b889fe30d65.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 27,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_7fede12b5bb6197c1628f03fc56350969df14741.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_7fede12b5bb6197c1628f03fc56350969df14741.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 28,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/d787e1630b3d2c944f0e5a3ae22518e015ae3e8c/ss_d787e1630b3d2c944f0e5a3ae22518e015ae3e8c.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/d787e1630b3d2c944f0e5a3ae22518e015ae3e8c/ss_d787e1630b3d2c944f0e5a3ae22518e015ae3e8c.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 29,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/f8c410dece76c354a4f76faab053d4135dbb82d6/ss_f8c410dece76c354a4f76faab053d4135dbb82d6.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/f8c410dece76c354a4f76faab053d4135dbb82d6/ss_f8c410dece76c354a4f76faab053d4135dbb82d6.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 30,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_9b5dd5b9fe3cb1c98c5accf58fda79bf2ea01b91.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_9b5dd5b9fe3cb1c98c5accf58fda79bf2ea01b91.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 31,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_59830d4e1be7d660114a7b8b23aff1003d61ca43.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_59830d4e1be7d660114a7b8b23aff1003d61ca43.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 32,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/bc5032e3252be41a5d46d7ef4a0877a905b939bf/ss_bc5032e3252be41a5d46d7ef4a0877a905b939bf.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/bc5032e3252be41a5d46d7ef4a0877a905b939bf/ss_bc5032e3252be41a5d46d7ef4a0877a905b939bf.1920x1080.jpg?t=1766090061"
+    },
+    {
+      "id": 33,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_18ffd3260eeb00630a79aaa36cd6d64af9dac4e8.600x338.jpg?t=1766090061",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_18ffd3260eeb00630a79aaa36cd6d64af9dac4e8.1920x1080.jpg?t=1766090061"
+    }
+  ],
+  "movies": [
+    {
+      "id": 257194721,
+      "name": "Explore Arrakis Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257194721/2d19ead28c2a50a3090b7e53e645bfc35e7ae816/movie_600x337.jpg?t=1757949145",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/571219479/84b43e684515f32635ff3f789f544e5617142e0a/1757512326/dash_av1.mpd?t=1757949145",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/571219479/84b43e684515f32635ff3f789f544e5617142e0a/1757512326/dash_h264.mpd?t=1757949145",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/571219479/84b43e684515f32635ff3f789f544e5617142e0a/1757512326/hls_264_master.m3u8?t=1757949145",
+      "highlight": true
+    },
+    {
+      "id": 257193612,
+      "name": "Chapter 2 Launch Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257193612/e0b3b891c7c1a2bb1315b0ea0c37e84aa2b216b4/movie_600x337.jpg?t=1757414221",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/689901367/8d868305f219ff57014dc26a6b528ac1f835c24e/1757066353/dash_av1.mpd?t=1757414221",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/689901367/8d868305f219ff57014dc26a6b528ac1f835c24e/1757066353/dash_h264.mpd?t=1757414221",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/689901367/8d868305f219ff57014dc26a6b528ac1f835c24e/1757066353/hls_264_master.m3u8?t=1757414221",
+      "highlight": true
+    },
+    {
+      "id": 257159289,
+      "name": "Accolades Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257159289/ac0e7848b123fcbfac4e12cecff56b9d066f449e/movie_600x337.jpg?t=1750428897",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/1636340560/b46dc5fdf86afff3617e85c5be64baa36b02ac0a/1750427572/dash_av1.mpd?t=1750428897",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/1636340560/b46dc5fdf86afff3617e85c5be64baa36b02ac0a/1750427572/dash_h264.mpd?t=1750428897",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/1636340560/b46dc5fdf86afff3617e85c5be64baa36b02ac0a/1750427572/hls_264_master.m3u8?t=1750428897",
+      "highlight": true
+    },
+    {
+      "id": 257152429,
+      "name": "Launch Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257152429/9ffe4bdfd2a6c23f2890448179c79b5d9ff4fec8/movie_600x337.jpg?t=1749547835",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/1969599783/78ce947fe5d97023708cd057b61cc1debe18bcee/1749853673/dash_av1.mpd?t=1749547835",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/1969599783/78ce947fe5d97023708cd057b61cc1debe18bcee/1749853673/dash_h264.mpd?t=1749547835",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/1969599783/78ce947fe5d97023708cd057b61cc1debe18bcee/1749853673/hls_264_master.m3u8?t=1749547835",
+      "highlight": true
+    },
+    {
+      "id": 257154758,
+      "name": "Your Path to Awakening",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257154758/edd7a916a4b9bf66363cce3913917d8e42d4f11e/movie_600x337.jpg?t=1749564054",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/464982404/bc57393e455795c953071d4e1551919baffe13ec/1749853671/dash_av1.mpd?t=1749564054",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/464982404/bc57393e455795c953071d4e1551919baffe13ec/1749853671/dash_h264.mpd?t=1749564054",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/464982404/bc57393e455795c953071d4e1551919baffe13ec/1749853671/hls_264_master.m3u8?t=1749564054",
+      "highlight": true
+    },
+    {
+      "id": 257130939,
+      "name": "Story Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257130939/263583e6ebef85a730e143cc7b8313bd677d4650/movie_600x337.jpg?t=1749106408",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/878082/7290ceb4e05db00041330f2ab2871ccc6ec168eb/1747018010/dash_av1.mpd?t=1749106408",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/878082/7290ceb4e05db00041330f2ab2871ccc6ec168eb/1747018010/dash_h264.mpd?t=1749106408",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/878082/7290ceb4e05db00041330f2ab2871ccc6ec168eb/1747018010/hls_264_master.m3u8?t=1749106408",
+      "highlight": true
+    },
+    {
+      "id": 257151379,
+      "name": "Games of Power — The Landsraad Explained",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257151379/66b75b0a11fecbe5947b3be8ccd3258c631e9c0d/movie_600x337.jpg?t=1749547838",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/1744316279/9cdc2b2a690532dee59404bcd91ff763f8749879/1749853671/dash_av1.mpd?t=1749547838",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/1744316279/9cdc2b2a690532dee59404bcd91ff763f8749879/1749853671/dash_h264.mpd?t=1749547838",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/1744316279/9cdc2b2a690532dee59404bcd91ff763f8749879/1749853671/hls_264_master.m3u8?t=1749547838",
+      "highlight": true
+    },
+    {
+      "id": 257143193,
+      "name": "Sandbox Combat — The Forms of Power",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257143193/af8bb82a4233cf5e075bc6859befcf0d557fa914/movie_600x337.jpg?t=1749106400",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/1786224703/6b0aedffcd5ec24ea0744b35786ce66e1988ea04/1749853672/dash_av1.mpd?t=1749106400",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/1786224703/6b0aedffcd5ec24ea0744b35786ce66e1988ea04/1749853672/dash_h264.mpd?t=1749106400",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/1786224703/6b0aedffcd5ec24ea0744b35786ce66e1988ea04/1749853672/hls_264_master.m3u8?t=1749106400",
+      "highlight": true
+    },
+    {
+      "id": 257133431,
+      "name": "Building Arrakis — Your Piece of Dune",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257133431/8fe246aa95e653908522ebdd8aeaf6a1a01250ab/movie_600x337.jpg?t=1749106403",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/881872/f0b0b8d07a3437c372b9862813ec18faa2d7f481/1747018011/dash_av1.mpd?t=1749106403",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/881872/f0b0b8d07a3437c372b9862813ec18faa2d7f481/1747018011/dash_h264.mpd?t=1749106403",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/881872/f0b0b8d07a3437c372b9862813ec18faa2d7f481/1747018011/hls_264_master.m3u8?t=1749106403",
+      "highlight": true
+    },
+    {
+      "id": 257112943,
+      "name": "Exploring Arrakis — Secrets of the Desert",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257112943/368f66c80c19b4aeec40f7ddccbb28d010dd5771/movie_600x337.jpg?t=1749106405",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/848984/3159f9416f2e146176b9349e182e82a576da004d/1747017996/dash_av1.mpd?t=1749106405",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/848984/3159f9416f2e146176b9349e182e82a576da004d/1747017996/dash_h264.mpd?t=1749106405",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/848984/3159f9416f2e146176b9349e182e82a576da004d/1747017996/hls_264_master.m3u8?t=1749106405",
+      "highlight": true
+    },
+    {
+      "id": 257100304,
+      "name": "Release Date Reveal Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257100304/efd2988ec182d82cb46aec851db6c076e07521d4/movie_600x337.jpg?t=1745589605",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/832195/4e4203c3ada1ce7f7a803e8a14eed216ddf0ca75/1747017995/dash_av1.mpd?t=1745589605",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/832195/4e4203c3ada1ce7f7a803e8a14eed216ddf0ca75/1747017995/dash_h264.mpd?t=1745589605",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/832195/4e4203c3ada1ce7f7a803e8a14eed216ddf0ca75/1747017995/hls_264_master.m3u8?t=1745589605",
+      "highlight": true
+    },
+    {
+      "id": 257005183,
+      "name": "Survive Arrakis Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257005183/movie.293x165.jpg?t=1709586795",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/669881/c2cf47e8ec4bc97a6d6a748bc103c6d57d07fdfc/1747017917/dash_av1.mpd?t=1709586795",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/669881/c2cf47e8ec4bc97a6d6a748bc103c6d57d07fdfc/1747017917/dash_h264.mpd?t=1709586795",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/669881/c2cf47e8ec4bc97a6d6a748bc103c6d57d07fdfc/1747017917/hls_264_master.m3u8?t=1709586795",
+      "highlight": true
+    },
+    {
+      "id": 257047891,
+      "name": "Gameplay Reveal Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257047891/movie.293x165.jpg?t=1724179630",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/743248/773ff04df227c2153c8b6cb919b0b721ede3218f/1747017966/dash_av1.mpd?t=1724179630",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/743248/773ff04df227c2153c8b6cb919b0b721ede3218f/1747017966/dash_h264.mpd?t=1724179630",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/743248/773ff04df227c2153c8b6cb919b0b721ede3218f/1747017966/hls_264_master.m3u8?t=1724179630",
+      "highlight": true
+    },
+    {
+      "id": 257029211,
+      "name": "Story Cinematic (The Vision of Paul Atreides)",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257029211/movie.293x165.jpg?t=1724198987",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/710722/5967bf532cb057188017571f58929366584d48b3/1747017966/dash_av1.mpd?t=1724198987",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/710722/5967bf532cb057188017571f58929366584d48b3/1747017966/dash_h264.mpd?t=1724198987",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/710722/5967bf532cb057188017571f58929366584d48b3/1747017966/hls_264_master.m3u8?t=1724198987",
+      "highlight": true
+    },
+    {
+      "id": 257005228,
+      "name": "Creating Worlds Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257005228/movie.293x165.jpg?t=1709586801",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/669958/5964564b4c3de3a731e52921543245d4c95e5069/1747017917/dash_av1.mpd?t=1709586801",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/669958/5964564b4c3de3a731e52921543245d4c95e5069/1747017917/dash_h264.mpd?t=1709586801",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/669958/5964564b4c3de3a731e52921543245d4c95e5069/1747017917/hls_264_master.m3u8?t=1709586801",
+      "highlight": true
+    },
+    {
+      "id": 257120506,
+      "name": "The Sound of Arrakis (Soundtrack Behind-The-Scenes)",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257120506/5b60f75ac666cbf87321bbe8864dbd1f490c685d/movie_600x337.jpg?t=1743454547",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/860985/95ba9e8fbb92de38870233d7196b74a4e0153e7e/1747030338/dash_av1.mpd?t=1743454547",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/860985/95ba9e8fbb92de38870233d7196b74a4e0153e7e/1747030338/dash_h264.mpd?t=1743454547",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/860985/95ba9e8fbb92de38870233d7196b74a4e0153e7e/1747030338/hls_264_master.m3u8?t=1743454547",
+      "highlight": true
+    },
+    {
+      "id": 256901385,
+      "name": "Announcement Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256901385/movie.293x165.jpg?t=1709586810",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/488681/20728b023862e223579d338e0d61b09d5265cf0c/1747017909/dash_av1.mpd?t=1709586810",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/488681/20728b023862e223579d338e0d61b09d5265cf0c/1747017909/dash_h264.mpd?t=1709586810",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/488681/20728b023862e223579d338e0d61b09d5265cf0c/1747017909/hls_264_master.m3u8?t=1709586810",
+      "highlight": true
+    }
+  ],
+  "recommendations": {
+    "total": 61008
+  },
+  "achievements": {
+    "total": 73,
+    "highlighted": [
+      {
+        "name": "Welcome to Arrakis",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/5487363b31f0d2674f11a4e85a18c9bbe441291e.jpg"
+      },
+      {
+        "name": "Echoes of the Past",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/0a0ebeea6d4b9a99dd52da301dbf16f8fbc9e796.jpg"
+      },
+      {
+        "name": "The Assassin's Handbook",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/cd4f39fb16cd505e5af2f659bcd6c4cea9c347b5.jpg"
+      },
+      {
+        "name": "In Their Footsteps",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/7709d55e3622371a42263242894e4b9a30c7772c.jpg"
+      },
+      {
+        "name": "Job’s Done!",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/59fae1ebbf47102d216ac8f924263417cbb61832.jpg"
+      },
+      {
+        "name": "Scrap Mogul",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/59b8c0ebaa7ef9b15895c957c290b91c0a65fc27.jpg"
+      },
+      {
+        "name": "Kirab Instigator",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/dda1d2dec8ff3c491fbdcb5451edf75c6b8ba3f4.jpg"
+      },
+      {
+        "name": "Infiltrate and Neutralize",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/4e79f0b184a6be3fbec394f0de6182af47453f18.jpg"
+      },
+      {
+        "name": "Silver or Steel?",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/deb9029422945c6fe695123f898b46594e09d9c2.jpg"
+      },
+      {
+        "name": "Survivor’s Guilt",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/1a9ee799a50c6bdb9561b0da3ebe51d99321f28c.jpg"
+      }
+    ]
+  },
+  "release_date": {
+    "coming_soon": false,
+    "date": "10 Jun, 2025"
+  },
+  "support_info": {
+    "url": "https://www.funcom.com/help/",
+    "email": ""
+  },
+  "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1172710?t=1766090061",
+  "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/adb8229b4855423da4a80a1ef0a2cf72be819c5a/page_bg_raw.jpg?t=1766090061",
+  "content_descriptors": {
+    "ids": [
+      2,
+      5
+    ],
+    "notes": "The game features depictions of violence, blood, and imagery that some may find disturbing."
+  },
+  "ratings": {
+    "esrb": {
+      "rating": "m",
+      "descriptors": "Intense Violence\r\nBlood and Gore\r\nStrong Language",
+      "interactive_elements": "Users Interact",
+      "display_online_notice": "true",
+      "use_age_gate": "true",
+      "required_age": "17"
+    },
+    "pegi": {
+      "rating": "16",
+      "descriptors": "Violence\r\nBad Language\r\nDrugs\r\nHorror",
+      "use_age_gate": "true",
+      "required_age": "16"
+    },
+    "kgrb": {
+      "rating": "19",
+      "descriptors": "Violence\r\nLanguage\r\nAlcohol, Tobacco, Drug",
+      "required_age": "19",
+      "use_age_gate": "true"
+    },
+    "dejus": {
+      "rating_generated": "1",
+      "rating": "18",
+      "required_age": "18",
+      "banned": "0",
+      "use_age_gate": "0",
+      "descriptors": "Violência Extrema\nLinguagem imprópria\nDrogas lícitas"
+    },
+    "steam_germany": {
+      "rating_generated": "1",
+      "rating": "18",
+      "required_age": "18",
+      "banned": "0",
+      "use_age_gate": "0",
+      "descriptors": "Drastische Gewalt\nAlkohol / Tabak\nDerbe Sprache"
+    }
+  }
+}

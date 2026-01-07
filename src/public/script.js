@@ -28,6 +28,11 @@ async function init() {
     // Populate Leaderboards
     populateLeaderboard('current-leaderboard', leaderboards.current, allGames, 'player_count');
     populateLeaderboard('peak-leaderboard', leaderboards.peaks, allGames, 'peak_player_count');
+    
+    if (leaderboards.metadata) {
+        const sortedSales = [...leaderboards.metadata].sort((a, b) => b.estimated_sales - a.estimated_sales);
+        populateLeaderboard('sales-leaderboard', sortedSales, allGames, 'estimated_sales');
+    }
 
     // Update Global Stats
     updateGlobalStats(leaderboards);
@@ -125,6 +130,13 @@ function populateLeaderboard(tableId, data, games, countKey) {
     data.forEach((item, index) => {
         const game = games.find(g => g.id === item.appid);
         const isComparing = comparisonAppids.includes(item.appid);
+        
+        let countTitle = '';
+        if (countKey === 'estimated_sales' && item.reviews !== undefined) {
+            const multiplier = item.reviews > 0 ? (item.estimated_sales / item.reviews).toFixed(1) : '0';
+            countTitle = `${game ? game.name : 'Unknown'}: Based on ${item.reviews.toLocaleString()} reviews (Multiplier: ${multiplier}x)`;
+        }
+
         const row = document.createElement('tr');
         row.innerHTML = `
             <td class="rank-cell">${index + 1}</td>
@@ -134,7 +146,7 @@ function populateLeaderboard(tableId, data, games, countKey) {
             </td>
             <td class="count-cell">
                 <div class="count-flex">
-                    <span>${item[countKey].toLocaleString()}</span>
+                    <span title="${countTitle}">${item[countKey].toLocaleString()}</span>
                     <button class="compare-btn-small ${isComparing ? 'active' : ''}" 
                             onclick="toggleComparison(${item.appid})" 
                             title="${isComparing ? 'Remove from comparison' : 'Add to comparison'}">

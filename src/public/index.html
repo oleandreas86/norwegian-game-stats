@@ -42,6 +42,7 @@
                         <div class="tabs">
                             <button class="tab-btn active" onclick="switchTab('current')">Current Players</button>
                             <button class="tab-btn" onclick="switchTab('peak')">All-Time Peak</button>
+                            <button class="tab-btn" onclick="switchTab('sales')">Est. Owners</button>
                         </div>
                         
                         <div id="current-tab" class="tab-content active">
@@ -68,6 +69,20 @@
                                 </thead>
                                 <tbody></tbody>
                             </table>
+                        </div>
+
+                        <div id="sales-tab" class="tab-content">
+                            <table id="sales-leaderboard">
+                                <thead>
+                                    <tr>
+                                        <th class="rank-cell">#</th>
+                                        <th>Game</th>
+                                        <th class="count-cell">Est. Owners</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <p class="methodology-note">* Owners are estimated using a dynamic multiplier based on release year, price, genre, and total reviews (Boxleiter method). This provides a more accurate estimation across different game types and eras.</p>
                         </div>
                     </div>
                 </section>

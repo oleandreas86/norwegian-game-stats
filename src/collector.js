@@ -16,6 +16,34 @@ async function fetchPlayerCount(appid) {
   }
 }
 
+async function fetchReviews(appid) {
+  try {
+    const url = `https://store.steampowered.com/appreviews/${appid}?json=1&num_per_page=0&purchase_type=all`;
+    const response = await axios.get(url);
+    if (response.data && response.data.success === 1) {
+      return response.data.query_summary.total_reviews;
+    }
+    return null;
+  } catch (error) {
+    console.error(`Error fetching reviews for ${appid}:`, error.message);
+    return null;
+  }
+}
+
+async function fetchAppDetails(appid) {
+  try {
+    const url = `https://store.steampowered.com/api/appdetails?appids=${appid}&cc=no`;
+    const response = await axios.get(url);
+    if (response.data && response.data[appid] && response.data[appid].success) {
+      return response.data[appid].data;
+    }
+    return null;
+  } catch (error) {
+    console.error(`Error fetching app details for ${appid}:`, error.message);
+    return null;
+  }
+}
+
 async function backfillHistory(appid) {
   try {
     console.log(`Backfilling history for ${appid}...`);
@@ -68,8 +96,52 @@ async function collectAll() {
         await db.insertStat(game.id, count);
         console.log(`Collected ${game.name} (${game.id}): ${count}`);
       }
+
+      // Collect review metadata
+      const reviews = await fetchReviews(game.id);
+      const appDetails = await fetchAppDetails(game.id);
+
+      if (reviews !== null) {
+        let multiplier = 50; // Default fallback if appDetails missing
+
+        if (appDetails) {
+          let priceFactor = 1.0;
+          if (appDetails.is_free) {
+            priceFactor = 1.3;
+          } else if (appDetails.price_overview) {
+            const price = appDetails.price_overview.final / 100; // in NOK (due to cc=no)
+            if (price < 150) priceFactor = 2.3;
+            else if (price < 350) priceFactor = 1.8;
+            else priceFactor = 1.0;
+          }
+
+          let yearFactor = 1.0;
+          if (appDetails.release_date && appDetails.release_date.date) {
+            const yearMatch = appDetails.release_date.date.match(/\d{4}/);
+            if (yearMatch) {
+              const year = parseInt(yearMatch[0]);
+              if (year >= 2024) yearFactor = 1.0;
+              else if (year >= 2020) yearFactor = 1.5;
+              else if (year >= 2015) yearFactor = 3.5;
+              else yearFactor = 1.8;
+            }
+          }
+
+          let specialFactor = 1.0;
+          if (appDetails.is_free && appDetails.genres && appDetails.genres.some(g => g.description === 'Massively Multiplayer')) {
+            specialFactor = 1.75;
+          }
+
+          multiplier = 30 * priceFactor * yearFactor * specialFactor;
+        }
+
+        const estimatedSales = Math.round(reviews * multiplier);
+        await db.updateMetadata(game.id, reviews, estimatedSales);
+        console.log(`Updated metadata for ${game.name}: ${reviews} reviews (multiplier ${multiplier.toFixed(1)}x), ~${estimatedSales} owners`);
+      }
+
       // Respectful delay between requests
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      await new Promise(resolve => setTimeout(resolve, 1500));
     }
     console.log(`[${new Date().toISOString()}] Collection finished.`);
   } catch (error) {

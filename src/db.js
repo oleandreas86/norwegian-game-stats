@@ -20,6 +20,13 @@ db.serialize(() => {
     UNIQUE(appid, timestamp)
   )`);
   
+  db.run(`CREATE TABLE IF NOT EXISTS game_metadata (
+    appid INTEGER PRIMARY KEY,
+    reviews INTEGER,
+    estimated_sales INTEGER,
+    last_updated DATETIME DEFAULT CURRENT_TIMESTAMP
+  )`);
+  
   db.run(`CREATE UNIQUE INDEX IF NOT EXISTS idx_appid_timestamp ON game_stats (appid, timestamp)`);
 });
 
@@ -34,6 +41,30 @@ module.exports = {
       db.run(query, params, function(err) {
         if (err) reject(err);
         else resolve(this.lastID);
+      });
+    });
+  },
+  updateMetadata: (appid, reviews, estimated_sales) => {
+    return new Promise((resolve, reject) => {
+      const query = `
+        INSERT INTO game_metadata (appid, reviews, estimated_sales, last_updated)
+        VALUES (?, ?, ?, CURRENT_TIMESTAMP)
+        ON CONFLICT(appid) DO UPDATE SET
+          reviews = excluded.reviews,
+          estimated_sales = excluded.estimated_sales,
+          last_updated = CURRENT_TIMESTAMP
+      `;
+      db.run(query, [appid, reviews, estimated_sales], function(err) {
+        if (err) reject(err);
+        else resolve();
+      });
+    });
+  },
+  getMetadata: () => {
+    return new Promise((resolve, reject) => {
+      db.all(`SELECT * FROM game_metadata`, [], (err, rows) => {
+        if (err) reject(err);
+        else resolve(rows);
       });
     });
   },
