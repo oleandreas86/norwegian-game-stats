@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Stats for Norwegian video games on Steam",
   "main": "src/server.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "start": "node src/server.js",
     "collect": "node src/collector.js"

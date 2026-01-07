@@ -78,12 +78,18 @@ async function init() {
 
 function updateGlobalStats(leaderboards) {
     const current = leaderboards.current || [];
+    const peaks = leaderboards.peaks || [];
     const totalPlayers = current.reduce((sum, item) => sum + item.player_count, 0);
+    
     const topGameItem = current.length > 0 ? current[0] : null;
     const topGame = topGameItem ? allGames.find(g => g.id === topGameItem.appid) : null;
 
+    const peakGameItem = peaks.length > 0 ? peaks[0] : null;
+    const peakGame = peakGameItem ? allGames.find(g => g.id === peakGameItem.appid) : null;
+
     document.getElementById('total-players').textContent = totalPlayers.toLocaleString();
     document.getElementById('top-game').textContent = topGame ? topGame.name : '-';
+    document.getElementById('peak-record').textContent = peakGame ? peakGame.name : '-';
     document.getElementById('total-games').textContent = allGames.length;
 }
 
