@@ -1,0 +1,10 @@
+﻿node_modules
+src/data/*.db
+src/data/*.db-journal
+src/data/*.db-shm
+src/data/*.db-wal
+.git
+.gitignore
+Dockerfile
+.dockerignore
+npm-debug.log
