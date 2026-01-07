@@ -1,28 +1,36 @@
 ﻿{
   "type": "game",
-  "name": "Dune: Awakening",
-  "steam_appid": 1172710,
-  "required_age": "16",
+  "name": "Conan Exiles",
+  "steam_appid": 440900,
+  "required_age": 0,
   "is_free": false,
   "controller_support": "full",
   "dlc": [
-    3596920,
-    3596810,
-    3596900,
-    4156640
+    1206200,
+    1668110,
+    1265640,
+    1173900,
+    1147100,
+    1134010,
+    1076150,
+    1040930,
+    972370,
+    919390,
+    887120,
+    760730
   ],
-  "detailed_description": "<h1>Special Edition</h1><p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/dea4b251b1157d79543be0a8cfffcee2.avif?t=1766090061\" width=780 height=344 /></span></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/20efc1981c568cbf242b353aa4a89c1f.avif?t=1766090061\" width=780 height=760 /></span></p></p><br><h1>ULTIMATE EDITION</h1><p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/98ef7b0ee4597d219094e8b5f14c060a.avif?t=1766090061\" width=780 height=1192 /></span></p></p><br><h1>DELUXE EDITION</h1><p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/cba8ff132ac18485499a8c79e6943c36.avif?t=1766090061\" width=780 height=904 /></span></p></p><br><h1>About the Game</h1><p class=\"bb_paragraph\" ><strong>Dune: Awakening is an epic Open World Survival RPG where you get to fully immerse yourself in the legendary world of Dune.</strong></p><p class=\"bb_paragraph\" >You have been chosen by the Bene Gesserit to go to Arrakis as their agent, to uncover the mystery of the missing Fremen. Visit locations such as Arrakeen and Hagga Basin and meet familiar characters such as Duke Leto Atreides and Feyd-Rautha Harkonnen, as you unravel an epic Dune story never told before: yours.</p><p class=\"bb_paragraph\" >Whether you prefer to play alone or together with friends, Dune: Awakening gives you the opportunity to explore a vast, open world Arrakis brimming with secrets to discover, stories to investigate, and the opportunity for you to rise from survival to greatness.</p><p class=\"bb_paragraph\" >Avoid the roaming sandworms. Seek shadows to stay out of the scorching sun. Study the slow blade or learn to master the powers of the Bene Gesserit. Build a modest home or a massive base and decorate it to reflect your character’s unique personality. Climb mountains or craft your ornithopter and take to the skies. The choice is yours.</p><p class=\"bb_paragraph\" ><strong>Dune: Awakening gives you a living, breathing Dune on a scale never seen before.</strong></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/99ddf27a36ee52bc6e8865f439d079b0.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/99ddf27a36ee52bc6e8865f439d079b0.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Explore a dynamic and immersive Arrakis, from the vast sand dunes of the Deep Desert to hidden Fremen caves and the bustling city streets of Arrakeen. Climb towering mountains with the Shigawire hook and fly across sandworm-infested sands in your own, crafted ornithopter. Witness massive sandstorms towering above you as they sweep across the landscape.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/a0e3a089d668aaed1f6a9402ab6fe231.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/a0e3a089d668aaed1f6a9402ab6fe231.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Experience an epic, cinematically told Dune story that asks the mind-bending question: what if Paul Atreides was never born? What would be different? Meet familiar characters from the books and movies including Duke Leto and Feyd-Rautha, investigate the mysterious disappearance of the Fremen, and discover the truth about your own past. Join the Atreides or the Harkonnen and rise through their ranks as you explore their unique stories.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/8bf97e96058381c220561d0dbe6bcf58.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/8bf97e96058381c220561d0dbe6bcf58.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Seek shadows in the scorching heat of the day. Craft a stillsuit to reclaim your bodily fluids. Look for wormsign or risk being eaten by Shai-Hulud himself. Arrakis is a test, and to succeed, you must uncover the secret knowledge of the Fremen and study the teachings of the Schools of the Imperium to unlock a powerful repertoire of abilities, weapons, and tools.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/7b962584c50540f6ce193d36b2d32752.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/7b962584c50540f6ce193d36b2d32752.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Carve out a piece of Arrakis for yourself. Discover unique resources to mine and craft hundreds of items, armors, gadgets, vehicles, and base parts. Build and decorate a modest home just for yourself, set up an efficient spice refinery with your friends, or construct a massive seat of power for your guild. Scavenge, craft, build, and trade your way to fortune.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/ae193db99d3b769e51f3de1cf3cac293.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/ae193db99d3b769e51f3de1cf3cac293.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Play alone, with a handful of friends, or head into the wider world filled with hundreds of other players and engage in the politics of Arrakis. Unlock powerful new abilities to become a master of hand-to-hand and ranged combat or pursue the life of a planetologist, surveying Arrakis and uncovering its ancient mysteries. <i>You</i> decide how to spend your time on Arrakis.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Private Servers</h2><p class=\"bb_paragraph\" >You can play Dune: Awakening on an official server or a private server rented from a third-party provider. </p>",
-  "about_the_game": "<p class=\"bb_paragraph\" ><strong>Dune: Awakening is an epic Open World Survival RPG where you get to fully immerse yourself in the legendary world of Dune.</strong></p><p class=\"bb_paragraph\" >You have been chosen by the Bene Gesserit to go to Arrakis as their agent, to uncover the mystery of the missing Fremen. Visit locations such as Arrakeen and Hagga Basin and meet familiar characters such as Duke Leto Atreides and Feyd-Rautha Harkonnen, as you unravel an epic Dune story never told before: yours.</p><p class=\"bb_paragraph\" >Whether you prefer to play alone or together with friends, Dune: Awakening gives you the opportunity to explore a vast, open world Arrakis brimming with secrets to discover, stories to investigate, and the opportunity for you to rise from survival to greatness.</p><p class=\"bb_paragraph\" >Avoid the roaming sandworms. Seek shadows to stay out of the scorching sun. Study the slow blade or learn to master the powers of the Bene Gesserit. Build a modest home or a massive base and decorate it to reflect your character’s unique personality. Climb mountains or craft your ornithopter and take to the skies. The choice is yours.</p><p class=\"bb_paragraph\" ><strong>Dune: Awakening gives you a living, breathing Dune on a scale never seen before.</strong></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/99ddf27a36ee52bc6e8865f439d079b0.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/99ddf27a36ee52bc6e8865f439d079b0.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Explore a dynamic and immersive Arrakis, from the vast sand dunes of the Deep Desert to hidden Fremen caves and the bustling city streets of Arrakeen. Climb towering mountains with the Shigawire hook and fly across sandworm-infested sands in your own, crafted ornithopter. Witness massive sandstorms towering above you as they sweep across the landscape.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/a0e3a089d668aaed1f6a9402ab6fe231.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/a0e3a089d668aaed1f6a9402ab6fe231.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Experience an epic, cinematically told Dune story that asks the mind-bending question: what if Paul Atreides was never born? What would be different? Meet familiar characters from the books and movies including Duke Leto and Feyd-Rautha, investigate the mysterious disappearance of the Fremen, and discover the truth about your own past. Join the Atreides or the Harkonnen and rise through their ranks as you explore their unique stories.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/8bf97e96058381c220561d0dbe6bcf58.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/8bf97e96058381c220561d0dbe6bcf58.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Seek shadows in the scorching heat of the day. Craft a stillsuit to reclaim your bodily fluids. Look for wormsign or risk being eaten by Shai-Hulud himself. Arrakis is a test, and to succeed, you must uncover the secret knowledge of the Fremen and study the teachings of the Schools of the Imperium to unlock a powerful repertoire of abilities, weapons, and tools.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/7b962584c50540f6ce193d36b2d32752.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/7b962584c50540f6ce193d36b2d32752.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Carve out a piece of Arrakis for yourself. Discover unique resources to mine and craft hundreds of items, armors, gadgets, vehicles, and base parts. Build and decorate a modest home just for yourself, set up an efficient spice refinery with your friends, or construct a massive seat of power for your guild. Scavenge, craft, build, and trade your way to fortune.</p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline crossorigin=\"anonymous\" poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/ae193db99d3b769e51f3de1cf3cac293.poster.avif?t=1766090061\" width=780 height=355 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/extras/ae193db99d3b769e51f3de1cf3cac293.webm?t=1766090061\" type=\"video/webm; codecs=vp9\"></video></span></p><p class=\"bb_paragraph\" >Play alone, with a handful of friends, or head into the wider world filled with hundreds of other players and engage in the politics of Arrakis. Unlock powerful new abilities to become a master of hand-to-hand and ranged combat or pursue the life of a planetologist, surveying Arrakis and uncovering its ancient mysteries. <i>You</i> decide how to spend your time on Arrakis.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >Private Servers</h2><p class=\"bb_paragraph\" >You can play Dune: Awakening on an official server or a private server rented from a third-party provider. </p>",
-  "short_description": "Dune: Awakening is an Open World Survival RPG where you can fully immerse yourself in the epic world of Dune. Alone or with friends, explore a vast open world Arrakis, survive the sandworms, build a home, craft an ornithopter, and unravel the mystery of the missing Fremen.",
-  "supported_languages": "English<strong>*</strong>, French, Italian, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Turkish, Ukrainian<br><strong>*</strong>languages with full audio support",
-  "reviews": "“Fantastic base-building, immersive and unique character development, and a seamless open world.”<br>9/10 – DualShockers<br><br>“If there's one thing that Dune: Awakening does extremely well, it's offering a world and atmosphere that are immersive and engrossing.”<br>8/10 – Game Rant<br><br>“One of the most impressive online survival games ever made.”<br>9/10 – GamersHeroes<br>",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/e934cbd04b40a615b3306797bd7be76610904f0e/header.jpg?t=1766090061",
-  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/4226e40ecd3f34c27a9ede320af531af24a57721/capsule_231x87.jpg?t=1766090061",
-  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/4226e40ecd3f34c27a9ede320af531af24a57721/capsule_184x69.jpg?t=1766090061",
-  "website": "https://duneawakening.com/",
+  "detailed_description": "<p class=\"bb_paragraph\" >Conan Exiles is an online multiplayer survival game, now with sorcery, set in the lands of Conan the Barbarian. Enter a vast, open-world sandbox and play together with friends and strangers as you build your own home or even a shared city. Survive freezing cold temperatures, explore loot-filled dungeons, develop your character from scavenging survivor to mighty barbarian and powerful sorcerer, and fight to dominate your enemies in epic siege wars. </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Conan Exiles can be played in full single-player, co-op, or persistent online multiplayer.</strong></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >After Conan himself saves your life by cutting you down from the corpse tree, you must quickly learn to survive. Weather scouring sandstorms, shield yourself from intense temperatures and hunt animals for food and resources. Explore a vast and seamless world, from the burning desert in the south to the snow-capped mountains of the north.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Forge the legacy of your clan as you fight to reclaim and dominate the Exiled Lands. Use the powerful building system to create anything from a small home to entire cities piece by piece. Wage war using swords, sorcery, bows, and siege weapons, even taking control of giant avatars of the gods to crush the homes of your enemies in epic battles.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >SURVIVE IN A SAVAGE LAND</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/0d17156081f379064f7f0737867afd86.avif?t=1766090090\" width=616 height=198 /></span>Dress well or light a campfire to stay warm and make sure to cool yourself down in the heat. Hunt, cook, eat, and drink to stay alive. Build a shelter to weather scouring sandstorms. Be careful when exploring darkened ruins or you might become corrupted by foul sorcery.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >BUILD A HOME AND A KINGDOM</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/3c21c31cf498e0b93e705b216a72fec6.avif?t=1766090090\" width=616 height=198 /></span>Harvest resources to craft tools and weapons, then build anything from a small home to entire cities piece by piece using a powerful building system. Place traps, elevators, and defenses, then deck out your creations with furniture, crafting stations, and more.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >DOMINATE THE EXILED LANDS</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/00cb2c0f82bdcaf9c42973f757b7de8e.avif?t=1766090090\" width=616 height=198 /></span>Carve out your piece of the Exiled Lands, taking it from other players if you must! Build siege weapons and use explosives to break down the walls of your enemy’s city. Place traps, recruit thralls, and build defenses to keep your enemies from invading you.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >CORRUPT YOURSELF TO WIELD DARK SORCERY</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/a0c0622e7acff3e44646b674a9d9d42b.avif?t=1766090090\" width=616 height=198 /></span>Discover insidious sorceries and corrupt your body to wield them. Special perks are awarded to those who give up a portion of their life force. Sacrifice thralls to summon demons and the undead and bend them to your will. Conjure darkness, soar the skies on winged monstrosities, and call down lightning to strike your foes.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >AGES ARRIVE IN THE EXILES LANDS</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/59aa7aef3f931bf16fce211936e110ed.avif?t=1766090090\" width=616 height=198 /></span>Updates in Conan Exiles now come in Ages. Each Age has its own theme, free gameplay updates, and Battle Passes. This model allows us to add features and improvements for free, while providing an easy way for any player to support the game’s growth and receive exclusive themed cosmetics.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >EXPLORE A VAST, OPEN WORLD</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/671c82f6113fb954097d057bb6599cd2.avif?t=1766090090\" width=616 height=198 /></span>Journey through a massive and seamless open world, from the rolling sand dunes of the southern desert to the mysterious eastern swamp and the snow-capped mountains of the frozen north. Climb anywhere and experience full freedom of exploration.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >BRUTAL, BLOODY COMBAT</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/5aa770e7e2c8223701eaba93d39ffc20.avif?t=1766090090\" width=616 height=198 /></span>Fight vicious monsters and other players using an action-oriented, combo-based combat system. Dodge, block, and learn to master the true art of combat to become the greatest fighter in the Exiled Lands. Slay using bows, daggers, swords, axes, and more.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >ENSLAVE THRALLS TO DO YOUR BIDDING</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/f8cf26baf133cdc5993dc1c55df3d86b.avif?t=1766090090\" width=616 height=198 /></span>Enslave the criminals of the Exiled Lands and make them join your cause and defend your territory. Put them through the grueling Wheel of Pain to break their will, then turn them into archers, fighters, crafters, entertainers, and more.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >DISCOVER THE RUINS OF ANCIENT CIVILIZATIONS</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/d8dbcbaed106952c206af6adf9e0a9d0.avif?t=1766090090\" width=616 height=198 /></span>From the Black Keep in the north to the Dregs along the southern river, discover the ruins of ancient civilizations and solve their mysteries to gain access to their treasure. Uncover the history of the Exiled Lands you as you explore, uncover lore, and meet NPCs.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >BECOME A TOWERING GOD</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/af56a437c6f63a21f3ab57d1acde9327.avif?t=1766090090\" width=616 height=198 /></span>Alight yourself with one of four deities such as Derketo, the goddess of lust and death. Bring your sacrifices to the altar of your god then summon and take control of their huge, towering avatar. Crush enemies and entire buildings under your avatar’s feet.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >PLAY TOGETHER OR ALONE</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/608ef9b371f1549edf8051122469ea0e.avif?t=1766090090\" width=616 height=198 /></span>Play alone locally or fight for survival and dominance in persistent multiplayer on public servers. You can also host your own server and invite others to join you in a world where you have full control of the rules and settings. Want to play with just handful of friends? Try co-op mode!</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >CONTROL YOUR EXPERIENCE</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/276cc46094c74b0b06d721d0ec109394.avif?t=1766090090\" width=616 height=198 /></span>When playing alone locally or on a server you are the administrator of your world, with access to a range of in-game tools. Change your progression speed, spawn monsters, turn yourself invisible, deactivate avatars, and much more. Be the dungeon master of your own server.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >PLAY WITH MODS</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/654e6e8f3d303915285b83fe65ad190f.avif?t=1766090090\" width=616 height=198 /></span>Download Conan Exiles mods directly from the Steam workshop to customize your game experience. You can also download the custom Conan Exiles Unreal Editor and start creating your own. Countless mods await your discovery!</p>",
+  "about_the_game": "<p class=\"bb_paragraph\" >Conan Exiles is an online multiplayer survival game, now with sorcery, set in the lands of Conan the Barbarian. Enter a vast, open-world sandbox and play together with friends and strangers as you build your own home or even a shared city. Survive freezing cold temperatures, explore loot-filled dungeons, develop your character from scavenging survivor to mighty barbarian and powerful sorcerer, and fight to dominate your enemies in epic siege wars. </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Conan Exiles can be played in full single-player, co-op, or persistent online multiplayer.</strong></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >After Conan himself saves your life by cutting you down from the corpse tree, you must quickly learn to survive. Weather scouring sandstorms, shield yourself from intense temperatures and hunt animals for food and resources. Explore a vast and seamless world, from the burning desert in the south to the snow-capped mountains of the north.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Forge the legacy of your clan as you fight to reclaim and dominate the Exiled Lands. Use the powerful building system to create anything from a small home to entire cities piece by piece. Wage war using swords, sorcery, bows, and siege weapons, even taking control of giant avatars of the gods to crush the homes of your enemies in epic battles.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >SURVIVE IN A SAVAGE LAND</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/0d17156081f379064f7f0737867afd86.avif?t=1766090090\" width=616 height=198 /></span>Dress well or light a campfire to stay warm and make sure to cool yourself down in the heat. Hunt, cook, eat, and drink to stay alive. Build a shelter to weather scouring sandstorms. Be careful when exploring darkened ruins or you might become corrupted by foul sorcery.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >BUILD A HOME AND A KINGDOM</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/3c21c31cf498e0b93e705b216a72fec6.avif?t=1766090090\" width=616 height=198 /></span>Harvest resources to craft tools and weapons, then build anything from a small home to entire cities piece by piece using a powerful building system. Place traps, elevators, and defenses, then deck out your creations with furniture, crafting stations, and more.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >DOMINATE THE EXILED LANDS</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/00cb2c0f82bdcaf9c42973f757b7de8e.avif?t=1766090090\" width=616 height=198 /></span>Carve out your piece of the Exiled Lands, taking it from other players if you must! Build siege weapons and use explosives to break down the walls of your enemy’s city. Place traps, recruit thralls, and build defenses to keep your enemies from invading you.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >CORRUPT YOURSELF TO WIELD DARK SORCERY</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/a0c0622e7acff3e44646b674a9d9d42b.avif?t=1766090090\" width=616 height=198 /></span>Discover insidious sorceries and corrupt your body to wield them. Special perks are awarded to those who give up a portion of their life force. Sacrifice thralls to summon demons and the undead and bend them to your will. Conjure darkness, soar the skies on winged monstrosities, and call down lightning to strike your foes.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >AGES ARRIVE IN THE EXILES LANDS</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/59aa7aef3f931bf16fce211936e110ed.avif?t=1766090090\" width=616 height=198 /></span>Updates in Conan Exiles now come in Ages. Each Age has its own theme, free gameplay updates, and Battle Passes. This model allows us to add features and improvements for free, while providing an easy way for any player to support the game’s growth and receive exclusive themed cosmetics.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >EXPLORE A VAST, OPEN WORLD</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/671c82f6113fb954097d057bb6599cd2.avif?t=1766090090\" width=616 height=198 /></span>Journey through a massive and seamless open world, from the rolling sand dunes of the southern desert to the mysterious eastern swamp and the snow-capped mountains of the frozen north. Climb anywhere and experience full freedom of exploration.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >BRUTAL, BLOODY COMBAT</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/5aa770e7e2c8223701eaba93d39ffc20.avif?t=1766090090\" width=616 height=198 /></span>Fight vicious monsters and other players using an action-oriented, combo-based combat system. Dodge, block, and learn to master the true art of combat to become the greatest fighter in the Exiled Lands. Slay using bows, daggers, swords, axes, and more.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >ENSLAVE THRALLS TO DO YOUR BIDDING</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/f8cf26baf133cdc5993dc1c55df3d86b.avif?t=1766090090\" width=616 height=198 /></span>Enslave the criminals of the Exiled Lands and make them join your cause and defend your territory. Put them through the grueling Wheel of Pain to break their will, then turn them into archers, fighters, crafters, entertainers, and more.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >DISCOVER THE RUINS OF ANCIENT CIVILIZATIONS</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/d8dbcbaed106952c206af6adf9e0a9d0.avif?t=1766090090\" width=616 height=198 /></span>From the Black Keep in the north to the Dregs along the southern river, discover the ruins of ancient civilizations and solve their mysteries to gain access to their treasure. Uncover the history of the Exiled Lands you as you explore, uncover lore, and meet NPCs.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >BECOME A TOWERING GOD</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/af56a437c6f63a21f3ab57d1acde9327.avif?t=1766090090\" width=616 height=198 /></span>Alight yourself with one of four deities such as Derketo, the goddess of lust and death. Bring your sacrifices to the altar of your god then summon and take control of their huge, towering avatar. Crush enemies and entire buildings under your avatar’s feet.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >PLAY TOGETHER OR ALONE</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/608ef9b371f1549edf8051122469ea0e.avif?t=1766090090\" width=616 height=198 /></span>Play alone locally or fight for survival and dominance in persistent multiplayer on public servers. You can also host your own server and invite others to join you in a world where you have full control of the rules and settings. Want to play with just handful of friends? Try co-op mode!</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >CONTROL YOUR EXPERIENCE</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/276cc46094c74b0b06d721d0ec109394.avif?t=1766090090\" width=616 height=198 /></span>When playing alone locally or on a server you are the administrator of your world, with access to a range of in-game tools. Change your progression speed, spawn monsters, turn yourself invisible, deactivate avatars, and much more. Be the dungeon master of your own server.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >PLAY WITH MODS</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/654e6e8f3d303915285b83fe65ad190f.avif?t=1766090090\" width=616 height=198 /></span>Download Conan Exiles mods directly from the Steam workshop to customize your game experience. You can also download the custom Conan Exiles Unreal Editor and start creating your own. Countless mods await your discovery!</p>",
+  "short_description": "An online multiplayer survival game, now with sorcery, set in the lands of Conan the Barbarian. Survive in a vast open world sandbox, build your home into a kingdom, and dominate your enemies in single or multiplayer.",
+  "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Italian<br><strong>*</strong>languages with full audio support",
+  "reviews": "“...the genre has saved one of its best till last.”<br>RECOMMENDED – Eurogamer<br><br>“Conan Exiles is brilliantly addictive.”<br>9/10 – GamingRespawn<br><br>“Survival fans must definitely check this out!”<br>82/100 – GameStar<br>",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/header.jpg?t=1766090090",
+  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/b46377618abbd2b277931161ea768097728734fd/capsule_231x87.jpg?t=1766090090",
+  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/b46377618abbd2b277931161ea768097728734fd/capsule_184x69.jpg?t=1766090090",
+  "website": "http://www.conanexiles.com/",
   "pc_requirements": {
-    "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit (or newer)<br></li><li><strong>Processor:</strong> Intel Core i5-7400 / AMD Ryzen 3 1200<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1060 (6 GB) / AMD Radeon 5600XT (6 GB)<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 60 GB available space<br></li><li><strong>Additional Notes:</strong> SSD required</li></ul>",
-    "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64-bit (or newer)<br></li><li><strong>Processor:</strong> Intel Core i7-10700K / AMD Ryzen 5 2600X<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce RTX 3070 (8 GB) / AMD Radeon 6700XT (12 GB)<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 75 GB available space<br></li><li><strong>Additional Notes:</strong> SSD required</li></ul>"
+    "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64bit<br></li><li><strong>Processor:</strong> AMD Ryzen 5 3600 or Intel Core i5-10400F<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1650 or Radeon RX 580<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 115 GB available space</li></ul>",
+    "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11 64bit<br></li><li><strong>Processor:</strong> AMD Ryzen 7 5600X or Intel Core i7-11700F<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce RTX 3060 or AMD Radeon RX 6700 or Intel Arc A750<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 115 GB available space</li></ul>"
   },
   "mac_requirements": {
     "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
@@ -32,7 +40,7 @@
     "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
     "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
   },
-  "legal_notice": "DUNE: AWAKENING TM & © 2025 Legendary. DUNE, DUNE: AWAKENING, LEGENDARY, and the Knot logo are registered trademarks of Legendary. Used with permission by Funcom. All Rights Reserved. Funcom and the Funcom logo are trademarks of Funcom Oslo AS.",
+  "legal_notice": "©2024 Conan Properties International LLC (\"CPI\"). CONAN, CONAN THE BARBARIAN, HYBORIA, and/or ROBERT E. HOWARD and related logos, characters, names, and distinctive likenesses thereof are trademarks or registered trademarks of CPI and/or Robert E. Howard Properties Inc. unless otherwise noted. All Rights Reserved. Funcom authorized user.",
   "developers": [
     "Funcom"
   ],
@@ -41,19 +49,19 @@
   ],
   "price_overview": {
     "currency": "NOK",
-    "initial": 55900,
-    "final": 55900,
+    "initial": 39900,
+    "final": 39900,
     "discount_percent": 0,
     "initial_formatted": "",
-    "final_formatted": "559,00 kr"
+    "final_formatted": "399,00 kr"
   },
   "packages": [
-    1274037
+    268409
   ],
   "package_groups": [
     {
       "name": "default",
-      "title": "Buy Dune: Awakening",
+      "title": "Buy Conan Exiles",
       "description": "",
       "selection_text": "Select a purchase option",
       "save_text": "",
@@ -61,14 +69,14 @@
       "is_recurring_subscription": "false",
       "subs": [
         {
-          "packageid": 1274037,
+          "packageid": 268409,
           "percent_savings_text": " ",
           "percent_savings": 0,
-          "option_text": "Dune: Awakening - 559,00 kr",
+          "option_text": "Conan Exiles - Standard Edition - 399,00 kr",
           "option_description": "",
           "can_get_free_license": "0",
           "is_free_license": false,
-          "price_in_cents_with_discount": 55900
+          "price_in_cents_with_discount": 39900
         }
       ]
     }
@@ -88,6 +96,14 @@
       "description": "Multi-player"
     },
     {
+      "id": 49,
+      "description": "PvP"
+    },
+    {
+      "id": 36,
+      "description": "Online PvP"
+    },
+    {
       "id": 9,
       "description": "Co-op"
     },
@@ -104,44 +120,24 @@
       "description": "Full controller support"
     },
     {
-      "id": 64,
-      "description": "Adjustable Text Size"
+      "id": 29,
+      "description": "Steam Trading Cards"
     },
     {
-      "id": 67,
-      "description": "Camera Comfort"
+      "id": 30,
+      "description": "Steam Workshop"
     },
     {
-      "id": 66,
-      "description": "Color Alternatives"
+      "id": 42,
+      "description": "Remote Play on Tablet"
     },
     {
-      "id": 68,
-      "description": "Custom Volume Controls"
+      "id": 43,
+      "description": "Remote Play on TV"
     },
     {
-      "id": 74,
-      "description": "Playable without Timed Input"
-    },
-    {
-      "id": 79,
-      "description": "Save Anytime"
-    },
-    {
-      "id": 69,
-      "description": "Stereo Sound"
-    },
-    {
-      "id": 65,
-      "description": "Subtitle Options"
-    },
-    {
-      "id": 70,
-      "description": "Surround Sound"
-    },
-    {
-      "id": 23,
-      "description": "Steam Cloud"
+      "id": 62,
+      "description": "Family Sharing"
     }
   ],
   "genres": [
@@ -160,428 +156,302 @@
     {
       "id": "3",
       "description": "RPG"
+    },
+    {
+      "id": "28",
+      "description": "Simulation"
+    },
+    {
+      "id": "2",
+      "description": "Strategy"
     }
   ],
   "screenshots": [
     {
       "id": 0,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_8616aceb30a8b01979c16a5aea46f9ef587f7ff3.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_8616aceb30a8b01979c16a5aea46f9ef587f7ff3.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_cdc476e72f4da0e49c3aa12d15ec8527887aa11f.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_cdc476e72f4da0e49c3aa12d15ec8527887aa11f.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 1,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/da2ffcd522b6cf3415e8e3ce96873f0252beb2e9/ss_da2ffcd522b6cf3415e8e3ce96873f0252beb2e9.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/da2ffcd522b6cf3415e8e3ce96873f0252beb2e9/ss_da2ffcd522b6cf3415e8e3ce96873f0252beb2e9.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_028c3f9cfcd8308b6295d14be9ec63f5ae008156.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_028c3f9cfcd8308b6295d14be9ec63f5ae008156.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 2,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/aead40cd6f0584258da020f92ec4c4795fddb136/ss_aead40cd6f0584258da020f92ec4c4795fddb136.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/aead40cd6f0584258da020f92ec4c4795fddb136/ss_aead40cd6f0584258da020f92ec4c4795fddb136.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_803d48daedde40054e1b8393a8dac1bc906e6db5.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_803d48daedde40054e1b8393a8dac1bc906e6db5.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 3,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/e5d642e9f47be7696adfcb562039dc346f577b26/ss_e5d642e9f47be7696adfcb562039dc346f577b26.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/e5d642e9f47be7696adfcb562039dc346f577b26/ss_e5d642e9f47be7696adfcb562039dc346f577b26.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_5ab249b4f83d3edc17605ada0c5d0613cbca77bc.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_5ab249b4f83d3edc17605ada0c5d0613cbca77bc.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 4,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/1207f5e089b470563143e39f9e31c4c134444270/ss_1207f5e089b470563143e39f9e31c4c134444270.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/1207f5e089b470563143e39f9e31c4c134444270/ss_1207f5e089b470563143e39f9e31c4c134444270.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_2024f062f72315286a399fcfc6858071abad6e43.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_2024f062f72315286a399fcfc6858071abad6e43.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 5,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/abc35b93b74f8d84bc4dce2c318509e299a1d26b/ss_abc35b93b74f8d84bc4dce2c318509e299a1d26b.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/abc35b93b74f8d84bc4dce2c318509e299a1d26b/ss_abc35b93b74f8d84bc4dce2c318509e299a1d26b.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_df09dd265b6dcd41382faa860a9ffbd010f1f16d.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_df09dd265b6dcd41382faa860a9ffbd010f1f16d.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 6,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_8f82e5566057ef9fc8f876e27849bac8326c7259.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_8f82e5566057ef9fc8f876e27849bac8326c7259.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_47d8b45abbfee53c3d7f3c34b5bacba1fc6e2a4e.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_47d8b45abbfee53c3d7f3c34b5bacba1fc6e2a4e.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 7,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_f43cd464307d27d2d20e94f31e1d5c01965be0ce.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_f43cd464307d27d2d20e94f31e1d5c01965be0ce.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_0771dcbb4fddf17061195e6c132ee8cfc14e2ffb.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_0771dcbb4fddf17061195e6c132ee8cfc14e2ffb.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 8,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/27bff0e5581d3d241469b8a27200ce16f3269224/ss_27bff0e5581d3d241469b8a27200ce16f3269224.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/27bff0e5581d3d241469b8a27200ce16f3269224/ss_27bff0e5581d3d241469b8a27200ce16f3269224.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_72f2b2ad01a15c574cbda478ef50a655e3baf7f9.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_72f2b2ad01a15c574cbda478ef50a655e3baf7f9.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 9,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/45924e55eb2d04831e1e47f96949d6b673790fe4/ss_45924e55eb2d04831e1e47f96949d6b673790fe4.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/45924e55eb2d04831e1e47f96949d6b673790fe4/ss_45924e55eb2d04831e1e47f96949d6b673790fe4.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_08c199fd66c6fb35b599e1f4c635d0fbfad5f4da.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_08c199fd66c6fb35b599e1f4c635d0fbfad5f4da.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 10,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/034269a815262f33fc9cd5aa163b9aa47f83fea8/ss_034269a815262f33fc9cd5aa163b9aa47f83fea8.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/034269a815262f33fc9cd5aa163b9aa47f83fea8/ss_034269a815262f33fc9cd5aa163b9aa47f83fea8.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_463ed4979e80199f50061c277f81b2bc4991ce7f.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_463ed4979e80199f50061c277f81b2bc4991ce7f.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 11,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/53d51a7cad16a346d6bb4a0679fdb1cf99fd97c7/ss_53d51a7cad16a346d6bb4a0679fdb1cf99fd97c7.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/53d51a7cad16a346d6bb4a0679fdb1cf99fd97c7/ss_53d51a7cad16a346d6bb4a0679fdb1cf99fd97c7.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_863156a8a96f7d3995b2a88ac37030689160f959.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_863156a8a96f7d3995b2a88ac37030689160f959.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 12,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_8ace925beea49012a4d95cbfecdcd3dbe01f0abc.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_8ace925beea49012a4d95cbfecdcd3dbe01f0abc.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_51fceb51dc255e91270c0e103622fc1c854ccb18.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_51fceb51dc255e91270c0e103622fc1c854ccb18.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 13,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/7b2a71a1f2c5020b0e059d18ae0889903213de72/ss_7b2a71a1f2c5020b0e059d18ae0889903213de72.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/7b2a71a1f2c5020b0e059d18ae0889903213de72/ss_7b2a71a1f2c5020b0e059d18ae0889903213de72.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_1e3f68246e00d7fe689877b80b92097cbdc33d67.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_1e3f68246e00d7fe689877b80b92097cbdc33d67.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 14,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_05842a4fb5b78e2844676d2f29e0e2042cf3dfcd.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_05842a4fb5b78e2844676d2f29e0e2042cf3dfcd.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_11e5872346aca73d80b33dd4dfebe2fc6fe18ae0.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_11e5872346aca73d80b33dd4dfebe2fc6fe18ae0.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 15,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_e2dcbea6d7eea2ad04c783913e43eff8446d8f37.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_e2dcbea6d7eea2ad04c783913e43eff8446d8f37.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_311679d9504f8144aa4eed14ed2120fae75a131c.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_311679d9504f8144aa4eed14ed2120fae75a131c.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 16,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/2d14c21e39b7ff307f1405c57bb7ec02cd3021e0/ss_2d14c21e39b7ff307f1405c57bb7ec02cd3021e0.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/2d14c21e39b7ff307f1405c57bb7ec02cd3021e0/ss_2d14c21e39b7ff307f1405c57bb7ec02cd3021e0.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_7bfa72899e9e44bc45fcbdedd600ac3cfea368f6.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_7bfa72899e9e44bc45fcbdedd600ac3cfea368f6.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 17,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_6ccb80881330f9657541ab3efecb45b78a7ef756.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_6ccb80881330f9657541ab3efecb45b78a7ef756.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_0b554025f69bbe4a6bd6e12c4b06377ef1e91f86.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_0b554025f69bbe4a6bd6e12c4b06377ef1e91f86.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 18,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/cfeb978353707ff52d5b33d853be3d3892d6eaec/ss_cfeb978353707ff52d5b33d853be3d3892d6eaec.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/cfeb978353707ff52d5b33d853be3d3892d6eaec/ss_cfeb978353707ff52d5b33d853be3d3892d6eaec.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_662077b5f77297e2e919425d532305586022c4b0.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_662077b5f77297e2e919425d532305586022c4b0.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 19,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/fae646d174d2c76345c69470a3e0dc9a9905bf4f/ss_fae646d174d2c76345c69470a3e0dc9a9905bf4f.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/fae646d174d2c76345c69470a3e0dc9a9905bf4f/ss_fae646d174d2c76345c69470a3e0dc9a9905bf4f.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_9573f82d69e16a25105fe54b0850b5cb9b1dfbb6.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_9573f82d69e16a25105fe54b0850b5cb9b1dfbb6.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 20,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/7884f1a28a95790981c22375997b2c08288ec8da/ss_7884f1a28a95790981c22375997b2c08288ec8da.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/7884f1a28a95790981c22375997b2c08288ec8da/ss_7884f1a28a95790981c22375997b2c08288ec8da.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_74d59655cb89172e55bf7ebab8628e2de35937bd.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_74d59655cb89172e55bf7ebab8628e2de35937bd.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 21,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ea0c516831519ca1e3d47329ef9874d45a156cfa/ss_ea0c516831519ca1e3d47329ef9874d45a156cfa.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ea0c516831519ca1e3d47329ef9874d45a156cfa/ss_ea0c516831519ca1e3d47329ef9874d45a156cfa.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_3f1497e3477bf97a69169c71b10fbb5db86f544a.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_3f1497e3477bf97a69169c71b10fbb5db86f544a.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 22,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/012751e14fcfc591ce470e055fbd7edc48f86f85/ss_012751e14fcfc591ce470e055fbd7edc48f86f85.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/012751e14fcfc591ce470e055fbd7edc48f86f85/ss_012751e14fcfc591ce470e055fbd7edc48f86f85.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_33b3e9cf1d58521330aa5787ba485578b96f063f.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_33b3e9cf1d58521330aa5787ba485578b96f063f.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 23,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/d82e4cf337316d328e719f32b4f42f16c2f9ef30/ss_d82e4cf337316d328e719f32b4f42f16c2f9ef30.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/d82e4cf337316d328e719f32b4f42f16c2f9ef30/ss_d82e4cf337316d328e719f32b4f42f16c2f9ef30.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_5b57b5929bb4522b8c2dec5374a156c618777ff5.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_5b57b5929bb4522b8c2dec5374a156c618777ff5.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 24,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_7b14458c9c9d8e11fadb04e0e788218ec1d3fedd.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_7b14458c9c9d8e11fadb04e0e788218ec1d3fedd.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_b894f21c39c20f5e4a4e38344889dd3adb5a993d.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_b894f21c39c20f5e4a4e38344889dd3adb5a993d.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 25,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/07515e3d2292a4c73224e5935dbd990aea081486/ss_07515e3d2292a4c73224e5935dbd990aea081486.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/07515e3d2292a4c73224e5935dbd990aea081486/ss_07515e3d2292a4c73224e5935dbd990aea081486.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_34dde193897bdfc21c8339b434655bd184d9d210.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_34dde193897bdfc21c8339b434655bd184d9d210.1920x1080.jpg?t=1766090090"
     },
     {
       "id": 26,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_baf102a033632fcc6163080e10345b889fe30d65.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_baf102a033632fcc6163080e10345b889fe30d65.1920x1080.jpg?t=1766090061"
-    },
-    {
-      "id": 27,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_7fede12b5bb6197c1628f03fc56350969df14741.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_7fede12b5bb6197c1628f03fc56350969df14741.1920x1080.jpg?t=1766090061"
-    },
-    {
-      "id": 28,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/d787e1630b3d2c944f0e5a3ae22518e015ae3e8c/ss_d787e1630b3d2c944f0e5a3ae22518e015ae3e8c.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/d787e1630b3d2c944f0e5a3ae22518e015ae3e8c/ss_d787e1630b3d2c944f0e5a3ae22518e015ae3e8c.1920x1080.jpg?t=1766090061"
-    },
-    {
-      "id": 29,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/f8c410dece76c354a4f76faab053d4135dbb82d6/ss_f8c410dece76c354a4f76faab053d4135dbb82d6.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/f8c410dece76c354a4f76faab053d4135dbb82d6/ss_f8c410dece76c354a4f76faab053d4135dbb82d6.1920x1080.jpg?t=1766090061"
-    },
-    {
-      "id": 30,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_9b5dd5b9fe3cb1c98c5accf58fda79bf2ea01b91.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_9b5dd5b9fe3cb1c98c5accf58fda79bf2ea01b91.1920x1080.jpg?t=1766090061"
-    },
-    {
-      "id": 31,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_59830d4e1be7d660114a7b8b23aff1003d61ca43.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_59830d4e1be7d660114a7b8b23aff1003d61ca43.1920x1080.jpg?t=1766090061"
-    },
-    {
-      "id": 32,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/bc5032e3252be41a5d46d7ef4a0877a905b939bf/ss_bc5032e3252be41a5d46d7ef4a0877a905b939bf.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/bc5032e3252be41a5d46d7ef4a0877a905b939bf/ss_bc5032e3252be41a5d46d7ef4a0877a905b939bf.1920x1080.jpg?t=1766090061"
-    },
-    {
-      "id": 33,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_18ffd3260eeb00630a79aaa36cd6d64af9dac4e8.600x338.jpg?t=1766090061",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_18ffd3260eeb00630a79aaa36cd6d64af9dac4e8.1920x1080.jpg?t=1766090061"
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_04b74de0c0755fe426d5eea41a0af0ce015821e1.600x338.jpg?t=1766090090",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_04b74de0c0755fe426d5eea41a0af0ce015821e1.1920x1080.jpg?t=1766090090"
     }
   ],
   "movies": [
     {
-      "id": 257194721,
-      "name": "Explore Arrakis Trailer",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257194721/2d19ead28c2a50a3090b7e53e645bfc35e7ae816/movie_600x337.jpg?t=1757949145",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/571219479/84b43e684515f32635ff3f789f544e5617142e0a/1757512326/dash_av1.mpd?t=1757949145",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/571219479/84b43e684515f32635ff3f789f544e5617142e0a/1757512326/dash_h264.mpd?t=1757949145",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/571219479/84b43e684515f32635ff3f789f544e5617142e0a/1757512326/hls_264_master.m3u8?t=1757949145",
+      "id": 257064833,
+      "name": "Age of Heroes - Chapter 1 Launch Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257064833/5e24423ff1b26006016ba9c17e8ae5e336f52743/movie_600x337.jpg?t=1729166326",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440900/771451/c9c956f2450e33f763f020b906189aa5e2d03c2b/1750531029/dash_av1.mpd?t=1729166326",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440900/771451/c9c956f2450e33f763f020b906189aa5e2d03c2b/1750531029/dash_h264.mpd?t=1729166326",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440900/771451/c9c956f2450e33f763f020b906189aa5e2d03c2b/1750531029/hls_264_master.m3u8?t=1729166326",
       "highlight": true
     },
     {
-      "id": 257193612,
-      "name": "Chapter 2 Launch Trailer",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257193612/e0b3b891c7c1a2bb1315b0ea0c37e84aa2b216b4/movie_600x337.jpg?t=1757414221",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/689901367/8d868305f219ff57014dc26a6b528ac1f835c24e/1757066353/dash_av1.mpd?t=1757414221",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/689901367/8d868305f219ff57014dc26a6b528ac1f835c24e/1757066353/dash_h264.mpd?t=1757414221",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/689901367/8d868305f219ff57014dc26a6b528ac1f835c24e/1757066353/hls_264_master.m3u8?t=1757414221",
+      "id": 256744767,
+      "name": "Official 2019 Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256744767/movie.293x165.jpg?t=1713356872",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440900/212404/eb109c0498542d558d1325c078e709a807142827/1750530893/dash_av1.mpd?t=1713356872",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440900/212404/eb109c0498542d558d1325c078e709a807142827/1750530893/dash_h264.mpd?t=1713356872",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440900/212404/eb109c0498542d558d1325c078e709a807142827/1750530893/hls_264_master.m3u8?t=1713356872",
       "highlight": true
     },
     {
-      "id": 257159289,
-      "name": "Accolades Trailer",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257159289/ac0e7848b123fcbfac4e12cecff56b9d066f449e/movie_600x337.jpg?t=1750428897",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/1636340560/b46dc5fdf86afff3617e85c5be64baa36b02ac0a/1750427572/dash_av1.mpd?t=1750428897",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/1636340560/b46dc5fdf86afff3617e85c5be64baa36b02ac0a/1750427572/dash_h264.mpd?t=1750428897",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/1636340560/b46dc5fdf86afff3617e85c5be64baa36b02ac0a/1750427572/hls_264_master.m3u8?t=1750428897",
-      "highlight": true
-    },
-    {
-      "id": 257152429,
-      "name": "Launch Trailer",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257152429/9ffe4bdfd2a6c23f2890448179c79b5d9ff4fec8/movie_600x337.jpg?t=1749547835",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/1969599783/78ce947fe5d97023708cd057b61cc1debe18bcee/1749853673/dash_av1.mpd?t=1749547835",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/1969599783/78ce947fe5d97023708cd057b61cc1debe18bcee/1749853673/dash_h264.mpd?t=1749547835",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/1969599783/78ce947fe5d97023708cd057b61cc1debe18bcee/1749853673/hls_264_master.m3u8?t=1749547835",
-      "highlight": true
-    },
-    {
-      "id": 257154758,
-      "name": "Your Path to Awakening",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257154758/edd7a916a4b9bf66363cce3913917d8e42d4f11e/movie_600x337.jpg?t=1749564054",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/464982404/bc57393e455795c953071d4e1551919baffe13ec/1749853671/dash_av1.mpd?t=1749564054",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/464982404/bc57393e455795c953071d4e1551919baffe13ec/1749853671/dash_h264.mpd?t=1749564054",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/464982404/bc57393e455795c953071d4e1551919baffe13ec/1749853671/hls_264_master.m3u8?t=1749564054",
-      "highlight": true
-    },
-    {
-      "id": 257130939,
-      "name": "Story Trailer",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257130939/263583e6ebef85a730e143cc7b8313bd677d4650/movie_600x337.jpg?t=1749106408",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/878082/7290ceb4e05db00041330f2ab2871ccc6ec168eb/1747018010/dash_av1.mpd?t=1749106408",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/878082/7290ceb4e05db00041330f2ab2871ccc6ec168eb/1747018010/dash_h264.mpd?t=1749106408",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/878082/7290ceb4e05db00041330f2ab2871ccc6ec168eb/1747018010/hls_264_master.m3u8?t=1749106408",
-      "highlight": true
-    },
-    {
-      "id": 257151379,
-      "name": "Games of Power — The Landsraad Explained",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257151379/66b75b0a11fecbe5947b3be8ccd3258c631e9c0d/movie_600x337.jpg?t=1749547838",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/1744316279/9cdc2b2a690532dee59404bcd91ff763f8749879/1749853671/dash_av1.mpd?t=1749547838",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/1744316279/9cdc2b2a690532dee59404bcd91ff763f8749879/1749853671/dash_h264.mpd?t=1749547838",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/1744316279/9cdc2b2a690532dee59404bcd91ff763f8749879/1749853671/hls_264_master.m3u8?t=1749547838",
-      "highlight": true
-    },
-    {
-      "id": 257143193,
-      "name": "Sandbox Combat — The Forms of Power",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257143193/af8bb82a4233cf5e075bc6859befcf0d557fa914/movie_600x337.jpg?t=1749106400",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/1786224703/6b0aedffcd5ec24ea0744b35786ce66e1988ea04/1749853672/dash_av1.mpd?t=1749106400",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/1786224703/6b0aedffcd5ec24ea0744b35786ce66e1988ea04/1749853672/dash_h264.mpd?t=1749106400",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/1786224703/6b0aedffcd5ec24ea0744b35786ce66e1988ea04/1749853672/hls_264_master.m3u8?t=1749106400",
-      "highlight": true
-    },
-    {
-      "id": 257133431,
-      "name": "Building Arrakis — Your Piece of Dune",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257133431/8fe246aa95e653908522ebdd8aeaf6a1a01250ab/movie_600x337.jpg?t=1749106403",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/881872/f0b0b8d07a3437c372b9862813ec18faa2d7f481/1747018011/dash_av1.mpd?t=1749106403",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/881872/f0b0b8d07a3437c372b9862813ec18faa2d7f481/1747018011/dash_h264.mpd?t=1749106403",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/881872/f0b0b8d07a3437c372b9862813ec18faa2d7f481/1747018011/hls_264_master.m3u8?t=1749106403",
-      "highlight": true
-    },
-    {
-      "id": 257112943,
-      "name": "Exploring Arrakis — Secrets of the Desert",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257112943/368f66c80c19b4aeec40f7ddccbb28d010dd5771/movie_600x337.jpg?t=1749106405",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/848984/3159f9416f2e146176b9349e182e82a576da004d/1747017996/dash_av1.mpd?t=1749106405",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/848984/3159f9416f2e146176b9349e182e82a576da004d/1747017996/dash_h264.mpd?t=1749106405",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/848984/3159f9416f2e146176b9349e182e82a576da004d/1747017996/hls_264_master.m3u8?t=1749106405",
-      "highlight": true
-    },
-    {
-      "id": 257100304,
-      "name": "Release Date Reveal Trailer",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257100304/efd2988ec182d82cb46aec851db6c076e07521d4/movie_600x337.jpg?t=1745589605",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/832195/4e4203c3ada1ce7f7a803e8a14eed216ddf0ca75/1747017995/dash_av1.mpd?t=1745589605",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/832195/4e4203c3ada1ce7f7a803e8a14eed216ddf0ca75/1747017995/dash_h264.mpd?t=1745589605",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/832195/4e4203c3ada1ce7f7a803e8a14eed216ddf0ca75/1747017995/hls_264_master.m3u8?t=1745589605",
-      "highlight": true
-    },
-    {
-      "id": 257005183,
-      "name": "Survive Arrakis Trailer",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257005183/movie.293x165.jpg?t=1709586795",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/669881/c2cf47e8ec4bc97a6d6a748bc103c6d57d07fdfc/1747017917/dash_av1.mpd?t=1709586795",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/669881/c2cf47e8ec4bc97a6d6a748bc103c6d57d07fdfc/1747017917/dash_h264.mpd?t=1709586795",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/669881/c2cf47e8ec4bc97a6d6a748bc103c6d57d07fdfc/1747017917/hls_264_master.m3u8?t=1709586795",
-      "highlight": true
-    },
-    {
-      "id": 257047891,
-      "name": "Gameplay Reveal Trailer",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257047891/movie.293x165.jpg?t=1724179630",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/743248/773ff04df227c2153c8b6cb919b0b721ede3218f/1747017966/dash_av1.mpd?t=1724179630",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/743248/773ff04df227c2153c8b6cb919b0b721ede3218f/1747017966/dash_h264.mpd?t=1724179630",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/743248/773ff04df227c2153c8b6cb919b0b721ede3218f/1747017966/hls_264_master.m3u8?t=1724179630",
-      "highlight": true
-    },
-    {
-      "id": 257029211,
-      "name": "Story Cinematic (The Vision of Paul Atreides)",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257029211/movie.293x165.jpg?t=1724198987",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/710722/5967bf532cb057188017571f58929366584d48b3/1747017966/dash_av1.mpd?t=1724198987",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/710722/5967bf532cb057188017571f58929366584d48b3/1747017966/dash_h264.mpd?t=1724198987",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/710722/5967bf532cb057188017571f58929366584d48b3/1747017966/hls_264_master.m3u8?t=1724198987",
-      "highlight": true
-    },
-    {
-      "id": 257005228,
-      "name": "Creating Worlds Trailer",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257005228/movie.293x165.jpg?t=1709586801",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/669958/5964564b4c3de3a731e52921543245d4c95e5069/1747017917/dash_av1.mpd?t=1709586801",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/669958/5964564b4c3de3a731e52921543245d4c95e5069/1747017917/dash_h264.mpd?t=1709586801",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/669958/5964564b4c3de3a731e52921543245d4c95e5069/1747017917/hls_264_master.m3u8?t=1709586801",
-      "highlight": true
-    },
-    {
-      "id": 257120506,
-      "name": "The Sound of Arrakis (Soundtrack Behind-The-Scenes)",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257120506/5b60f75ac666cbf87321bbe8864dbd1f490c685d/movie_600x337.jpg?t=1743454547",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/860985/95ba9e8fbb92de38870233d7196b74a4e0153e7e/1747030338/dash_av1.mpd?t=1743454547",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/860985/95ba9e8fbb92de38870233d7196b74a4e0153e7e/1747030338/dash_h264.mpd?t=1743454547",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/860985/95ba9e8fbb92de38870233d7196b74a4e0153e7e/1747030338/hls_264_master.m3u8?t=1743454547",
-      "highlight": true
-    },
-    {
-      "id": 256901385,
-      "name": "Announcement Trailer",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256901385/movie.293x165.jpg?t=1709586810",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1172710/488681/20728b023862e223579d338e0d61b09d5265cf0c/1747017909/dash_av1.mpd?t=1709586810",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/488681/20728b023862e223579d338e0d61b09d5265cf0c/1747017909/dash_h264.mpd?t=1709586810",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1172710/488681/20728b023862e223579d338e0d61b09d5265cf0c/1747017909/hls_264_master.m3u8?t=1709586810",
+      "id": 256692906,
+      "name": "Official Cinematic Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256692906/movie.293x165.jpg?t=1712059362",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440900/118395/9b22bacb339172d4f376e69bd1836550dd33bbb6/1750530892/dash_av1.mpd?t=1712059362",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440900/118395/9b22bacb339172d4f376e69bd1836550dd33bbb6/1750530892/dash_h264.mpd?t=1712059362",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440900/118395/9b22bacb339172d4f376e69bd1836550dd33bbb6/1750530892/hls_264_master.m3u8?t=1712059362",
       "highlight": true
     }
   ],
   "recommendations": {
-    "total": 61008
+    "total": 74916
   },
   "achievements": {
-    "total": 73,
+    "total": 36,
     "highlighted": [
       {
-        "name": "Welcome to Arrakis",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/5487363b31f0d2674f11a4e85a18c9bbe441291e.jpg"
+        "name": "Hither Came the Exile…",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/29ba348428c42bf8e937b995adae386041b6fbcb.jpg"
       },
       {
-        "name": "Echoes of the Past",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/0a0ebeea6d4b9a99dd52da301dbf16f8fbc9e796.jpg"
+        "name": "…A Scavenger…",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/769e73917998fe394b9d2b727e075cf1f69f6d83.jpg"
       },
       {
-        "name": "The Assassin's Handbook",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/cd4f39fb16cd505e5af2f659bcd6c4cea9c347b5.jpg"
+        "name": "…A Reaver…",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/b11116de28acf25b3cfebad40388ffa561c46472.jpg"
       },
       {
-        "name": "In Their Footsteps",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/7709d55e3622371a42263242894e4b9a30c7772c.jpg"
+        "name": "…A Slayer…",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/2fca5b3f699d83cb2cdca131570fb73a9bc8e6ae.jpg"
       },
       {
-        "name": "Job’s Done!",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/59fae1ebbf47102d216ac8f924263417cbb61832.jpg"
+        "name": "…A Warrior…",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/56cfbbc31c7ce0ccab4aaa220bfa996a4780b7e7.jpg"
       },
       {
-        "name": "Scrap Mogul",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/59b8c0ebaa7ef9b15895c957c290b91c0a65fc27.jpg"
+        "name": "…A Champion…",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/0ce9f2de34019e69a30159175cf96ed60da8be53.jpg"
       },
       {
-        "name": "Kirab Instigator",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/dda1d2dec8ff3c491fbdcb5451edf75c6b8ba3f4.jpg"
+        "name": "By this Axe I Rule!",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/4ca24b2630792de853418d7deb9445545562bcd2.jpg"
       },
       {
-        "name": "Infiltrate and Neutralize",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/4e79f0b184a6be3fbec394f0de6182af47453f18.jpg"
+        "name": "The Scarlet Citadel",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/452c0fc01b7bb81903efefd5e4731528b81bde5a.jpg"
       },
       {
-        "name": "Silver or Steel?",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/deb9029422945c6fe695123f898b46594e09d9c2.jpg"
+        "name": "O Sleeper Awake",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/3f71d4a225752897a541cebfeb1bffa6cb679362.jpg"
       },
       {
-        "name": "Survivor’s Guilt",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1172710/1a9ee799a50c6bdb9561b0da3ebe51d99321f28c.jpg"
+        "name": "The God in the Bowl",
+        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/f11307f18a27e202630252d3321c3d23909b8385.jpg"
       }
     ]
   },
   "release_date": {
     "coming_soon": false,
-    "date": "10 Jun, 2025"
+    "date": "8 May, 2018"
   },
   "support_info": {
-    "url": "https://www.funcom.com/help/",
+    "url": "https://funcom.zendesk.com/hc/en-us",
     "email": ""
   },
-  "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1172710?t=1766090061",
-  "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/adb8229b4855423da4a80a1ef0a2cf72be819c5a/page_bg_raw.jpg?t=1766090061",
+  "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/440900?t=1766090090",
+  "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/page_bg_raw.jpg?t=1766090090",
   "content_descriptors": {
     "ids": [
+      1,
       2,
       5
     ],
-    "notes": "The game features depictions of violence, blood, and imagery that some may find disturbing."
+    "notes": "Conan Exiles has brutal combat where you can cut off limbs and heads of human opponents and blood is shown frequently.\r\n\r\nPlayers may choose to play the game with either no, partial or full nudity enabled. This is possible in both single and multiplayer.\r\n"
   },
   "ratings": {
     "esrb": {
-      "rating": "m",
-      "descriptors": "Intense Violence\r\nBlood and Gore\r\nStrong Language",
-      "interactive_elements": "Users Interact",
-      "display_online_notice": "true",
       "use_age_gate": "true",
-      "required_age": "17"
+      "required_age": "18"
     },
     "pegi": {
-      "rating": "16",
-      "descriptors": "Violence\r\nBad Language\r\nDrugs\r\nHorror",
       "use_age_gate": "true",
-      "required_age": "16"
+      "required_age": "18"
+    },
+    "bbfc": {
+      "use_age_gate": "true",
+      "required_age": "18"
+    },
+    "usk": {
+      "use_age_gate": "true",
+      "required_age": "18"
+    },
+    "oflc": {
+      "use_age_gate": "true",
+      "required_age": "18"
+    },
+    "nzoflc": {
+      "use_age_gate": "true",
+      "required_age": "18"
+    },
+    "cero": {
+      "use_age_gate": "true",
+      "required_age": "18"
     },
     "kgrb": {
-      "rating": "19",
-      "descriptors": "Violence\r\nLanguage\r\nAlcohol, Tobacco, Drug",
-      "required_age": "19",
-      "use_age_gate": "true"
+      "use_age_gate": "true",
+      "required_age": "18"
     },
     "dejus": {
-      "rating_generated": "1",
-      "rating": "18",
+      "use_age_gate": "true",
       "required_age": "18",
-      "banned": "0",
-      "use_age_gate": "0",
-      "descriptors": "Violência Extrema\nLinguagem imprópria\nDrogas lícitas"
+      "rating": "18",
+      "descriptors": "Violência\r\nViolência Extrema\r\nNudez\r\nDrogas lícitas"
+    },
+    "mda": {
+      "use_age_gate": "true",
+      "required_age": "18"
+    },
+    "fpb": {
+      "use_age_gate": "true",
+      "required_age": "18"
+    },
+    "csrr": {
+      "use_age_gate": "true",
+      "required_age": "18"
+    },
+    "crl": {
+      "use_age_gate": "true",
+      "required_age": "18"
     },
     "steam_germany": {
       "rating_generated": "1",
@@ -589,7 +459,7 @@
       "required_age": "18",
       "banned": "0",
       "use_age_gate": "0",
-      "descriptors": "Drastische Gewalt\nAlkohol / Tabak\nDerbe Sprache"
+      "descriptors": "Drastische Gewalt"
     }
   }
 }

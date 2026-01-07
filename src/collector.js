@@ -102,16 +102,16 @@ async function collectAll() {
       const appDetails = await fetchAppDetails(game.id);
 
       if (reviews !== null) {
-        let multiplier = 30; // Default fallback if appDetails missing
+        let multiplier = 15; // Base multiplier adjusted for language=all and purchase_type=all
 
         if (appDetails) {
           let priceFactor = 1.0;
           if (appDetails.is_free) {
-            priceFactor = 0.9; // Free games often have more reviews per owner (lower multiplier)
+            priceFactor = 1.5; // Free games have higher variance
           } else if (appDetails.price_overview) {
             const price = appDetails.price_overview.final / 100; // in NOK
-            if (price < 100) priceFactor = 1.5;
-            else if (price < 300) priceFactor = 1.2;
+            if (price < 150) priceFactor = 2.3;
+            else if (price < 350) priceFactor = 1.8;
             else priceFactor = 1.0;
           }
 
@@ -120,19 +120,19 @@ async function collectAll() {
             const yearMatch = appDetails.release_date.date.match(/\d{4}/);
             if (yearMatch) {
               const year = parseInt(yearMatch[0]);
-              if (year >= 2024) yearFactor = 1.0;
-              else if (year >= 2020) yearFactor = 1.2;
-              else if (year >= 2015) yearFactor = 1.4;
-              else yearFactor = 1.7; // Older games had fewer reviews per owner (higher multiplier)
+              if (year >= 2024) yearFactor = 1.2;
+              else if (year >= 2020) yearFactor = 1.5;
+              else if (year >= 2015) yearFactor = 3.5;
+              else yearFactor = 1.8;
             }
           }
 
           let specialFactor = 1.0;
-          if (appDetails.genres && appDetails.genres.some(g => g.description === 'Massively Multiplayer')) {
-            specialFactor = 2.0; // MMOs have much higher player-to-review ratios
+          if (appDetails.is_free && appDetails.genres && appDetails.genres.some(g => g.description === 'Massively Multiplayer')) {
+            specialFactor = 2.2; // F2P MMOs have unique retention patterns
           }
 
-          multiplier = 25 * priceFactor * yearFactor * specialFactor;
+          multiplier = 15 * priceFactor * yearFactor * specialFactor;
         }
 
         const estimatedSales = Math.round(reviews * multiplier);

@@ -5,6 +5,7 @@
     { id: 440900, name: "Conan Exiles", developer: "Funcom", release: "Full", store: "Live" }, // :contentReference[oaicite:1]{index=1}
     { id: 480430, name: "Hide and Shriek", developer: "Funcom", release: "Full", store: "Live" }, // :contentReference[oaicite:2]{index=2}
     { id: 402020, name: "The Park", developer: "Funcom", release: "Full", store: "Live" }, // :contentReference[oaicite:3]{index=3}
+    { id: 215280, name: "Secret World Legends", developer: "Funcom", release: "Full", store: "Live" },
     { id: 396280, name: "Anarchy Online", developer: "Funcom", release: "Full", store: "Live" }, // :contentReference[oaicite:4]{index=4}
     { id: 6310, name: "The Longest Journey", developer: "Funcom", release: "Full", store: "Live" }, // :contentReference[oaicite:5]{index=5}
     { id: 237850, name: "Dreamfall Chapters", developer: "Red Thread Games (Funcom)", release: "Full", store: "Live" }, // :contentReference[oaicite:6]{index=6}
@@ -36,7 +37,7 @@
 
     // Rock Pocket Games
     { id: 1012840, name: "Moons of Madness", developer: "Rock Pocket Games", release: "Full", store: "Live" }, // :contentReference[oaicite:22]{index=22}
-    { id: 1299290, name: "Somber Echoes", developer: "Rock Pocket Games", release: "Upcoming", store: "Live" }, // :contentReference[oaicite:23]{index=23}
+    { id: 1299290, name: "Somber Echoes", developer: "Rock Pocket Games", release: "Full", store: "Live" }, // :contentReference[oaicite:23]{index=23}
     { id: 1668080, name: "Pinchcliffe Grand Prix", developer: "Rock Pocket Games", release: "Full", store: "Live" }, // :contentReference[oaicite:24]{index=24}
     { id: 1383970, name: "Captain Sabertooth and the Magic Diamond", developer: "Rock Pocket Games", release: "Full", store: "Live" }, // :contentReference[oaicite:25]{index=25}
     { id: 3352670, name: "Pinchcliffe Grand Prix Anniversary Edition", developer: "Rock Pocket Games", release: "Full", store: "Live" }, // :contentReference[oaicite:26]{index=26}
