@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Norwegian Game Stats</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,50 +15,114 @@
     </header>
 
     <main>
-        <section id="leaderboards">
-            <div class="leaderboard-container">
-                <div class="leaderboard">
-                    <h2>Current Top Players</h2>
-                    <table id="current-leaderboard">
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Game</th>
-                                <th>Players</th>
-                            </tr>
-                        </thead>
-                        <tbody></tbody>
-                    </table>
-                </div>
-                <div class="leaderboard">
-                    <h2>Historical All-Time Peaks</h2>
-                    <table id="peak-leaderboard">
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Game</th>
-                                <th>Peak Players</th>
-                            </tr>
-                        </thead>
-                        <tbody></tbody>
-                    </table>
-                </div>
+        <section id="global-stats">
+            <div class="stat-item">
+                <span id="total-players" class="stat-value">-</span>
+                <span class="stat-label">Total Players Now</span>
+            </div>
+            <div class="stat-item">
+                <span id="top-game" class="stat-value">-</span>
+                <span class="stat-label">Top Game</span>
+            </div>
+            <div class="stat-item">
+                <span id="total-games" class="stat-value">-</span>
+                <span class="stat-label">Games Tracked</span>
             </div>
         </section>
 
-        <section id="game-list">
-            <h2>Overview</h2>
-            <div id="latest-stats" class="stats-grid">
-                <!-- Latest stats will be injected here -->
-            </div>
-        </section>
+        <div class="layout-container">
+            <aside class="sidebar">
+                <section id="leaderboards">
+                    <div class="card leaderboard-card">
+                        <h2>Top Projects</h2>
+                        <div class="tabs">
+                            <button class="tab-btn active" onclick="switchTab('current')">Current Players</button>
+                            <button class="tab-btn" onclick="switchTab('peak')">All-Time Peak</button>
+                        </div>
+                        
+                        <div id="current-tab" class="tab-content active">
+                            <table id="current-leaderboard">
+                                <thead>
+                                    <tr>
+                                        <th class="rank-cell">#</th>
+                                        <th>Game</th>
+                                        <th class="count-cell">Players</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
 
-        <section id="charts">
-            <h2>Historical Stats</h2>
-            <div id="chart-container">
-                <!-- Charts will be injected here -->
+                        <div id="peak-tab" class="tab-content">
+                            <table id="peak-leaderboard">
+                                <thead>
+                                    <tr>
+                                        <th class="rank-cell">#</th>
+                                        <th>Game</th>
+                                        <th class="count-cell">Peak</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+
+            <div class="main-content">
+                <section id="charts">
+                    <div class="card">
+                        <h2>Analytics Dashboard</h2>
+                        
+                        <div id="controls">
+                            <div class="control-group">
+                                <label>Time Period</label>
+                                <select id="time-range-type">
+                                    <option value="24h">Last 24 Hours</option>
+                                    <option value="7d">Last 7 Days</option>
+                                    <option value="30d" selected>Last 30 Days</option>
+                                    <option value="custom">Custom Range</option>
+                                </select>
+                                <div id="custom-range-inputs" style="display: none; margin-top: 10px;">
+                                    <input type="datetime-local" id="start-date">
+                                    <span>to</span>
+                                    <input type="datetime-local" id="end-date">
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <label>Compare Projects</label>
+                                <select id="compare-selector">
+                                    <option value="" disabled selected>Add game to compare...</option>
+                                </select>
+                                <div id="comparison-list" class="comparison-tags">
+                                    <!-- Selected projects will appear as tags here -->
+                                </div>
+                            </div>
+
+                            <div class="control-actions" id="comparison-actions" style="display: none;">
+                                <button id="clear-comparison-btn" class="secondary">Reset Comparison</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="comparison-section" class="card chart-section" style="display: none;">
+                        <h3>Comparison Analysis</h3>
+                        <div class="chart-container">
+                            <canvas id="comparison-chart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="search-container">
+                        <input type="text" id="game-search" placeholder="Search games or studios...">
+                    </div>
+
+                    <div id="individual-charts-grid" class="chart-grid">
+                        <!-- Individual charts will be injected here -->
+                    </div>
+                </section>
             </div>
-        </section>
+        </div>
     </main>
 
     <footer>

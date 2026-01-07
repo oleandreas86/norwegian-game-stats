@@ -38,31 +38,45 @@ async function backfillHistory(appid) {
   }
 }
 
+let isCollecting = false;
+
 async function collectAll() {
-  console.log(`[${new Date().toISOString()}] Starting collection...`);
-  for (const game of config.games) {
-    if (!game.id) {
-      console.warn(`Skipping game with missing ID: ${game.name}`);
-      continue;
-    }
-
-    // Check if we need to backfill
-    const countRecords = await db.getStatCount(game.id);
-    if (countRecords < 50) {
-      await backfillHistory(game.id);
-      // Wait a bit after backfill to be nice to SteamCharts
-      await new Promise(resolve => setTimeout(resolve, 2000));
-    }
-
-    const count = await fetchPlayerCount(game.id);
-    if (count !== null) {
-      await db.insertStat(game.id, count);
-      console.log(`Collected ${game.name} (${game.id}): ${count}`);
-    }
-    // Respectful delay between requests
-    await new Promise(resolve => setTimeout(resolve, 1000));
+  if (isCollecting) {
+    console.log(`[${new Date().toISOString()}] Collection already in progress, skipping...`);
+    return;
   }
-  console.log(`[${new Date().toISOString()}] Collection finished.`);
+  isCollecting = true;
+  
+  try {
+    console.log(`[${new Date().toISOString()}] Starting collection...`);
+    for (const game of config.games) {
+      if (!game.id) {
+        console.warn(`Skipping game with missing ID: ${game.name}`);
+        continue;
+      }
+
+      // Check if we need to backfill
+      const countRecords = await db.getStatCount(game.id);
+      if (countRecords < 50) {
+        await backfillHistory(game.id);
+        // Wait a bit after backfill to be nice to SteamCharts
+        await new Promise(resolve => setTimeout(resolve, 2000));
+      }
+
+      const count = await fetchPlayerCount(game.id);
+      if (count !== null) {
+        await db.insertStat(game.id, count);
+        console.log(`Collected ${game.name} (${game.id}): ${count}`);
+      }
+      // Respectful delay between requests
+      await new Promise(resolve => setTimeout(resolve, 1000));
+    }
+    console.log(`[${new Date().toISOString()}] Collection finished.`);
+  } catch (error) {
+    console.error(`[${new Date().toISOString()}] Collection failed:`, error.message);
+  } finally {
+    isCollecting = false;
+  }
 }
 
 if (require.main === module) {

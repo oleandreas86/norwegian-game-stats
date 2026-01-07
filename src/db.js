@@ -1,5 +1,13 @@
 ﻿const sqlite3 = require('sqlite3').verbose();
 const config = require('./config');
+const fs = require('fs');
+const path = require('path');
+
+// Ensure database directory exists
+const dbDir = path.dirname(config.databasePath);
+if (!fs.existsSync(dbDir)) {
+  fs.mkdirSync(dbDir, { recursive: true });
+}
 
 const db = new sqlite3.Database(config.databasePath);
 
@@ -8,18 +16,19 @@ db.serialize(() => {
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     appid INTEGER,
     player_count INTEGER,
-    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE(appid, timestamp)
   )`);
   
-  db.run(`CREATE INDEX IF NOT EXISTS idx_appid_timestamp ON game_stats (appid, timestamp)`);
+  db.run(`CREATE UNIQUE INDEX IF NOT EXISTS idx_appid_timestamp ON game_stats (appid, timestamp)`);
 });
 
 module.exports = {
   insertStat: (appid, player_count, timestamp = null) => {
     return new Promise((resolve, reject) => {
       const query = timestamp 
-        ? `INSERT INTO game_stats (appid, player_count, timestamp) VALUES (?, ?, ?)`
-        : `INSERT INTO game_stats (appid, player_count) VALUES (?, ?)`;
+        ? `INSERT OR IGNORE INTO game_stats (appid, player_count, timestamp) VALUES (?, ?, ?)`
+        : `INSERT OR IGNORE INTO game_stats (appid, player_count) VALUES (?, ?)`;
       const params = timestamp ? [appid, player_count, timestamp] : [appid, player_count];
       
       db.run(query, params, function(err) {
@@ -28,9 +37,37 @@ module.exports = {
       });
     });
   },
-  getStats: (appid, limit = 144) => { // Default to ~24 hours if polled every 10 mins
+  getStats: (appid, start = null, end = null, limit = null) => {
     return new Promise((resolve, reject) => {
-      db.all(`SELECT player_count, timestamp FROM game_stats WHERE appid = ? ORDER BY timestamp DESC LIMIT ?`, [appid, limit], (err, rows) => {
+      let query = `SELECT player_count, timestamp FROM game_stats WHERE appid = ?`;
+      const params = [appid];
+
+      // Normalize timestamps to SQLite format: YYYY-MM-DD HH:MM:SS
+      const normalize = (ts) => {
+        if (!ts) return ts;
+        return ts.replace('T', ' ').replace('Z', '').split('.')[0];
+      };
+
+      const nStart = normalize(start);
+      const nEnd = normalize(end);
+
+      if (nStart) {
+        query += ` AND timestamp >= ?`;
+        params.push(nStart);
+      }
+      if (nEnd) {
+        query += ` AND timestamp <= ?`;
+        params.push(nEnd);
+      }
+
+      query += ` ORDER BY timestamp DESC`;
+
+      if (limit) {
+        query += ` LIMIT ?`;
+        params.push(limit);
+      }
+
+      db.all(query, params, (err, rows) => {
         if (err) reject(err);
         else resolve(rows.reverse());
       });
@@ -51,14 +88,14 @@ module.exports = {
       
       const placeholders = gameIds.map(() => '?').join(',');
       db.all(`
-        SELECT s1.appid, s1.player_count, s1.timestamp
-        FROM game_stats s1
-        INNER JOIN (
-          SELECT appid, MAX(timestamp) as max_ts
+        SELECT appid, player_count, timestamp
+        FROM game_stats
+        WHERE id IN (
+          SELECT MAX(id)
           FROM game_stats
           WHERE appid IN (${placeholders})
           GROUP BY appid
-        ) s2 ON s1.appid = s2.appid AND s1.timestamp = s2.max_ts
+        )
       `, gameIds, (err, rows) => {
         if (err) reject(err);
         else resolve(rows);

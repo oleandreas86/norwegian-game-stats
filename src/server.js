@@ -18,7 +18,15 @@ app.get('/api/games', (req, res) => {
 
 app.get('/api/stats/:appid', async (req, res) => {
   try {
-    const stats = await db.getStats(req.params.appid);
+    const { start, end, limit } = req.query;
+    // Default limit only if no range is specified (4320 points = 30 days at 10 min intervals)
+    const defaultLimit = (start || end) ? undefined : 4320;
+    const stats = await db.getStats(
+      req.params.appid, 
+      start, 
+      end, 
+      limit ? parseInt(limit) : defaultLimit
+    );
     res.json(stats);
   } catch (err) {
     res.status(500).json({ error: err.message });
