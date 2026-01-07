@@ -1,4 +1,4 @@
-﻿# Norwegian Game Stats
+﻿# 🇳🇴 Norwegian Game Stats
 
 A simple website that tracks player counts for Norwegian video games on Steam, inspired by SteamDB.
 
