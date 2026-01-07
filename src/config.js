@@ -9,12 +9,7 @@
     { id: 396280, name: "Anarchy Online", developer: "Funcom", release: "Full", store: "Live" }, // :contentReference[oaicite:4]{index=4}
     { id: 6310, name: "The Longest Journey", developer: "Funcom", release: "Full", store: "Live" }, // :contentReference[oaicite:5]{index=5}
     { id: 237850, name: "Dreamfall Chapters", developer: "Red Thread Games (Funcom)", release: "Full", store: "Live" }, // :contentReference[oaicite:6]{index=6}
-
-    // The Bearded Ladies (Sweden/Norway roots; listed because you requested them earlier)
-    { id: 760060, name: "Mutant Year Zero: Road to Eden", developer: "The Bearded Ladies", release: "Full", store: "Live" }, // :contentReference[oaicite:7]{index=7}
-    { id: 1088000, name: "Mutant Year Zero: Seed of Evil", developer: "The Bearded Ladies", release: "Full", store: "Live" }, // :contentReference[oaicite:8]{index=8}
-    { id: 1649010, name: "Miasma Chronicles", developer: "The Bearded Ladies", release: "Full", store: "Live" }, // :contentReference[oaicite:9]{index=9}
-    { id: 2660410, name: "CORRUPTION 2029", developer: "The Bearded Ladies", release: "Full", store: "Live" }, // :contentReference[oaicite:10]{index=10}
+    { id: 760060, name: "Mutant Year Zero: Road to Eden", developer: "The Bearded Ladies (Funcom)", release: "Full", store: "Live" }, // :contentReference[oaicite:7]{index=7}
 
     // Vedinad
     { id: 3405340, name: "Megabonk", developer: "vedinad", release: "Full", store: "Live" }, // :contentReference[oaicite:11]{index=11}
