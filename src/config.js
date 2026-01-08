@@ -29,6 +29,10 @@
     { id: 249590, name: "Teslagrad", developer: "Rain Games", release: "Full", store: "Live" }, // :contentReference[oaicite:19]{index=19}
     { id: 2168150, name: "Teslagrad Remastered", developer: "Rain Games", release: "Full", store: "Live" }, // :contentReference[oaicite:20]{index=20}
     { id: 1698220, name: "Teslagrad 2", developer: "Rain Games", release: "Full", store: "Live" }, // :contentReference[oaicite:21]{index=21}
+    { id: 530020, name: "World to the West", developer: "Rain Games", release: "Full", store: "Live" },
+    { id: 1308760, name: "Mesmer", developer: "Rain Games", release: "Full", store: "Live" },
+    { id: 1789370, name: "Girl Genius: Adventures In Castle Heterodyne", developer: "Rain Games", release: "Full", store: "Live" },
+    { id: 1133070, name: "Viking Chess: Hnefatafl", developer: "Rain Games", release: "Full", store: "Live" }
 
     // Rock Pocket Games
     { id: 1012840, name: "Moons of Madness", developer: "Rock Pocket Games", release: "Full", store: "Live" }, // :contentReference[oaicite:22]{index=22}
@@ -74,8 +78,35 @@
     // Antagonist
     { id: 368430, name: "Through the Woods", developer: "Antagonist", release: "Full", store: "Live" }, // :contentReference[oaicite:47]{index=47}
 
-    // Indie solo / small Norwegian devs
-    { id: 544970, name: "Milkmaid of the Milky Way", developer: "Mattis Folkestad (machineboy)", release: "Full", store: "Live" } // :contentReference[oaicite:48]{index=48}
+    // Machineboy
+    { id: 544970, name: "Milkmaid of the Milky Way", developer: "Machineboy", release: "Full", store: "Live" }, // :contentReference[oaicite:48]{index=48}
+    { id: 1311510, name: "Embracelet", developer: "Machineboy", release: "Full", store: "Live" },
+
+    // Henchman & Goon
+    { id: 944080, name: "Pode", developer: "Henchman & Goon", release: "Full", store: "Live" },
+
+    // Moondrop
+    { id: 809880, name: "Degrees of Separation", developer: "Moondrop", release: "Full", store: "Live" },
+
+    // Agelvik
+    { id: 1127850, name: "Apple Slash", developer: "Agelvik", release: "Full", store: "Live" },
+    { id: 1287040, name: "Gun Devil", developer: "Agelvik", release: "Full", store: "Live" },
+    { id: 1919100, name: "Lulu's Temple", developer: "Agelvik", release: "Full", store: "Live" },
+
+    // Perfectly Paranormal
+    { id: 1095120, name: "Helheim Hassle", developer: "Perfectly Paranormal", release: "Full", store: "Live" },
+
+    // Arik Games
+    { id: 1288760, name: "Dude, Where Is My Beer?", developer: "Arik Games", release: "Full", store: "Live" },
+
+    // Slid Studio
+    { id: 1639790, name: "Northern Journey", developer: "Slid Studio", release: "Full", store: "Live" },
+
+    // Skinny Bandit
+    { id: 1725350, name: "Mari and Bayu: The Road Home", developer: "Skinny Bandit", release: "Full", store: "Live" },
+
+    // Tidvis
+    { id: 2184880, name: "The Widow's Boutique", developer: "Tidvis", release: "Full", store: "Live" }
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
