@@ -8,8 +8,10 @@
     { id: 215280, name: "Secret World Legends", developer: "Funcom", release: "Full", store: "Live" },
     { id: 396280, name: "Anarchy Online", developer: "Funcom", release: "Full", store: "Live" }, // :contentReference[oaicite:4]{index=4}
     { id: 6310, name: "The Longest Journey", developer: "Funcom", release: "Full", store: "Live" }, // :contentReference[oaicite:5]{index=5}
-    { id: 237850, name: "Dreamfall Chapters", developer: "Red Thread Games (Funcom)", release: "Full", store: "Live" }, // :contentReference[oaicite:6]{index=6}
     { id: 760060, name: "Mutant Year Zero: Road to Eden", developer: "The Bearded Ladies (Funcom)", release: "Full", store: "Live" }, // :contentReference[oaicite:7]{index=7}
+    { id: 6300, name: "Dreamfall: The Longest Journey", developer: "Funcom", release: "Full", store: "Live" },
+    { id: 217750, name: "Age of Conan: Unchained", developer: "Funcom", release: "Full", store: "Live" },
+    { id: 324790, name: "LEGO Minifigures Online", developer: "Funcom", release: "Full", store: "Delisted" },
 
     // Vedinad
     { id: 3405340, name: "Megabonk", developer: "vedinad", release: "Full", store: "Live" }, // :contentReference[oaicite:11]{index=11}
@@ -22,8 +24,9 @@
     { id: 250600, name: "The Plan", developer: "Krillbite Studio", release: "Full", store: "Live" }, // :contentReference[oaicite:16]{index=16}
 
     // Red Thread Games
-    { id: 591970, name: "Draugen", developer: "Red Thread Games", release: "Full", store: "Live" }, // :contentReference[oaicite:17]{index=17}
-    { id: 1943540, name: "Dustborn", developer: "Red Thread Games", release: "Full", store: "Live" }, // 
+    { id: 770390, name: "Draugen", developer: "Red Thread Games", release: "Full", store: "Live" }, // :contentReference[oaicite:17]{index=17}
+    { id: 721180, name: "Dustborn", developer: "Red Thread Games", release: "Full", store: "Live" }, // 
+    { id: 237850, name: "Dreamfall Chapters", developer: "Red Thread Games", release: "Full", store: "Live" }, // :contentReference[oaicite:6]{index=6}
 
     // Rain Games
     { id: 249590, name: "Teslagrad", developer: "Rain Games", release: "Full", store: "Live" }, // :contentReference[oaicite:19]{index=19}
@@ -37,10 +40,10 @@
     // Rock Pocket Games
     { id: 1012840, name: "Moons of Madness", developer: "Rock Pocket Games", release: "Full", store: "Live" }, // :contentReference[oaicite:22]{index=22}
     { id: 1299290, name: "Somber Echoes", developer: "Rock Pocket Games", release: "Full", store: "Live" }, // :contentReference[oaicite:23]{index=23}
-    { id: 1668080, name: "Pinchcliffe Grand Prix", developer: "Rock Pocket Games", release: "Full", store: "Live" }, // :contentReference[oaicite:24]{index=24}
-    { id: 1383970, name: "Captain Sabertooth and the Magic Diamond", developer: "Rock Pocket Games", release: "Full", store: "Live" }, // :contentReference[oaicite:25]{index=25}
-    { id: 3352670, name: "Pinchcliffe Grand Prix Anniversary Edition", developer: "Rock Pocket Games", release: "Full", store: "Live" }, // :contentReference[oaicite:26]{index=26}
-    { id: 3607210, name: "Pinchcliffe Grand Prix Mini games", developer: "Rock Pocket Games", release: "Full", store: "Live" }, // :contentReference[oaicite:27]{index=27}
+    { id: 1668080, name: "Pinchcliffe Grand Prix", developer: "Rock Pocket Games (Ravn)", release: "Full", store: "Live" }, // :contentReference[oaicite:24]{index=24}
+    { id: 1383970, name: "Captain Sabertooth and the Magic Diamond", developer: "Rock Pocket Games (Ravn)", release: "Full", store: "Live" }, // :contentReference[oaicite:25]{index=25}
+    { id: 3352670, name: "Pinchcliffe Grand Prix Anniversary Edition", developer: "Rock Pocket Games (Ravn)", release: "Full", store: "Live" }, // :contentReference[oaicite:26]{index=26}
+    { id: 3607210, name: "Pinchcliffe Grand Prix Mini games", developer: "Rock Pocket Games (Ravn)", release: "Full", store: "Live" }, // :contentReference[oaicite:27]{index=27}
 
     // Hyper Games
     { id: 1808680, name: "Snufkin: Melody of Moominvalley", developer: "Hyper Games", release: "Full", store: "Live" }, // :contentReference[oaicite:28]{index=28}
@@ -51,6 +54,7 @@
     // Snowcastle Games
     { id: 761030, name: "EARTHLOCK", developer: "Snowcastle Games", release: "Full", store: "Live" }, // :contentReference[oaicite:32]{index=32}
     { id: 1550730, name: "Ikonei Island: An Earthlock Adventure", developer: "Snowcastle Games", release: "Full", store: "Live" }, // :contentReference[oaicite:33]{index=33}
+    { id: 2994600, name: "Lysward", developer: "Snowcastle Games", release: "Upcoming", store: "Live" }, // :contentReference[oaicite:33]{index=33}
 
     // Megapop
     { id: 1655670, name: "Rob Riches", developer: "Megapop", release: "Full", store: "Live" }, // :contentReference[oaicite:34]{index=34}
@@ -66,7 +70,7 @@
     { id: 115800, name: "Owlboy", developer: "D-Pad Studio", release: "Full", store: "Live" }, // :contentReference[oaicite:40]{index=40}
     { id: 269770, name: "Savant - Ascent", developer: "D-Pad Studio", release: "Full", store: "Live" }, // :contentReference[oaicite:41]{index=41}
 
-    // Sarepta Studio (+ delisted original marked)
+    // Sarepta Studio
     { id: 1783680, name: "Thalassa: Edge of the Abyss", developer: "Sarepta Studio", release: "Full", store: "Live" }, // :contentReference[oaicite:42]{index=42}
     { id: 2430730, name: "My Child Lebensborn Remastered", developer: "Sarepta Studio", release: "Full", store: "Live" }, // :contentReference[oaicite:43]{index=43}
     { id: 1114070, name: "My Child Lebensborn", developer: "Sarepta Studio", release: "Full", store: "Delisted/Retired" }, // :contentReference[oaicite:44]{index=44}
@@ -84,9 +88,11 @@
 
     // Henchman & Goon
     { id: 944080, name: "Pode", developer: "Henchman & Goon", release: "Full", store: "Live" },
+    { id: 341760, name: "Flem", developer: "Henchman & Goon", release: "Full", store: "Live" },
 
     // Moondrop
     { id: 809880, name: "Degrees of Separation", developer: "Moondrop", release: "Full", store: "Live" },
+    { id: 331510, name: "Amphora", developer: "Moondrop", release: "Full", store: "Live" },
 
     // Agelvik
     { id: 1127850, name: "Apple Slash", developer: "Agelvik", release: "Full", store: "Live" },
@@ -95,6 +101,8 @@
 
     // Perfectly Paranormal
     { id: 1095120, name: "Helheim Hassle", developer: "Perfectly Paranormal", release: "Full", store: "Live" },
+    { id: 504130, name: "Manual Samuel - Last Tuesday Edition", developer: "Perfectly Paranormal", release: "Full", store: "Live" },
+    { id: 1466230, name: "The Holy Gosh Darn", developer: "Perfectly Paranormal", release: "Full", store: "Live" },
 
     // Arik Games
     { id: 1288760, name: "Dude, Where Is My Beer?", developer: "Arik Games", release: "Full", store: "Live" },
