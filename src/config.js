@@ -32,7 +32,7 @@
     { id: 530020, name: "World to the West", developer: "Rain Games", release: "Full", store: "Live" },
     { id: 1308760, name: "Mesmer", developer: "Rain Games", release: "Full", store: "Live" },
     { id: 1789370, name: "Girl Genius: Adventures In Castle Heterodyne", developer: "Rain Games", release: "Full", store: "Live" },
-    { id: 1133070, name: "Viking Chess: Hnefatafl", developer: "Rain Games", release: "Full", store: "Live" }
+    { id: 1133070, name: "Viking Chess: Hnefatafl", developer: "Rain Games", release: "Full", store: "Live" },
 
     // Rock Pocket Games
     { id: 1012840, name: "Moons of Madness", developer: "Rock Pocket Games", release: "Full", store: "Live" }, // :contentReference[oaicite:22]{index=22}
