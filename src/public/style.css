@@ -201,7 +201,7 @@ main {
     background: none;
     cursor: pointer;
     font-weight: 800;
-    font-size: 0.8em;
+    font-size: 0.7em;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #8f98a0;
@@ -295,9 +295,9 @@ tr:last-child td {
     border-bottom: none;
 }
 
-.rank-cell { width: 35px; color: #8f98a0; }
+.rank-cell { width: 50px; color: #8f98a0; }
 .game-cell { width: auto; }
-.score-cell { width: 100px; }
+.score-cell { width: 80px; }
 .count-cell { text-align: right; font-weight: bold; color: var(--primary-color); width: 130px; }
 
 .count-flex span {
