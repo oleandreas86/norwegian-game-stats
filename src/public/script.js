@@ -44,6 +44,11 @@ async function init() {
     if (leaderboards.metadata) {
         const sortedSales = [...leaderboards.metadata].sort((a, b) => b.estimated_sales - a.estimated_sales);
         populateLeaderboard('sales-leaderboard', sortedSales, allGames, 'estimated_sales');
+
+        const sortedRatings = [...leaderboards.metadata]
+            .filter(item => item.review_score !== null && item.reviews >= 10)
+            .sort((a, b) => b.review_score - a.review_score || b.reviews - a.reviews);
+        populateLeaderboard('rating-leaderboard', sortedRatings, allGames, 'review_score');
     }
 
     // Update Global Stats
@@ -170,9 +175,16 @@ function populateLeaderboard(tableId, data, games, countKey) {
         const isComparing = comparisonAppids.includes(item.appid);
         
         let countTitle = '';
+        let displayValue = item[countKey].toLocaleString();
+        let subValue = '';
+
         if (countKey === 'estimated_sales' && item.reviews !== undefined) {
             const multiplier = item.reviews > 0 ? (item.estimated_sales / item.reviews).toFixed(1) : '0';
             countTitle = `${game.name}: Based on ${item.reviews.toLocaleString()} reviews (Multiplier: ${multiplier}x)`;
+        } else if (countKey === 'review_score') {
+            displayValue = `${item[countKey]}%`;
+            subValue = `<div class="review-count-small">${item.reviews.toLocaleString()} reviews</div>`;
+            countTitle = `${game.name}: ${item.review_score_desc || ''}`;
         }
 
         let badges = '';
@@ -201,7 +213,7 @@ function populateLeaderboard(tableId, data, games, countKey) {
             ${scoreCell}
             <td class="count-cell">
                 <div class="count-flex">
-                    <span title="${countTitle}">${item[countKey].toLocaleString()}</span>
+                    <span title="${countTitle}">${displayValue}${subValue}</span>
                     <button class="compare-btn-small ${isComparing ? 'active' : ''}" 
                             onclick="toggleComparison(${item.appid})" 
                             title="${isComparing ? 'Remove from comparison' : 'Add to comparison'}">

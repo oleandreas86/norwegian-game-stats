@@ -50,6 +50,7 @@
                             <button class="tab-btn active" onclick="switchTab('current')">Current Players</button>
                             <button class="tab-btn" onclick="switchTab('peak')">All-Time Peak</button>
                             <button class="tab-btn" onclick="switchTab('sales')">Est. Owners</button>
+                            <button class="tab-btn" onclick="switchTab('rating')">Rating</button>
                         </div>
                         
                         <div id="current-tab" class="tab-content active">
@@ -91,6 +92,20 @@
                                 <tbody></tbody>
                             </table>
                             <p class="methodology-note">* Owners are estimated using a dynamic multiplier based on release year, price, genre, and total reviews (Boxleiter method). This provides a more accurate estimation across different game types and eras.</p>
+                        </div>
+
+                        <div id="rating-tab" class="tab-content">
+                            <table id="rating-leaderboard">
+                                <thead>
+                                    <tr>
+                                        <th class="rank-cell">#</th>
+                                        <th>Game</th>
+                                        <th class="count-cell">Rating</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <p class="methodology-note">* Games are ranked by positive review percentage. Only games with at least 10 reviews are included in this ranking.</p>
                         </div>
                     </div>
                 </section>
