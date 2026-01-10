@@ -114,7 +114,10 @@
     { id: 1725350, name: "Mari and Bayu: The Road Home", developer: "Skinny Bandit", release: "Full", store: "Live" },
 
     // Tidvis
-    { id: 2184880, name: "The Widow's Boutique", developer: "Tidvis", release: "Full", store: "Live" }
+    { id: 2184880, name: "The Widow's Boutique", developer: "Tidvis", release: "Full", store: "Live" },
+      
+    // Tidvis
+    { id: 1069160, name: "SKALD: Against the Black Priory", developer: "High North Studios AS", release: "Full", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes

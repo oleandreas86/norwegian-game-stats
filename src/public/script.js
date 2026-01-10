@@ -115,6 +115,12 @@ function updateGlobalStats(leaderboards) {
     const peakGameItem = peaks.length > 0 ? peaks[0] : null;
     const peakGame = peakGameItem ? allGames.find(g => g.id === peakGameItem.appid) : null;
 
+    const sortedRatings = [...metadata]
+        .filter(item => item.review_score !== null && item.reviews >= 10)
+        .sort((a, b) => b.review_score - a.review_score || b.reviews - a.reviews);
+    const bestRatedItem = sortedRatings.length > 0 ? sortedRatings[0] : null;
+    const bestRated = bestRatedItem ? allGames.find(g => g.id === bestRatedItem.appid) : null;
+
     document.getElementById('total-players').textContent = totalPlayers.toLocaleString();
     
     document.getElementById('top-game').textContent = topGame ? topGame.name : '-';
@@ -122,6 +128,9 @@ function updateGlobalStats(leaderboards) {
 
     document.getElementById('top-seller').textContent = topSeller ? topSeller.name : '-';
     document.getElementById('top-seller-val').textContent = topSellerItem ? `${formatSales(topSellerItem.estimated_sales)} Est. Owners` : '';
+
+    document.getElementById('best-rated').textContent = bestRated ? bestRated.name : '-';
+    document.getElementById('best-rated-val').textContent = bestRatedItem ? `${bestRatedItem.review_score}% (${bestRatedItem.reviews.toLocaleString()} reviews)` : '';
 
     document.getElementById('peak-record').textContent = peakGame ? peakGame.name : '-';
     document.getElementById('peak-record-val').textContent = peakGameItem ? `${peakGameItem.peak_player_count.toLocaleString()} Peak` : '';

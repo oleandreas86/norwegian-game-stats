@@ -1,465 +1,372 @@
-﻿{
-  "type": "game",
-  "name": "Conan Exiles",
-  "steam_appid": 440900,
-  "required_age": 0,
-  "is_free": false,
-  "controller_support": "full",
-  "dlc": [
-    1206200,
-    1668110,
-    1265640,
-    1173900,
-    1147100,
-    1134010,
-    1076150,
-    1040930,
-    972370,
-    919390,
-    887120,
-    760730
-  ],
-  "detailed_description": "<p class=\"bb_paragraph\" >Conan Exiles is an online multiplayer survival game, now with sorcery, set in the lands of Conan the Barbarian. Enter a vast, open-world sandbox and play together with friends and strangers as you build your own home or even a shared city. Survive freezing cold temperatures, explore loot-filled dungeons, develop your character from scavenging survivor to mighty barbarian and powerful sorcerer, and fight to dominate your enemies in epic siege wars. </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Conan Exiles can be played in full single-player, co-op, or persistent online multiplayer.</strong></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >After Conan himself saves your life by cutting you down from the corpse tree, you must quickly learn to survive. Weather scouring sandstorms, shield yourself from intense temperatures and hunt animals for food and resources. Explore a vast and seamless world, from the burning desert in the south to the snow-capped mountains of the north.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Forge the legacy of your clan as you fight to reclaim and dominate the Exiled Lands. Use the powerful building system to create anything from a small home to entire cities piece by piece. Wage war using swords, sorcery, bows, and siege weapons, even taking control of giant avatars of the gods to crush the homes of your enemies in epic battles.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >SURVIVE IN A SAVAGE LAND</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/0d17156081f379064f7f0737867afd86.avif?t=1766090090\" width=616 height=198 /></span>Dress well or light a campfire to stay warm and make sure to cool yourself down in the heat. Hunt, cook, eat, and drink to stay alive. Build a shelter to weather scouring sandstorms. Be careful when exploring darkened ruins or you might become corrupted by foul sorcery.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >BUILD A HOME AND A KINGDOM</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/3c21c31cf498e0b93e705b216a72fec6.avif?t=1766090090\" width=616 height=198 /></span>Harvest resources to craft tools and weapons, then build anything from a small home to entire cities piece by piece using a powerful building system. Place traps, elevators, and defenses, then deck out your creations with furniture, crafting stations, and more.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >DOMINATE THE EXILED LANDS</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/00cb2c0f82bdcaf9c42973f757b7de8e.avif?t=1766090090\" width=616 height=198 /></span>Carve out your piece of the Exiled Lands, taking it from other players if you must! Build siege weapons and use explosives to break down the walls of your enemy’s city. Place traps, recruit thralls, and build defenses to keep your enemies from invading you.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >CORRUPT YOURSELF TO WIELD DARK SORCERY</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/a0c0622e7acff3e44646b674a9d9d42b.avif?t=1766090090\" width=616 height=198 /></span>Discover insidious sorceries and corrupt your body to wield them. Special perks are awarded to those who give up a portion of their life force. Sacrifice thralls to summon demons and the undead and bend them to your will. Conjure darkness, soar the skies on winged monstrosities, and call down lightning to strike your foes.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >AGES ARRIVE IN THE EXILES LANDS</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/59aa7aef3f931bf16fce211936e110ed.avif?t=1766090090\" width=616 height=198 /></span>Updates in Conan Exiles now come in Ages. Each Age has its own theme, free gameplay updates, and Battle Passes. This model allows us to add features and improvements for free, while providing an easy way for any player to support the game’s growth and receive exclusive themed cosmetics.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >EXPLORE A VAST, OPEN WORLD</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/671c82f6113fb954097d057bb6599cd2.avif?t=1766090090\" width=616 height=198 /></span>Journey through a massive and seamless open world, from the rolling sand dunes of the southern desert to the mysterious eastern swamp and the snow-capped mountains of the frozen north. Climb anywhere and experience full freedom of exploration.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >BRUTAL, BLOODY COMBAT</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/5aa770e7e2c8223701eaba93d39ffc20.avif?t=1766090090\" width=616 height=198 /></span>Fight vicious monsters and other players using an action-oriented, combo-based combat system. Dodge, block, and learn to master the true art of combat to become the greatest fighter in the Exiled Lands. Slay using bows, daggers, swords, axes, and more.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >ENSLAVE THRALLS TO DO YOUR BIDDING</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/f8cf26baf133cdc5993dc1c55df3d86b.avif?t=1766090090\" width=616 height=198 /></span>Enslave the criminals of the Exiled Lands and make them join your cause and defend your territory. Put them through the grueling Wheel of Pain to break their will, then turn them into archers, fighters, crafters, entertainers, and more.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >DISCOVER THE RUINS OF ANCIENT CIVILIZATIONS</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/d8dbcbaed106952c206af6adf9e0a9d0.avif?t=1766090090\" width=616 height=198 /></span>From the Black Keep in the north to the Dregs along the southern river, discover the ruins of ancient civilizations and solve their mysteries to gain access to their treasure. Uncover the history of the Exiled Lands you as you explore, uncover lore, and meet NPCs.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >BECOME A TOWERING GOD</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/af56a437c6f63a21f3ab57d1acde9327.avif?t=1766090090\" width=616 height=198 /></span>Alight yourself with one of four deities such as Derketo, the goddess of lust and death. Bring your sacrifices to the altar of your god then summon and take control of their huge, towering avatar. Crush enemies and entire buildings under your avatar’s feet.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >PLAY TOGETHER OR ALONE</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/608ef9b371f1549edf8051122469ea0e.avif?t=1766090090\" width=616 height=198 /></span>Play alone locally or fight for survival and dominance in persistent multiplayer on public servers. You can also host your own server and invite others to join you in a world where you have full control of the rules and settings. Want to play with just handful of friends? Try co-op mode!</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >CONTROL YOUR EXPERIENCE</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/276cc46094c74b0b06d721d0ec109394.avif?t=1766090090\" width=616 height=198 /></span>When playing alone locally or on a server you are the administrator of your world, with access to a range of in-game tools. Change your progression speed, spawn monsters, turn yourself invisible, deactivate avatars, and much more. Be the dungeon master of your own server.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >PLAY WITH MODS</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/654e6e8f3d303915285b83fe65ad190f.avif?t=1766090090\" width=616 height=198 /></span>Download Conan Exiles mods directly from the Steam workshop to customize your game experience. You can also download the custom Conan Exiles Unreal Editor and start creating your own. Countless mods await your discovery!</p>",
-  "about_the_game": "<p class=\"bb_paragraph\" >Conan Exiles is an online multiplayer survival game, now with sorcery, set in the lands of Conan the Barbarian. Enter a vast, open-world sandbox and play together with friends and strangers as you build your own home or even a shared city. Survive freezing cold temperatures, explore loot-filled dungeons, develop your character from scavenging survivor to mighty barbarian and powerful sorcerer, and fight to dominate your enemies in epic siege wars. </p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><strong>Conan Exiles can be played in full single-player, co-op, or persistent online multiplayer.</strong></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >After Conan himself saves your life by cutting you down from the corpse tree, you must quickly learn to survive. Weather scouring sandstorms, shield yourself from intense temperatures and hunt animals for food and resources. Explore a vast and seamless world, from the burning desert in the south to the snow-capped mountains of the north.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Forge the legacy of your clan as you fight to reclaim and dominate the Exiled Lands. Use the powerful building system to create anything from a small home to entire cities piece by piece. Wage war using swords, sorcery, bows, and siege weapons, even taking control of giant avatars of the gods to crush the homes of your enemies in epic battles.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >SURVIVE IN A SAVAGE LAND</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/0d17156081f379064f7f0737867afd86.avif?t=1766090090\" width=616 height=198 /></span>Dress well or light a campfire to stay warm and make sure to cool yourself down in the heat. Hunt, cook, eat, and drink to stay alive. Build a shelter to weather scouring sandstorms. Be careful when exploring darkened ruins or you might become corrupted by foul sorcery.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >BUILD A HOME AND A KINGDOM</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/3c21c31cf498e0b93e705b216a72fec6.avif?t=1766090090\" width=616 height=198 /></span>Harvest resources to craft tools and weapons, then build anything from a small home to entire cities piece by piece using a powerful building system. Place traps, elevators, and defenses, then deck out your creations with furniture, crafting stations, and more.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >DOMINATE THE EXILED LANDS</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/00cb2c0f82bdcaf9c42973f757b7de8e.avif?t=1766090090\" width=616 height=198 /></span>Carve out your piece of the Exiled Lands, taking it from other players if you must! Build siege weapons and use explosives to break down the walls of your enemy’s city. Place traps, recruit thralls, and build defenses to keep your enemies from invading you.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >CORRUPT YOURSELF TO WIELD DARK SORCERY</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/a0c0622e7acff3e44646b674a9d9d42b.avif?t=1766090090\" width=616 height=198 /></span>Discover insidious sorceries and corrupt your body to wield them. Special perks are awarded to those who give up a portion of their life force. Sacrifice thralls to summon demons and the undead and bend them to your will. Conjure darkness, soar the skies on winged monstrosities, and call down lightning to strike your foes.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >AGES ARRIVE IN THE EXILES LANDS</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/59aa7aef3f931bf16fce211936e110ed.avif?t=1766090090\" width=616 height=198 /></span>Updates in Conan Exiles now come in Ages. Each Age has its own theme, free gameplay updates, and Battle Passes. This model allows us to add features and improvements for free, while providing an easy way for any player to support the game’s growth and receive exclusive themed cosmetics.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >EXPLORE A VAST, OPEN WORLD</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/671c82f6113fb954097d057bb6599cd2.avif?t=1766090090\" width=616 height=198 /></span>Journey through a massive and seamless open world, from the rolling sand dunes of the southern desert to the mysterious eastern swamp and the snow-capped mountains of the frozen north. Climb anywhere and experience full freedom of exploration.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >BRUTAL, BLOODY COMBAT</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/5aa770e7e2c8223701eaba93d39ffc20.avif?t=1766090090\" width=616 height=198 /></span>Fight vicious monsters and other players using an action-oriented, combo-based combat system. Dodge, block, and learn to master the true art of combat to become the greatest fighter in the Exiled Lands. Slay using bows, daggers, swords, axes, and more.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >ENSLAVE THRALLS TO DO YOUR BIDDING</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/f8cf26baf133cdc5993dc1c55df3d86b.avif?t=1766090090\" width=616 height=198 /></span>Enslave the criminals of the Exiled Lands and make them join your cause and defend your territory. Put them through the grueling Wheel of Pain to break their will, then turn them into archers, fighters, crafters, entertainers, and more.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >DISCOVER THE RUINS OF ANCIENT CIVILIZATIONS</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/d8dbcbaed106952c206af6adf9e0a9d0.avif?t=1766090090\" width=616 height=198 /></span>From the Black Keep in the north to the Dregs along the southern river, discover the ruins of ancient civilizations and solve their mysteries to gain access to their treasure. Uncover the history of the Exiled Lands you as you explore, uncover lore, and meet NPCs.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >BECOME A TOWERING GOD</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/af56a437c6f63a21f3ab57d1acde9327.avif?t=1766090090\" width=616 height=198 /></span>Alight yourself with one of four deities such as Derketo, the goddess of lust and death. Bring your sacrifices to the altar of your god then summon and take control of their huge, towering avatar. Crush enemies and entire buildings under your avatar’s feet.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >PLAY TOGETHER OR ALONE</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/608ef9b371f1549edf8051122469ea0e.avif?t=1766090090\" width=616 height=198 /></span>Play alone locally or fight for survival and dominance in persistent multiplayer on public servers. You can also host your own server and invite others to join you in a world where you have full control of the rules and settings. Want to play with just handful of friends? Try co-op mode!</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >CONTROL YOUR EXPERIENCE</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/276cc46094c74b0b06d721d0ec109394.avif?t=1766090090\" width=616 height=198 /></span>When playing alone locally or on a server you are the administrator of your world, with access to a range of in-game tools. Change your progression speed, spawn monsters, turn yourself invisible, deactivate avatars, and much more. Be the dungeon master of your own server.</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >PLAY WITH MODS</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/extras/654e6e8f3d303915285b83fe65ad190f.avif?t=1766090090\" width=616 height=198 /></span>Download Conan Exiles mods directly from the Steam workshop to customize your game experience. You can also download the custom Conan Exiles Unreal Editor and start creating your own. Countless mods await your discovery!</p>",
-  "short_description": "An online multiplayer survival game, now with sorcery, set in the lands of Conan the Barbarian. Survive in a vast open world sandbox, build your home into a kingdom, and dominate your enemies in single or multiplayer.",
-  "supported_languages": "English<strong>*</strong>, French, German, Spanish - Spain, Japanese, Korean, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Italian<br><strong>*</strong>languages with full audio support",
-  "reviews": "“...the genre has saved one of its best till last.”<br>RECOMMENDED – Eurogamer<br><br>“Conan Exiles is brilliantly addictive.”<br>9/10 – GamingRespawn<br><br>“Survival fans must definitely check this out!”<br>82/100 – GameStar<br>",
-  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/header.jpg?t=1766090090",
-  "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/b46377618abbd2b277931161ea768097728734fd/capsule_231x87.jpg?t=1766090090",
-  "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/b46377618abbd2b277931161ea768097728734fd/capsule_184x69.jpg?t=1766090090",
-  "website": "http://www.conanexiles.com/",
-  "pc_requirements": {
-    "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64bit<br></li><li><strong>Processor:</strong> AMD Ryzen 5 3600 or Intel Core i5-10400F<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1650 or Radeon RX 580<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 115 GB available space</li></ul>",
-    "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11 64bit<br></li><li><strong>Processor:</strong> AMD Ryzen 7 5600X or Intel Core i7-11700F<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce RTX 3060 or AMD Radeon RX 6700 or Intel Arc A750<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 115 GB available space</li></ul>"
-  },
-  "mac_requirements": {
-    "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
-    "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
-  },
-  "linux_requirements": {
-    "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"></ul>",
-    "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>"
-  },
-  "legal_notice": "©2024 Conan Properties International LLC (\"CPI\"). CONAN, CONAN THE BARBARIAN, HYBORIA, and/or ROBERT E. HOWARD and related logos, characters, names, and distinctive likenesses thereof are trademarks or registered trademarks of CPI and/or Robert E. Howard Properties Inc. unless otherwise noted. All Rights Reserved. Funcom authorized user.",
-  "developers": [
-    "Funcom"
-  ],
-  "publishers": [
-    "Funcom"
-  ],
-  "price_overview": {
-    "currency": "NOK",
-    "initial": 39900,
-    "final": 39900,
-    "discount_percent": 0,
-    "initial_formatted": "",
-    "final_formatted": "399,00 kr"
-  },
-  "packages": [
-    268409
-  ],
-  "package_groups": [
-    {
-      "name": "default",
-      "title": "Buy Conan Exiles",
-      "description": "",
-      "selection_text": "Select a purchase option",
-      "save_text": "",
-      "display_type": 0,
-      "is_recurring_subscription": "false",
-      "subs": [
-        {
-          "packageid": 268409,
-          "percent_savings_text": " ",
-          "percent_savings": 0,
-          "option_text": "Conan Exiles - Standard Edition - 399,00 kr",
-          "option_description": "",
-          "can_get_free_license": "0",
-          "is_free_license": false,
-          "price_in_cents_with_discount": 39900
-        }
-      ]
-    }
-  ],
-  "platforms": {
-    "windows": true,
-    "mac": false,
-    "linux": false
-  },
-  "categories": [
-    {
-      "id": 2,
-      "description": "Single-player"
-    },
-    {
-      "id": 1,
-      "description": "Multi-player"
-    },
-    {
-      "id": 49,
-      "description": "PvP"
-    },
-    {
-      "id": 36,
-      "description": "Online PvP"
-    },
-    {
-      "id": 9,
-      "description": "Co-op"
-    },
-    {
-      "id": 38,
-      "description": "Online Co-op"
-    },
-    {
-      "id": 22,
-      "description": "Steam Achievements"
-    },
-    {
-      "id": 28,
-      "description": "Full controller support"
-    },
-    {
-      "id": 29,
-      "description": "Steam Trading Cards"
-    },
-    {
-      "id": 30,
-      "description": "Steam Workshop"
-    },
-    {
-      "id": 42,
-      "description": "Remote Play on Tablet"
-    },
-    {
-      "id": 43,
-      "description": "Remote Play on TV"
-    },
-    {
-      "id": 62,
-      "description": "Family Sharing"
-    }
-  ],
-  "genres": [
-    {
-      "id": "1",
-      "description": "Action"
-    },
-    {
-      "id": "25",
-      "description": "Adventure"
-    },
-    {
-      "id": "29",
-      "description": "Massively Multiplayer"
-    },
-    {
-      "id": "3",
-      "description": "RPG"
-    },
-    {
-      "id": "28",
-      "description": "Simulation"
-    },
-    {
-      "id": "2",
-      "description": "Strategy"
-    }
-  ],
-  "screenshots": [
-    {
-      "id": 0,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_cdc476e72f4da0e49c3aa12d15ec8527887aa11f.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_cdc476e72f4da0e49c3aa12d15ec8527887aa11f.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 1,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_028c3f9cfcd8308b6295d14be9ec63f5ae008156.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_028c3f9cfcd8308b6295d14be9ec63f5ae008156.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 2,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_803d48daedde40054e1b8393a8dac1bc906e6db5.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_803d48daedde40054e1b8393a8dac1bc906e6db5.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 3,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_5ab249b4f83d3edc17605ada0c5d0613cbca77bc.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_5ab249b4f83d3edc17605ada0c5d0613cbca77bc.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 4,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_2024f062f72315286a399fcfc6858071abad6e43.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_2024f062f72315286a399fcfc6858071abad6e43.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 5,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_df09dd265b6dcd41382faa860a9ffbd010f1f16d.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_df09dd265b6dcd41382faa860a9ffbd010f1f16d.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 6,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_47d8b45abbfee53c3d7f3c34b5bacba1fc6e2a4e.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_47d8b45abbfee53c3d7f3c34b5bacba1fc6e2a4e.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 7,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_0771dcbb4fddf17061195e6c132ee8cfc14e2ffb.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_0771dcbb4fddf17061195e6c132ee8cfc14e2ffb.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 8,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_72f2b2ad01a15c574cbda478ef50a655e3baf7f9.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_72f2b2ad01a15c574cbda478ef50a655e3baf7f9.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 9,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_08c199fd66c6fb35b599e1f4c635d0fbfad5f4da.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_08c199fd66c6fb35b599e1f4c635d0fbfad5f4da.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 10,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_463ed4979e80199f50061c277f81b2bc4991ce7f.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_463ed4979e80199f50061c277f81b2bc4991ce7f.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 11,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_863156a8a96f7d3995b2a88ac37030689160f959.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_863156a8a96f7d3995b2a88ac37030689160f959.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 12,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_51fceb51dc255e91270c0e103622fc1c854ccb18.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_51fceb51dc255e91270c0e103622fc1c854ccb18.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 13,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_1e3f68246e00d7fe689877b80b92097cbdc33d67.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_1e3f68246e00d7fe689877b80b92097cbdc33d67.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 14,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_11e5872346aca73d80b33dd4dfebe2fc6fe18ae0.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_11e5872346aca73d80b33dd4dfebe2fc6fe18ae0.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 15,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_311679d9504f8144aa4eed14ed2120fae75a131c.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_311679d9504f8144aa4eed14ed2120fae75a131c.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 16,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_7bfa72899e9e44bc45fcbdedd600ac3cfea368f6.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_7bfa72899e9e44bc45fcbdedd600ac3cfea368f6.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 17,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_0b554025f69bbe4a6bd6e12c4b06377ef1e91f86.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_0b554025f69bbe4a6bd6e12c4b06377ef1e91f86.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 18,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_662077b5f77297e2e919425d532305586022c4b0.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_662077b5f77297e2e919425d532305586022c4b0.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 19,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_9573f82d69e16a25105fe54b0850b5cb9b1dfbb6.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_9573f82d69e16a25105fe54b0850b5cb9b1dfbb6.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 20,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_74d59655cb89172e55bf7ebab8628e2de35937bd.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_74d59655cb89172e55bf7ebab8628e2de35937bd.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 21,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_3f1497e3477bf97a69169c71b10fbb5db86f544a.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_3f1497e3477bf97a69169c71b10fbb5db86f544a.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 22,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_33b3e9cf1d58521330aa5787ba485578b96f063f.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_33b3e9cf1d58521330aa5787ba485578b96f063f.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 23,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_5b57b5929bb4522b8c2dec5374a156c618777ff5.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_5b57b5929bb4522b8c2dec5374a156c618777ff5.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 24,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_b894f21c39c20f5e4a4e38344889dd3adb5a993d.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_b894f21c39c20f5e4a4e38344889dd3adb5a993d.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 25,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_34dde193897bdfc21c8339b434655bd184d9d210.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_34dde193897bdfc21c8339b434655bd184d9d210.1920x1080.jpg?t=1766090090"
-    },
-    {
-      "id": 26,
-      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_04b74de0c0755fe426d5eea41a0af0ce015821e1.600x338.jpg?t=1766090090",
-      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/ss_04b74de0c0755fe426d5eea41a0af0ce015821e1.1920x1080.jpg?t=1766090090"
-    }
-  ],
-  "movies": [
-    {
-      "id": 257064833,
-      "name": "Age of Heroes - Chapter 1 Launch Trailer",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257064833/5e24423ff1b26006016ba9c17e8ae5e336f52743/movie_600x337.jpg?t=1729166326",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440900/771451/c9c956f2450e33f763f020b906189aa5e2d03c2b/1750531029/dash_av1.mpd?t=1729166326",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440900/771451/c9c956f2450e33f763f020b906189aa5e2d03c2b/1750531029/dash_h264.mpd?t=1729166326",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440900/771451/c9c956f2450e33f763f020b906189aa5e2d03c2b/1750531029/hls_264_master.m3u8?t=1729166326",
-      "highlight": true
-    },
-    {
-      "id": 256744767,
-      "name": "Official 2019 Trailer",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256744767/movie.293x165.jpg?t=1713356872",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440900/212404/eb109c0498542d558d1325c078e709a807142827/1750530893/dash_av1.mpd?t=1713356872",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440900/212404/eb109c0498542d558d1325c078e709a807142827/1750530893/dash_h264.mpd?t=1713356872",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440900/212404/eb109c0498542d558d1325c078e709a807142827/1750530893/hls_264_master.m3u8?t=1713356872",
-      "highlight": true
-    },
-    {
-      "id": 256692906,
-      "name": "Official Cinematic Trailer",
-      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256692906/movie.293x165.jpg?t=1712059362",
-      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/440900/118395/9b22bacb339172d4f376e69bd1836550dd33bbb6/1750530892/dash_av1.mpd?t=1712059362",
-      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/440900/118395/9b22bacb339172d4f376e69bd1836550dd33bbb6/1750530892/dash_h264.mpd?t=1712059362",
-      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/440900/118395/9b22bacb339172d4f376e69bd1836550dd33bbb6/1750530892/hls_264_master.m3u8?t=1712059362",
-      "highlight": true
-    }
-  ],
-  "recommendations": {
-    "total": 74916
-  },
-  "achievements": {
-    "total": 36,
-    "highlighted": [
-      {
-        "name": "Hither Came the Exile…",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/29ba348428c42bf8e937b995adae386041b6fbcb.jpg"
-      },
-      {
-        "name": "…A Scavenger…",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/769e73917998fe394b9d2b727e075cf1f69f6d83.jpg"
-      },
-      {
-        "name": "…A Reaver…",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/b11116de28acf25b3cfebad40388ffa561c46472.jpg"
-      },
-      {
-        "name": "…A Slayer…",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/2fca5b3f699d83cb2cdca131570fb73a9bc8e6ae.jpg"
-      },
-      {
-        "name": "…A Warrior…",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/56cfbbc31c7ce0ccab4aaa220bfa996a4780b7e7.jpg"
-      },
-      {
-        "name": "…A Champion…",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/0ce9f2de34019e69a30159175cf96ed60da8be53.jpg"
-      },
-      {
-        "name": "By this Axe I Rule!",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/4ca24b2630792de853418d7deb9445545562bcd2.jpg"
-      },
-      {
-        "name": "The Scarlet Citadel",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/452c0fc01b7bb81903efefd5e4731528b81bde5a.jpg"
-      },
-      {
-        "name": "O Sleeper Awake",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/3f71d4a225752897a541cebfeb1bffa6cb679362.jpg"
-      },
-      {
-        "name": "The God in the Bowl",
-        "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440900/f11307f18a27e202630252d3321c3d23909b8385.jpg"
-      }
-    ]
-  },
-  "release_date": {
-    "coming_soon": false,
-    "date": "8 May, 2018"
-  },
-  "support_info": {
-    "url": "https://funcom.zendesk.com/hc/en-us",
-    "email": ""
-  },
-  "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/440900?t=1766090090",
-  "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/page_bg_raw.jpg?t=1766090090",
-  "content_descriptors": {
-    "ids": [
-      1,
-      2,
-      5
-    ],
-    "notes": "Conan Exiles has brutal combat where you can cut off limbs and heads of human opponents and blood is shown frequently.\r\n\r\nPlayers may choose to play the game with either no, partial or full nudity enabled. This is possible in both single and multiplayer.\r\n"
-  },
-  "ratings": {
-    "esrb": {
-      "use_age_gate": "true",
-      "required_age": "18"
-    },
-    "pegi": {
-      "use_age_gate": "true",
-      "required_age": "18"
-    },
-    "bbfc": {
-      "use_age_gate": "true",
-      "required_age": "18"
-    },
-    "usk": {
-      "use_age_gate": "true",
-      "required_age": "18"
-    },
-    "oflc": {
-      "use_age_gate": "true",
-      "required_age": "18"
-    },
-    "nzoflc": {
-      "use_age_gate": "true",
-      "required_age": "18"
-    },
-    "cero": {
-      "use_age_gate": "true",
-      "required_age": "18"
-    },
-    "kgrb": {
-      "use_age_gate": "true",
-      "required_age": "18"
-    },
-    "dejus": {
-      "use_age_gate": "true",
-      "required_age": "18",
-      "rating": "18",
-      "descriptors": "Violência\r\nViolência Extrema\r\nNudez\r\nDrogas lícitas"
-    },
-    "mda": {
-      "use_age_gate": "true",
-      "required_age": "18"
-    },
-    "fpb": {
-      "use_age_gate": "true",
-      "required_age": "18"
-    },
-    "csrr": {
-      "use_age_gate": "true",
-      "required_age": "18"
-    },
-    "crl": {
-      "use_age_gate": "true",
-      "required_age": "18"
-    },
-    "steam_germany": {
-      "rating_generated": "1",
-      "rating": "18",
-      "required_age": "18",
-      "banned": "0",
-      "use_age_gate": "0",
-      "descriptors": "Drastische Gewalt"
-    }
-  }
-}
+﻿
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\bl
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\bl\test
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28          21519 test.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\call-bind
+    -apply-helpers
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\call-boun
+    d
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\concat-ma
+    p
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\delegates
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\dunder-pr
+    oto
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\encoding
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\encoding\
+    test
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28           1600 test.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\err-code
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\err-code\
+    test
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28           5218 test.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\es-define
+    -property
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\es-errors
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\es-object
+    -atoms
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\es-set-to
+    stringtag
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\expand-te
+    mplate
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28           1762 test.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\file-uri-
+    to-path
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\file-uri-
+    to-path\test
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28            666 test.js
+-a----        07.01.2026     00:28            810 tests.json
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\function-
+    bind
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\get-intri
+    nsic
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\get-proto
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\github-fr
+    om-package
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\gopd
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\has-symbo
+    ls
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\has-symbo
+    ls\test
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28           2139 tests.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\has-tostr
+    ingtag
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\has-tostr
+    ingtag\test
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28            532 tests.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\is-lambda
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28            321 test.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\isexe
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\math-intr
+    insics
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\mime\src
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28           2334 test.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\minimist
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\minipass-
+    sized
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\napi-buil
+    d-utils\.github\workflows
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28            547 run-npm-tests.yml
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\node-cron
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\node-cron
+    \test
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28           1460 background-scheduled-task-tes
+                                                  t.js
+-a----        07.01.2026     00:28           4539 node-cron-test.js
+-a----        07.01.2026     00:28           2733 scheduled-task-test.js
+-a----        07.01.2026     00:28           2473 scheduler-test.js
+-a----        07.01.2026     00:28            828 storage-test.js
+-a----        07.01.2026     00:28           1576 task-test.js
+-a----        07.01.2026     00:28          11728 time-matcher-test.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\node-cron
+    \test\convert-expression
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28            434 asterisk-to-range-conversion-
+                                                  test.js
+-a----        07.01.2026     00:28            597 convert-expression-test.js
+-a----        07.01.2026     00:28            626 month-names-conversion-test.j
+                                                  s
+-a----        07.01.2026     00:28            982 range-conversion-test.js
+-a----        07.01.2026     00:28            759 step-values-conversion-test.j
+                                                  s
+-a----        07.01.2026     00:28            719 week-day-names-conversion-tes
+                                                  t.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\node-cron
+    \test\pattern-validation
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28            946 validate-day-test.js
+-a----        07.01.2026     00:28           1061 validate-hours-test.js
+-a----        07.01.2026     00:28            885 validate-minute-test.js
+-a----        07.01.2026     00:28           1297 validate-month-test.js
+-a----        07.01.2026     00:28            915 validate-second-test.js
+-a----        07.01.2026     00:28            649 validate-test.js
+-a----        07.01.2026     00:28           1668 validate-week-day-test.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\node-gyp
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+-a----        07.01.2026     00:28            495 macOS_Catalina_acid_test.sh
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\node-gyp\
+    .github\workflows
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28           1483 tests.yml
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\node-gyp\
+    gyp
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28           7660 test_gyp.py
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\node-gyp\
+    gyp\.github\workflows
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28            976 Python_tests.yml
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\node-gyp\
+    gyp\pylib\gyp
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28           2162 common_test.py
+-a----        07.01.2026     00:28           3709 easy_xml_test.py
+-a----        07.01.2026     00:28           3425 input_test.py
+-a----        07.01.2026     00:28          74297 MSVSSettings_test.py
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\node-gyp\
+    gyp\pylib\gyp\generator
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28           1266 msvs_test.py
+-a----        07.01.2026     00:28           1910 ninja_test.py
+-a----        07.01.2026     00:28            672 xcode_test.py
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\node-gyp\
+    gyp\tools\emacs
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                testdata
+-a----        07.01.2026     00:28           2182 gyp-tests.el
+-a----        07.01.2026     00:28            306 run-unit-tests.sh
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\node-gyp\
+    test
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28           4448 test-addon.js
+-a----        07.01.2026     00:28           2278 test-configure-python.js
+-a----        07.01.2026     00:28           2055 test-create-config-gypi.js
+-a----        07.01.2026     00:28           6325 test-download.js
+-a----        07.01.2026     00:28           2583 test-find-accessible-sync.js
+-a----        07.01.2026     00:28           4334 test-find-node-directory.js
+-a----        07.01.2026     00:28           5711 test-find-python.js
+-a----        07.01.2026     00:28          20080 test-find-visualstudio.js
+-a----        07.01.2026     00:28            799 test-install.js
+-a----        07.01.2026     00:28            923 test-options.js
+-a----        07.01.2026     00:28          17838 test-process-release.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\node-gyp\
+    test\fixtures
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28            547 test-charmap.py
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\object-in
+    spect
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+-a----        07.01.2026     00:28            534 test-core-js.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\object-in
+    spect\test
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28           1530 quoteStyle.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\promise-r
+    etry
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\promise-r
+    etry\test
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28           7385 test.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\proxy-fro
+    m-env
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28          17720 test.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\pump
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28           1172 test-browser.js
+-a----        07.01.2026     00:28            992 test-node.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\qs
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\rc
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\rc\test
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28           1176 test.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\retry
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\retry\tes
+    t\integration
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28            515 test-forever.js
+-a----        07.01.2026     00:28           6434 test-retry-operation.js
+-a----        07.01.2026     00:28           2682 test-retry-wrap.js
+-a----        07.01.2026     00:28           1779 test-timeouts.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\safer-buf
+    fer
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28          15735 tests.js
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\setprotot
+    ypeof
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\side-chan
+    nel
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\side-chan
+    nel-list
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\side-chan
+    nel-map
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\side-chan
+    nel-weakmap
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\simple-co
+    ncat
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\tar-fs
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\tar-fs\te
+    st\fixtures\b\a
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        07.01.2026     00:28              5 test.txt
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\unique-fi
+    lename
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
+    Directory: D:\Personal Projects\norwegian-game-stats\node_modules\unique-sl
+    ug
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07.01.2026     00:28                test
