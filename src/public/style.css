@@ -1,4 +1,8 @@
-﻿:root {
+﻿* {
+    box-sizing: border-box;
+}
+
+:root {
     --bg-color: #1b2838;
     --card-bg: #2a475e;
     --text-color: #c5c3c0;
@@ -64,19 +68,6 @@ header p {
     opacity: 0.7;
 }
 
-@media (max-width: 600px) {
-    header {
-        padding: 20px 15px;
-    }
-    header h1 {
-        font-size: 1.4em;
-        letter-spacing: 1px;
-    }
-    header p {
-        font-size: 0.75em;
-        letter-spacing: 0.5px;
-    }
-}
 
 main {
     max-width: 1600px;
@@ -293,12 +284,14 @@ tr:last-child td {
 .game-name {
     font-weight: 500;
     color: var(--heading-color);
+    word-break: break-word;
 }
 
 .game-studio {
     font-size: 0.85em;
     color: #8f98a0;
     margin-top: 2px;
+    word-break: break-word;
 }
 
 /* Controls */
@@ -631,4 +624,89 @@ footer {
     margin-top: 40px;
     border-top: 1px solid var(--border-color);
     color: #8f98a0;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px 15px;
+    }
+    header h1 {
+        font-size: 1.4em;
+        letter-spacing: 1px;
+    }
+    header p {
+        font-size: 0.75em;
+        letter-spacing: 0.5px;
+    }
+    
+    main {
+        padding: 10px;
+    }
+    
+    .card {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .tabs {
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 8px;
+    }
+    
+    .tab-btn {
+        flex: 0 0 auto;
+        padding: 10px 15px;
+        font-size: 0.75em;
+    }
+    
+    .tab-content {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    #global-stats {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 10px;
+    }
+    
+    .stat-item {
+        padding: 15px 10px;
+        min-height: 100px;
+    }
+    
+    .stat-value {
+        font-size: 1.6em;
+    }
+    
+    .stat-value.stat-name {
+        font-size: 1.1em;
+    }
+    
+    th, td {
+        padding: 10px 8px;
+        font-size: 0.85em;
+    }
+    
+    .rank-cell {
+        width: 25px;
+    }
+    
+    .game-name {
+        font-size: 0.9em;
+    }
+    
+    .game-studio {
+        font-size: 0.75em;
+    }
+
+    .chart-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .search-container input {
+        padding: 12px 20px;
+        font-size: 1em;
+    }
 }
