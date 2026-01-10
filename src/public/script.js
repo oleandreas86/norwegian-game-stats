@@ -208,12 +208,12 @@ function populateLeaderboard(tableId, data, games, countKey) {
             const score = item.review_score !== null ? `${item.review_score}%` : '-';
             const scoreDesc = item.review_score_desc || '';
             const reviewCount = item.reviews !== null ? `<div class="review-count-small">${item.reviews.toLocaleString()} reviews</div>` : '';
-            scoreCell = `<td title="${scoreDesc}">${score}${reviewCount}</td>`;
+            scoreCell = `<td class="score-cell" title="${scoreDesc}">${score}${reviewCount}</td>`;
         }
 
         row.innerHTML = `
             <td class="rank-cell">${rank++}</td>
-            <td>
+            <td class="game-cell">
                 <div class="game-name-flex">
                     <div class="game-name">${game.name} ${badges}</div>
                 </div>

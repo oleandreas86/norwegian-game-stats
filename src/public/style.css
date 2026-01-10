@@ -19,17 +19,20 @@
 }
 
 html, body {
+    width: 100%;
     max-width: 100%;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-    margin: 0;
     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
     background-color: var(--bg-color);
+    min-height: 100vh;
 }
 
 header {
@@ -100,6 +103,7 @@ main {
     box-shadow: var(--shadow);
     margin-bottom: 24px;
     border: 1px solid rgba(255, 255, 255, 0.05);
+    min-width: 0;
 }
 
 .card h2, .card h3 {
@@ -131,6 +135,7 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 120px;
+    min-width: 0; /* Allow item to shrink if needed */
 }
 
 .stat-item:hover {
@@ -162,6 +167,8 @@ main {
     opacity: 0.8;
     margin-bottom: 8px;
     font-weight: 600;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .stat-label {
@@ -170,6 +177,10 @@ main {
     color: #8f98a0;
     letter-spacing: 1px;
     font-weight: 600;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    display: block;
+    width: 100%;
 }
 
 /* Tabs */
@@ -284,8 +295,14 @@ tr:last-child td {
     border-bottom: none;
 }
 
-.rank-cell { width: 30px; color: #8f98a0; }
-.count-cell { text-align: right; font-weight: bold; color: var(--primary-color); }
+.rank-cell { width: 35px; color: #8f98a0; }
+.game-cell { width: auto; }
+.score-cell { width: 100px; }
+.count-cell { text-align: right; font-weight: bold; color: var(--primary-color); width: 130px; }
+
+.count-flex span {
+    white-space: nowrap;
+}
 
 .game-name {
     font-weight: 500;
@@ -329,6 +346,20 @@ select, input {
     padding: 10px;
     border-radius: 4px;
     outline: none;
+    max-width: 100%;
+}
+
+.stat-value, .stat-sub-value, .stat-label, .game-name, .game-studio, th, td {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+canvas {
+    max-width: 100% !important;
+}
+
+.chart-container canvas {
+    width: 100% !important;
 }
 
 select:focus, input:focus {
@@ -412,6 +443,7 @@ button.secondary {
     min-height: 365px;
     display: flex;
     flex-direction: column;
+    min-width: 0;
 }
 
 .chart-header {
@@ -422,6 +454,7 @@ button.secondary {
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 10px;
     gap: 10px;
+    flex-wrap: wrap; /* Ensure header content can wrap on narrow screens */
 }
 
 .title-container {
@@ -515,6 +548,7 @@ button.secondary {
     letter-spacing: 0.5px;
     margin-left: 8px;
     vertical-align: middle;
+    white-space: nowrap;
 }
 
 .badge-upcoming { background: #f39c12; color: #fff; }
@@ -583,6 +617,7 @@ button.secondary {
     background: rgba(0, 0, 0, 0.2);
     padding: 10px;
     border-radius: 4px;
+    flex-wrap: wrap; /* Wrap stats on very narrow screens */
 }
 
 .game-stat {
@@ -652,12 +687,23 @@ footer {
     }
     
     main {
-        padding: 10px 15px;
+        padding: 10px 12px;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    
+    .sidebar, .main-content {
+        min-width: 0;
+        width: 100%;
     }
     
     .card {
         padding: 15px;
         margin-bottom: 15px;
+        overflow: hidden;
+        min-width: 0;
     }
     
     .tabs {
@@ -665,8 +711,10 @@ footer {
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
         padding-bottom: 8px;
-        margin-left: -5px;
-        margin-right: -5px;
+        margin-left: -10px;
+        margin-right: -10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     .tab-btn {
@@ -678,14 +726,16 @@ footer {
     .tab-content {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
-        margin-left: -10px;
-        margin-right: -10px;
-        padding-left: 10px;
-        padding-right: 10px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: auto;
     }
 
     .tab-content table {
         min-width: 320px;
+        table-layout: auto;
     }
     
     #comparison-section .chart-container {
@@ -716,7 +766,15 @@ footer {
     }
     
     .rank-cell {
-        width: 25px;
+        width: 28px;
+    }
+    
+    .score-cell {
+        width: 90px;
+    }
+    
+    .count-cell {
+        width: 115px;
     }
     
     .game-name {
@@ -753,5 +811,9 @@ footer {
     .search-container input {
         padding: 12px 20px;
         font-size: 1em;
+    }
+
+    select, input {
+        width: 100%;
     }
 }
