@@ -29,6 +29,10 @@ db.serialize(() => {
     recent_review_score INTEGER,
     recent_review_score_desc TEXT,
     recent_reviews INTEGER,
+    price REAL,
+    initial_price REAL,
+    discount_percent INTEGER,
+    is_free INTEGER,
     last_updated DATETIME DEFAULT CURRENT_TIMESTAMP
   )`);
 
@@ -38,7 +42,14 @@ db.serialize(() => {
     { name: 'review_score_desc', type: 'TEXT' },
     { name: 'recent_review_score', type: 'INTEGER' },
     { name: 'recent_review_score_desc', type: 'TEXT' },
-    { name: 'recent_reviews', type: 'INTEGER' }
+    { name: 'recent_reviews', type: 'INTEGER' },
+    { name: 'price', type: 'REAL' },
+    { name: 'initial_price', type: 'REAL' },
+    { name: 'discount_percent', type: 'INTEGER' },
+    { name: 'is_free', type: 'INTEGER' },
+    { name: 'dlc_count', type: 'INTEGER' },
+    { name: 'has_iap', type: 'INTEGER' },
+    { name: 'is_mmo', type: 'INTEGER' }
   ];
 
   columns.forEach(col => {
@@ -64,17 +75,18 @@ module.exports = {
       });
     });
   },
-  updateMetadata: (appid, reviews, estimated_sales, review_score, review_score_desc, recent_review_score, recent_review_score_desc, recent_reviews) => {
+  updateMetadata: (appid, reviews, estimated_sales, review_score, review_score_desc, recent_review_score, recent_review_score_desc, recent_reviews, price, initial_price, discount_percent, is_free, dlc_count, has_iap, is_mmo) => {
     return new Promise((resolve, reject) => {
       const query = `
         INSERT INTO game_metadata (
           appid, reviews, estimated_sales, 
           review_score, review_score_desc, 
           recent_review_score, recent_review_score_desc,
-          recent_reviews,
+          recent_reviews, price, initial_price, discount_percent, is_free,
+          dlc_count, has_iap, is_mmo,
           last_updated
         )
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
         ON CONFLICT(appid) DO UPDATE SET
           reviews = excluded.reviews,
           estimated_sales = excluded.estimated_sales,
@@ -83,13 +95,21 @@ module.exports = {
           recent_review_score = excluded.recent_review_score,
           recent_review_score_desc = excluded.recent_review_score_desc,
           recent_reviews = excluded.recent_reviews,
+          price = excluded.price,
+          initial_price = excluded.initial_price,
+          discount_percent = excluded.discount_percent,
+          is_free = excluded.is_free,
+          dlc_count = excluded.dlc_count,
+          has_iap = excluded.has_iap,
+          is_mmo = excluded.is_mmo,
           last_updated = CURRENT_TIMESTAMP
       `;
       db.run(query, [
         appid, reviews, estimated_sales, 
         review_score, review_score_desc, 
         recent_review_score, recent_review_score_desc,
-        recent_reviews
+        recent_reviews, price, initial_price, discount_percent, is_free,
+        dlc_count, has_iap, is_mmo
       ], function(err) {
         if (err) reject(err);
         else resolve();

@@ -9,6 +9,11 @@ const GRID_COLOR = 'rgba(255, 255, 255, 0.1)';
 
 const STEAM_SVG = `<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 .007c-.125 0-.252.004-.377.008L4.662 10.02c-.896-.036-1.742.368-2.235 1.096L0 12.871l5.248 2.162c.245-.075.502-.115.768-.115.53 0 1.026.16 1.442.433l3.522-5.087V10.2c0-2.522 2.044-4.566 4.566-4.566 2.521 0 4.565 2.044 4.565 4.566s-2.044 4.565-4.565 4.565c-.053 0-.106-.002-.158-.004l-5.115 3.511c.006.082.012.164.012.247 0 2.376-1.926 4.303-4.302 4.303-.508 0-1-.088-1.455-.25L5.732 24H12c6.627 0 12-5.373 12-12S18.627.007 12 .007zm3.442 8.358c1.012 0 1.832.82 1.832 1.833 0 1.012-.82 1.832-1.832 1.832s-1.832-.82-1.832-1.832c0-1.013.82-1.833 1.832-1.833z"/></svg>`;
 const STEAMDB_SVG = `<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M2.5 19h19v2h-19zm4.5-4h3v3h-3zm5-5h3v8h-3zm5-5h3v13h-3z"/></svg>`;
+const STAR_SVG = `<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>`;
+const TREND_SVG = `<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>`;
+const TAG_SVG = `<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>`;
+const USERS_SVG = `<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>`;
+const MONEY_SVG = `<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>`;
 
 let chartInstances = {};
 let allGames = [];
@@ -35,17 +40,37 @@ async function init() {
 
     const leaderboardsResponse = await fetch('/api/leaderboards');
     const leaderboards = await leaderboardsResponse.json();
-    allMetadata = leaderboards.metadata || [];
+    allMetadata = (leaderboards.metadata || []).map(m => {
+        // Advanced Revenue Calculation: 
+        // For paid games, we use (Initial Price * 0.8) as the average selling price.
+        // For F2P games, we use a heuristic based on monetization markers (IAP, MMO, DLCs).
+        let avgPrice = (m.initial_price || m.price || 0) * 0.8;
+        
+        if (m.is_free && avgPrice === 0) {
+            avgPrice = 5; // Base ARPU (Average Revenue Per User) for indie F2P
+            if (m.has_iap) avgPrice += 10;
+            if (m.is_mmo) avgPrice += 25;
+            avgPrice += (m.dlc_count || 0) * 2;
+        }
+
+        return {
+            ...m,
+            revenue: (m.estimated_sales || 0) * avgPrice
+        };
+    });
 
     // Populate Leaderboards
     populateLeaderboard('current-leaderboard', leaderboards.current, allGames, 'player_count');
     populateLeaderboard('peak-leaderboard', leaderboards.peaks, allGames, 'peak_player_count');
     
     if (leaderboards.metadata) {
-        const sortedSales = [...leaderboards.metadata].sort((a, b) => b.estimated_sales - a.estimated_sales);
+        const sortedSales = [...allMetadata].sort((a, b) => b.estimated_sales - a.estimated_sales);
         populateLeaderboard('sales-leaderboard', sortedSales, allGames, 'estimated_sales');
 
-        const sortedRatings = [...leaderboards.metadata]
+        const sortedRevenue = [...allMetadata].sort((a, b) => b.revenue - a.revenue);
+        populateLeaderboard('revenue-leaderboard', sortedRevenue, allGames, 'revenue');
+
+        const sortedRatings = [...allMetadata]
             .filter(item => item.review_score !== null && item.reviews >= 10)
             .sort((a, b) => b.review_score - a.review_score || b.reviews - a.reviews);
         populateLeaderboard('rating-leaderboard', sortedRatings, allGames, 'review_score');
@@ -112,6 +137,23 @@ function updateGlobalStats(leaderboards) {
     const topSellerItem = sortedMetadata.length > 0 ? sortedMetadata[0] : null;
     const topSeller = topSellerItem ? allGames.find(g => g.id === topSellerItem.appid) : null;
 
+    const metadataWithRevenue = metadata.map(m => {
+        let avgPrice = (m.initial_price || m.price || 0) * 0.8;
+        if (m.is_free && avgPrice === 0) {
+            avgPrice = 5;
+            if (m.has_iap) avgPrice += 10;
+            if (m.is_mmo) avgPrice += 25;
+            avgPrice += (m.dlc_count || 0) * 2;
+        }
+        return {
+            ...m,
+            revenue: (m.estimated_sales || 0) * avgPrice
+        };
+    });
+    const sortedRevenue = [...metadataWithRevenue].sort((a, b) => b.revenue - a.revenue);
+    const topRevenueItem = sortedRevenue.length > 0 ? sortedRevenue[0] : null;
+    const topRevenue = topRevenueItem ? allGames.find(g => g.id === topRevenueItem.appid) : null;
+
     const peakGameItem = peaks.length > 0 ? peaks[0] : null;
     const peakGame = peakGameItem ? allGames.find(g => g.id === peakGameItem.appid) : null;
 
@@ -129,6 +171,9 @@ function updateGlobalStats(leaderboards) {
     document.getElementById('top-seller').textContent = topSeller ? topSeller.name : '-';
     document.getElementById('top-seller-val').textContent = topSellerItem ? `${formatSales(topSellerItem.estimated_sales)} Est. Owners` : '';
 
+    document.getElementById('top-revenue').textContent = topRevenue ? topRevenue.name : '-';
+    document.getElementById('top-revenue-val').textContent = topRevenueItem ? `${formatCurrency(topRevenueItem.revenue)} Est.` : '';
+
     document.getElementById('best-rated').textContent = bestRated ? bestRated.name : '-';
     document.getElementById('best-rated-val').textContent = bestRatedItem ? `${bestRatedItem.review_score}% (${bestRatedItem.reviews.toLocaleString()} reviews)` : '';
 
@@ -142,6 +187,13 @@ function formatSales(sales) {
     if (sales >= 1000000) return (sales / 1000000).toFixed(1) + 'M';
     if (sales >= 1000) return (sales / 1000).toFixed(0) + 'K';
     return sales.toLocaleString();
+}
+
+function formatCurrency(value) {
+    if (value >= 1000000000) return (value / 1000000000).toFixed(2) + 'B NOK';
+    if (value >= 1000000) return (value / 1000000).toFixed(1) + 'M NOK';
+    if (value >= 1000) return (value / 1000).toFixed(0) + 'K NOK';
+    return value.toLocaleString() + ' NOK';
 }
 
 function filterGames(query) {
@@ -183,6 +235,20 @@ function populateLeaderboard(tableId, data, games, countKey) {
         
         const isComparing = comparisonAppids.includes(item.appid);
         
+        const metadata = allMetadata.find(m => m.appid === item.appid);
+        let priceInfo = '';
+        if (metadata) {
+            if (metadata.is_free) {
+                priceInfo = '<span class="price-tag">Free</span>';
+            } else if (metadata.price) {
+                if (metadata.discount_percent > 0) {
+                    priceInfo = `<span class="price-tag sale">-${metadata.discount_percent}% ${Math.round(metadata.price)} NOK</span>`;
+                } else {
+                    priceInfo = `<span class="price-tag">${Math.round(metadata.price)} NOK</span>`;
+                }
+            }
+        }
+
         let countTitle = '';
         let displayValue = item[countKey].toLocaleString();
         let subValue = '';
@@ -190,6 +256,9 @@ function populateLeaderboard(tableId, data, games, countKey) {
         if (countKey === 'estimated_sales' && item.reviews !== undefined) {
             const multiplier = item.reviews > 0 ? (item.estimated_sales / item.reviews).toFixed(1) : '0';
             countTitle = `${game.name}: Based on ${item.reviews.toLocaleString()} reviews (Multiplier: ${multiplier}x)`;
+        } else if (countKey === 'revenue') {
+            displayValue = formatCurrency(item.revenue);
+            countTitle = `${game.name}: Estimated gross revenue before Steam cut and regional adjustments.`;
         } else if (countKey === 'review_score') {
             displayValue = `${item[countKey]}%`;
             subValue = `<div class="review-count-small">${item.reviews.toLocaleString()} reviews</div>`;
@@ -217,7 +286,10 @@ function populateLeaderboard(tableId, data, games, countKey) {
                 <div class="game-name-flex">
                     <div class="game-name">${game.name} ${badges}</div>
                 </div>
-                <div class="game-studio">${game.developer}</div>
+                <div class="game-studio-flex">
+                    <span class="game-studio">${game.developer}</span>
+                    ${priceInfo}
+                </div>
             </td>
             ${scoreCell}
             <td class="count-cell">
@@ -311,10 +383,10 @@ function updateToggleButtons() {
         const appid = parseInt(btn.dataset.appid);
         if (comparisonAppids.includes(appid)) {
             btn.classList.add('active');
-            btn.textContent = 'Comparing';
+            btn.innerHTML = '<span>➖</span> Comparing';
         } else {
             btn.classList.remove('active');
-            btn.textContent = 'Compare';
+            btn.innerHTML = '<span>➕</span> Compare';
         }
     });
 
@@ -369,7 +441,8 @@ function initializeChartGrid() {
             <div class="chart-header">
                 <div class="title-container">
                     <div class="title-flex">
-                        <h3>${game.name} ${badges}</h3>
+                        <h3>${game.name}</h3>
+                        ${badges}
                         <div class="game-links">
                             <a href="https://store.steampowered.com/app/${game.id}" target="_blank" class="icon-link steam" title="View on Steam">${STEAM_SVG}</a>
                             <a href="https://steamdb.info/app/${game.id}/" target="_blank" class="icon-link steamdb" title="View on SteamDB">${STEAMDB_SVG}</a>
@@ -380,21 +453,44 @@ function initializeChartGrid() {
                 <button class="compare-toggle ${isComparing ? 'active' : ''}" 
                         data-appid="${game.id}" 
                         onclick="toggleComparison(${game.id})">
-                    ${isComparing ? 'Comparing' : 'Compare'}
+                    ${isComparing ? '<span>➖</span> Comparing' : '<span>➕</span> Compare'}
                 </button>
             </div>
             <div class="game-stats-row">
                 <div class="game-stat">
-                    <span class="label">All-Time Score</span>
+                    <div class="stat-header">
+                        ${STAR_SVG}
+                        <span class="label">All-Time Score</span>
+                    </div>
                     <span class="value" id="reviews-all-${game.id}">-</span>
                 </div>
                 <div class="game-stat">
-                    <span class="label">Recent Score</span>
+                    <div class="stat-header">
+                        ${TREND_SVG}
+                        <span class="label">Recent Score</span>
+                    </div>
                     <span class="value" id="reviews-recent-${game.id}">-</span>
                 </div>
                 <div class="game-stat">
-                    <span class="label">Est. Owners</span>
+                    <div class="stat-header">
+                        ${TAG_SVG}
+                        <span class="label">Price</span>
+                    </div>
+                    <span class="value" id="price-${game.id}">-</span>
+                </div>
+                <div class="game-stat">
+                    <div class="stat-header">
+                        ${USERS_SVG}
+                        <span class="label">Est. Owners</span>
+                    </div>
                     <span class="value" id="sales-${game.id}">-</span>
+                </div>
+                <div class="game-stat">
+                    <div class="stat-header">
+                        ${MONEY_SVG}
+                        <span class="label">Est. Revenue</span>
+                    </div>
+                    <span class="value" id="revenue-${game.id}">-</span>
                 </div>
             </div>
             <div class="chart-container">
@@ -428,12 +524,16 @@ function refreshComparison() {
         delete chartInstances['comparison'];
     }
 
-    const comparisonSection = document.getElementById('comparison-section');
+    const placeholder = document.getElementById('no-comparison-placeholder');
+    const chartWrapper = document.getElementById('comparison-chart-wrapper');
+
     if (comparisonAppids.length > 0) {
-        comparisonSection.style.display = 'block';
+        if (placeholder) placeholder.style.display = 'none';
+        if (chartWrapper) chartWrapper.style.display = 'flex';
         renderComparisonChart();
     } else {
-        comparisonSection.style.display = 'none';
+        if (placeholder) placeholder.style.display = 'flex';
+        if (chartWrapper) chartWrapper.style.display = 'none';
     }
 }
 
@@ -469,25 +569,74 @@ const getChartOptions = (title) => ({
         axis: 'x'
     },
     plugins: {
-        legend: { display: !!title, labels: { color: TEXT_COLOR } },
+        legend: { 
+            display: !!title, 
+            position: 'top',
+            align: 'end',
+            labels: { 
+                color: TEXT_COLOR,
+                font: { size: 11, weight: '600' },
+                boxWidth: 12,
+                boxHeight: 12,
+                usePointStyle: true,
+                padding: 15
+            } 
+        },
         tooltip: { 
-            backgroundColor: 'rgba(23, 26, 33, 0.9)', 
+            backgroundColor: 'rgba(23, 26, 33, 0.98)', 
             titleColor: CHART_BORDER_COLOR, 
+            titleFont: { size: 13, weight: 'bold' },
             bodyColor: TEXT_COLOR,
+            bodyFont: { size: 12 },
+            borderColor: 'rgba(102, 192, 244, 0.2)',
+            borderWidth: 1,
+            padding: 14,
+            cornerRadius: 12,
             mode: 'index',
-            intersect: false
+            intersect: false,
+            usePointStyle: true,
+            boxPadding: 8,
+            callbacks: {
+                label: function(context) {
+                    let label = context.dataset.label || '';
+                    if (label) label += ': ';
+                    if (context.parsed.y !== null) {
+                        label += context.parsed.y.toLocaleString();
+                    }
+                    return label;
+                }
+            }
         }
     },
     scales: {
         x: { 
             type: 'time', 
-            grid: { color: GRID_COLOR },
-            ticks: { color: TEXT_COLOR }
+            grid: { display: false },
+            ticks: { 
+                color: TEXT_COLOR, 
+                font: { size: 10 },
+                maxRotation: 0,
+                autoSkip: true,
+                maxTicksLimit: 7
+            }
         },
         y: { 
             beginAtZero: true, 
-            grid: { color: GRID_COLOR },
-            ticks: { color: TEXT_COLOR }
+            grid: { 
+                color: GRID_COLOR,
+                drawBorder: false,
+                borderDash: [5, 5]
+            },
+            ticks: { 
+                color: TEXT_COLOR, 
+                font: { size: 10 },
+                maxTicksLimit: 5,
+                callback: (value) => {
+                    if (value >= 1000000) return (value / 1000000) + 'M';
+                    if (value >= 1000) return (value / 1000) + 'K';
+                    return value;
+                }
+            }
         }
     }
 });
@@ -506,14 +655,32 @@ async function renderGameChart(appid, name) {
         if (metadata.estimated_sales) {
             const salesEl = document.getElementById(`sales-${appid}`);
             if (salesEl) salesEl.textContent = metadata.estimated_sales.toLocaleString();
+            
+            const revenueEl = document.getElementById(`revenue-${appid}`);
+            if (revenueEl) revenueEl.textContent = formatCurrency(metadata.revenue);
         }
-        
+
+        const priceEl = document.getElementById(`price-${appid}`);
+        if (priceEl) {
+            if (metadata.is_free) {
+                priceEl.textContent = 'Free';
+            } else if (metadata.price) {
+                if (metadata.discount_percent > 0) {
+                    priceEl.innerHTML = `<span class="sale-price">-${metadata.discount_percent}%</span> <span>${metadata.price.toFixed(0)} NOK</span> <span class="initial-price-small">${metadata.initial_price.toFixed(0)}</span>`;
+                } else {
+                    priceEl.textContent = `${metadata.price.toFixed(0)} NOK`;
+                }
+            } else {
+                priceEl.textContent = '-';
+            }
+        }
+    
         const allScoreEl = document.getElementById(`reviews-all-${appid}`);
         if (allScoreEl) {
             const score = metadata.review_score !== null ? `${metadata.review_score}%` : '-';
             const desc = metadata.review_score_desc || '';
             const count = metadata.reviews !== null ? `<div class="review-count">${metadata.reviews.toLocaleString()} reviews</div>` : '';
-            allScoreEl.innerHTML = `${score}${desc ? ` <span class="review-desc">(${desc})</span>` : ''}${count}`;
+            allScoreEl.innerHTML = `<span>${score}</span>${desc ? `<span class="review-desc">${desc}</span>` : ''}${count}`;
         }
 
         const recentScoreEl = document.getElementById(`reviews-recent-${appid}`);
@@ -521,7 +688,7 @@ async function renderGameChart(appid, name) {
             const score = metadata.recent_review_score !== null ? `${metadata.recent_review_score}%` : '-';
             const desc = metadata.recent_review_score_desc || '';
             const count = metadata.recent_reviews !== null ? `<div class="review-count">${metadata.recent_reviews.toLocaleString()} reviews</div>` : '';
-            recentScoreEl.innerHTML = `${score}${desc ? ` <span class="review-desc">(${desc})</span>` : ''}${count}`;
+            recentScoreEl.innerHTML = `<span>${score}</span>${desc ? `<span class="review-desc">${desc}</span>` : ''}${count}`;
         }
     }
 
@@ -534,6 +701,10 @@ async function renderGameChart(appid, name) {
         return;
     }
 
+    const gradient = ctx.createLinearGradient(0, 0, 0, 300);
+    gradient.addColorStop(0, 'rgba(102, 192, 244, 0.25)');
+    gradient.addColorStop(1, 'rgba(102, 192, 244, 0.02)');
+
     chartInstances[appid] = new Chart(ctx, {
         type: 'line',
         data: {
@@ -541,11 +712,15 @@ async function renderGameChart(appid, name) {
                 label: 'Players',
                 data: stats.map(s => ({ x: parseDate(s.timestamp), y: s.player_count })),
                 borderColor: CHART_BORDER_COLOR,
-                backgroundColor: CHART_BG_COLOR,
+                backgroundColor: gradient,
+                borderWidth: 2.5,
                 fill: true,
-                tension: 0.3,
+                tension: 0.4,
                 pointRadius: 0,
-                pointHoverRadius: 5
+                pointHoverRadius: 6,
+                pointHoverBackgroundColor: CHART_BORDER_COLOR,
+                pointHoverBorderColor: '#fff',
+                pointHoverBorderWidth: 2.5
             }]
         },
         options: getChartOptions(false)
@@ -596,9 +771,10 @@ async function renderComparisonChart() {
             borderColor: COLORS[i % COLORS.length],
             backgroundColor: COLORS[i % COLORS.length] + '22',
             fill: false,
-            tension: 0.3,
+            tension: 0.4,
             pointRadius: 0,
-            pointHoverRadius: 5,
+            pointHoverRadius: 6,
+            pointHoverBorderWidth: 2,
             spanGaps: true
         };
     });

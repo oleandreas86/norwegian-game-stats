@@ -133,14 +133,44 @@ async function collectAll() {
         const reviews = reviewData.total_reviews;
         let multiplier = 15; // Base multiplier adjusted for language=all and purchase_type=all
 
+        let finalPrice = null;
+        let initialPrice = null;
+        let discountPercent = 0;
+        let isFree = false;
+        let dlcCount = 0;
+        let hasIap = false;
+        let isMmo = false;
+
         if (appDetails) {
+          isFree = appDetails.is_free;
+          dlcCount = appDetails.dlc ? appDetails.dlc.length : 0;
+          
+          if (appDetails.categories) {
+            hasIap = appDetails.categories.some(c => c.id === 35);
+            if (!isMmo) {
+              isMmo = appDetails.categories.some(c => c.id === 20); // MMO category
+            }
+          }
+
+          if (appDetails.genres) {
+            if (!isMmo) {
+              isMmo = appDetails.genres.some(g => g.description === 'Massively Multiplayer');
+            }
+          }
+
+          if (appDetails.price_overview) {
+            finalPrice = appDetails.price_overview.final / 100;
+            initialPrice = appDetails.price_overview.initial / 100;
+            discountPercent = appDetails.price_overview.discount_percent;
+          }
+
           let priceFactor = 1.0;
-          if (appDetails.is_free) {
+          if (isFree) {
             priceFactor = 1.5; // Free games have higher variance
-          } else if (appDetails.price_overview) {
-            const price = appDetails.price_overview.final / 100; // in NOK
-            if (price < 150) priceFactor = 2.3;
-            else if (price < 350) priceFactor = 1.8;
+          } else if (initialPrice !== null) {
+            // Use initial price for a more stable estimation category
+            if (initialPrice < 150) priceFactor = 2.3;
+            else if (initialPrice < 350) priceFactor = 1.8;
             else priceFactor = 1.0;
           }
 
@@ -149,15 +179,16 @@ async function collectAll() {
             const yearMatch = appDetails.release_date.date.match(/\d{4}/);
             if (yearMatch) {
               const year = parseInt(yearMatch[0]);
-              if (year >= 2024) yearFactor = 1.2;
+              if (year >= 2024) yearFactor = 1.1; // Steam reviews are very frequent now
               else if (year >= 2020) yearFactor = 1.5;
-              else if (year >= 2015) yearFactor = 3.5;
-              else yearFactor = 1.8;
+              else if (year >= 2017) yearFactor = 2.2;
+              else if (year >= 2014) yearFactor = 3.5;
+              else yearFactor = 5.0; // Older games have much higher ratios
             }
           }
 
           let specialFactor = 1.0;
-          if (appDetails.is_free && appDetails.genres && appDetails.genres.some(g => g.description === 'Massively Multiplayer')) {
+          if (isMmo && isFree) {
             specialFactor = 2.2; // F2P MMOs have unique retention patterns
           }
 
@@ -165,6 +196,7 @@ async function collectAll() {
         }
 
         const estimatedSales = Math.round(reviews * multiplier);
+        
         await db.updateMetadata(
           game.id, 
           reviews, 
@@ -173,7 +205,14 @@ async function collectAll() {
           reviewData.review_score_desc,
           reviewData.recent_review_score,
           reviewData.recent_review_score_desc,
-          reviewData.recent_reviews
+          reviewData.recent_reviews,
+          finalPrice,
+          initialPrice,
+          discountPercent,
+          isFree ? 1 : 0,
+          dlcCount,
+          hasIap ? 1 : 0,
+          isMmo ? 1 : 0
         );
         console.log(`Updated metadata for ${game.name}: ${reviews} reviews (${reviewData.review_score}%), ~${estimatedSales} owners`);
       }
