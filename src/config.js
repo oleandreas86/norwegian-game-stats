@@ -17,6 +17,7 @@
     { id: 1605220, name: "Dune: Spice Wars", developer: "Funcom (Shiro Games)", release: "Full", store: "Delisted" },
     { id: 989690, name: "Conan Unconquered", developer: "Funcom (Petroglyph)", release: "Full", store: "Delisted" },
     { id: 2878270, name: "Metal: Hellsinger VR", developer: "Funcom (Lab42, The Outsiders)", release: "Full", store: "Delisted" },
+    { id: 1061880, name: "Conan Chop Chop", developer: "Funcom (Mighty Kingdom)", release: "Full", store: "Delisted" },
 
     // Vedinad
     { id: 3405340, name: "Megabonk", developer: "vedinad", release: "Full", store: "Live" },
