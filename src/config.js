@@ -8,10 +8,15 @@
     { id: 215280, name: "Secret World Legends", developer: "Funcom", release: "Full", store: "Live" },
     { id: 396280, name: "Anarchy Online", developer: "Funcom", release: "Full", store: "Live" },
     { id: 6310, name: "The Longest Journey", developer: "Funcom", release: "Full", store: "Live" }, 
-    { id: 760060, name: "Mutant Year Zero: Road to Eden", developer: "The Bearded Ladies (Funcom)", release: "Full", store: "Live" },
+    { id: 760060, name: "Mutant Year Zero: Road to Eden", developer: "Funcom (The Bearded Ladies)", release: "Full", store: "Live" },
     { id: 6300, name: "Dreamfall: The Longest Journey", developer: "Funcom", release: "Full", store: "Live" },
     { id: 217750, name: "Age of Conan: Unchained", developer: "Funcom", release: "Full", store: "Live" },
     { id: 324790, name: "LEGO Minifigures Online", developer: "Funcom", release: "Full", store: "Delisted" },
+    { id: 1061910, name: "Metal: Hellsinger", developer: "Funcom (The Outsiders)", release: "Full", store: "Delisted" },
+    { id: 1660080, name: "Aloft", developer: "Funcom (Astrolabe Interactive)", release: "Full", store: "Delisted" },
+    { id: 1605220, name: "Dune: Spice Wars", developer: "Funcom (Shiro Games)", release: "Full", store: "Delisted" },
+    { id: 989690, name: "Conan Unconquered", developer: "Funcom (Petroglyph)", release: "Full", store: "Delisted" },
+    { id: 2878270, name: "Metal: Hellsinger VR", developer: "Funcom (Lab42, The Outsiders)", release: "Full", store: "Delisted" },
 
     // Vedinad
     { id: 3405340, name: "Megabonk", developer: "vedinad", release: "Full", store: "Live" },
