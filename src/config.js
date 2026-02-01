@@ -125,6 +125,9 @@
       
     // Tidvis
     { id: 1069160, name: "SKALD: Against the Black Priory", developer: "High North Studios AS", release: "Full", store: "Live" },
+      
+    // Fremmed
+    { id: 2431100, name: "That Which Gave Chase", developer: "Aslak Karlsen Hauglid (Fremmed)", release: "Full", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
