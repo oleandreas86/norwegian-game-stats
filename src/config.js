@@ -123,8 +123,12 @@
     // Tidvis
     { id: 2184880, name: "The Widow's Boutique", developer: "Tidvis", release: "Full", store: "Live" },
       
-    // Tidvis
+    // High North Studios AS
     { id: 1069160, name: "SKALD: Against the Black Priory", developer: "High North Studios AS", release: "Full", store: "Live" },
+  
+    // Sindrex
+    { id: 1212370, name: "Boolean", developer: "Sindrex", release: "Full", store: "Live" },
+    { id: 4154720, name: "The Color Kitnapper", developer: "Sindrex", release: "Upcoming", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
