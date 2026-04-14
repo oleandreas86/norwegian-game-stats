@@ -92,6 +92,7 @@
     // Machineboy
     { id: 544970, name: "Milkmaid of the Milky Way", developer: "Machineboy", release: "Full", store: "Live" },
     { id: 1311510, name: "Embracelet", developer: "Machineboy", release: "Full", store: "Live" },
+    { id: 3842900, name: "Cascadou", developer: "Machineboy", release: "Full", store: "Live" },
 
     // Henchman & Goon
     { id: 944080, name: "Pode", developer: "Henchman & Goon", release: "Full", store: "Live" },
