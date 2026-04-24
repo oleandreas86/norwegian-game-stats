@@ -35,6 +35,7 @@
     { id: 770390, name: "Draugen", developer: "Red Thread Games", release: "Full", store: "Live" },
     { id: 721180, name: "Dustborn", developer: "Red Thread Games", release: "Full", store: "Live" },
     { id: 237850, name: "Dreamfall Chapters", developer: "Red Thread Games", release: "Full", store: "Live" },
+    { id: 3245140, name: "Hello Sunshine", developer: "Red Thread Games", release: "Upcoming", store: "Live" },
 
     // Rain Games
     { id: 249590, name: "Teslagrad", developer: "Rain Games", release: "Full", store: "Live" },
@@ -125,12 +126,14 @@
     // Arik Games
     { id: 1288760, name: "Dude, Where Is My Beer?", developer: "Arik Games", release: "Full", store: "Live" },
     { id: 2216060, name: "Another Bar Game", developer: "Arik Games", release: "Full", store: "Live" },
+    { id: 3357000, name: "Dude, Where Is My Beer? A New Hop", developer: "Arik Games", release: "Upcoming", store: "Live" },
 
     // Slid Studio
     { id: 1639790, name: "Northern Journey", developer: "Slid Studio", release: "Full", store: "Live" },
 
     // Skinny Bandit
     { id: 1725350, name: "Mari and Bayu: The Road Home", developer: "Skinny Bandit", release: "Full", store: "Live" },
+    { id: 2291210, name: "Mechjestic", developer: "Skinny Bandit", release: "Upcoming", store: "Live" },
 
     // Tidvis
     { id: 2184880, name: "The Widow's Boutique", developer: "Tidvis", release: "Full", store: "Live" },
@@ -177,6 +180,10 @@
     { id: 3187730, name: "Clicker Clicker Clicker", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 3449900, name: "Slime Squisher", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 3769130, name: "Keep on Mining!", developer: "EagleEye Games", release: "Full", store: "Live" },
+    { id: 4286550, name: "Keep on Mining! - Worlds", developer: "EagleEye Games", release: "Full", store: "Live" },
+
+    // Pineleaf Studio
+    { id: 977650, name: "DwarfHeim", developer: "Pineleaf Studio", release: "Full", store: "Live" },
 
     // Old Man Games
     { id: 3567200, name: "Overvåkerne", developer: "Old Man Games", release: "Full", store: "Live" },
