@@ -135,6 +135,8 @@
     // Tidvis
     { id: 2184880, name: "The Widow's Boutique", developer: "Tidvis", release: "Full", store: "Live" },
     { id: 2692430, name: "Historical Fashion Dress Up", developer: "Tidvis", release: "Full", store: "Live" },
+    { id: 2343910, name: "Brageskålen", developer: "Tidvis", release: "Full", store: "Live" },
+
       
     // High North Studios AS
     { id: 1069160, name: "SKALD: Against the Black Priory", developer: "High North Studios AS", release: "Full", store: "Live" },
@@ -181,6 +183,13 @@
     { id: 3187730, name: "Clicker Clicker Clicker", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 3449900, name: "Slime Squisher", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 3769130, name: "Keep on Mining!", developer: "EagleEye Games", release: "Full", store: "Live" },
+    { id: 4286550, name: "Keep on Mining! - Worlds", developer: "EagleEye Games", release: "Full", store: "Live" },
+
+    // Billionworlds
+    { id: 1561960, name: "Yield! Fall of Rome", developer: "Billionworlds", release: "Full", store: "Live" },
+
+    // Pineleaf Studio
+    { id: 977650, name: "DwarfHeim", developer: "Pineleaf Studio", release: "Early Access", store: "Delisted" },
 
     // Old Man Games
     { id: 3567200, name: "Overvåkerne", developer: "Old Man Games", release: "Full", store: "Live" },
