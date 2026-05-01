@@ -137,8 +137,13 @@
     { id: 2692430, name: "Historical Fashion Dress Up", developer: "Tidvis", release: "Full", store: "Live" },
     { id: 2343910, name: "Brageskålen", developer: "Tidvis", release: "Full", store: "Live" },
 
+      
     // High North Studios AS
     { id: 1069160, name: "SKALD: Against the Black Priory", developer: "High North Studios AS", release: "Full", store: "Live" },
+  
+    // Sindrex
+    { id: 1212370, name: "Boolean", developer: "Sindrex", release: "Full", store: "Live" },
+    { id: 4154720, name: "The Color Kitnapper", developer: "Sindrex", release: "Upcoming", store: "Live" },
       
     // Fremmed
     { id: 2431100, name: "That Which Gave Chase", developer: "Aslak Karlsen Hauglid (Fremmed)", release: "Full", store: "Live" },
