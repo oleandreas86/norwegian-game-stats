@@ -18,6 +18,7 @@
     { id: 989690, name: "Conan Unconquered", developer: "Funcom (Petroglyph)", release: "Full", store: "Delisted" },
     { id: 2878270, name: "Metal: Hellsinger VR", developer: "Funcom (Lab42, The Outsiders)", release: "Full", store: "Delisted" },
     { id: 1061880, name: "Conan Chop Chop", developer: "Funcom (Mighty Kingdom)", release: "Full", store: "Delisted" },
+    { id: 6370, name: "Bloodline Champions", developer: "Funcom (Stunlock Studios)", release: "Full", store: "Live" },
 
     // Vedinad
     { id: 3405340, name: "Megabonk", developer: "vedinad", release: "Full", store: "Live" },
@@ -28,6 +29,7 @@
     { id: 349270, name: "Mosaic", developer: "Krillbite Studio", release: "Full", store: "Live" },
     { id: 1451120, name: "Sunlight", developer: "Krillbite Studio", release: "Full", store: "Live" },
     { id: 250600, name: "The Plan", developer: "Krillbite Studio", release: "Full", store: "Live" },
+    { id: 332210, name: "Among the Sleep: Prologue", developer: "Krillbite Studio", release: "Full", store: "Live" },
 
     // Red Thread Games
     { id: 770390, name: "Draugen", developer: "Red Thread Games", release: "Full", store: "Live" },
@@ -50,6 +52,7 @@
     { id: 1383970, name: "Captain Sabertooth and the Magic Diamond", developer: "Rock Pocket Games (Ravn)", release: "Full", store: "Live" },
     { id: 3352670, name: "Pinchcliffe Grand Prix Anniversary Edition", developer: "Rock Pocket Games (Ravn)", release: "Full", store: "Live" },
     { id: 3607210, name: "Pinchcliffe Grand Prix Mini games", developer: "Rock Pocket Games (Ravn)", release: "Full", store: "Live" },
+    { id: 310810, name: "Shiftlings", developer: "Rock Pocket Games", release: "Full", store: "Live" },
 
     // Hyper Games
     { id: 1808680, name: "Snufkin: Melody of Moominvalley", developer: "Hyper Games", release: "Full", store: "Live" },
@@ -75,13 +78,16 @@
 
     // D-Pad Studio
     { id: 115800, name: "Owlboy", developer: "D-Pad Studio", release: "Full", store: "Live" },
-    { id: 269770, name: "Savant - Ascent", developer: "D-Pad Studio", release: "Full", store: "Live" }, 
+    { id: 269770, name: "Savant - Ascent", developer: "D-Pad Studio", release: "Full", store: "Live" },
+    { id: 2279330, name: "Savant - Ascent REMIX", developer: "D-Pad Studio", release: "Full", store: "Live" },
+    { id: 748810, name: "Vikings On Trampolines", developer: "D-Pad Studio", release: "Upcoming", store: "Live" },
 
     // Sarepta Studio
     { id: 1783680, name: "Thalassa: Edge of the Abyss", developer: "Sarepta Studio", release: "Full", store: "Live" },
     { id: 2430730, name: "My Child Lebensborn Remastered", developer: "Sarepta Studio", release: "Full", store: "Live" },
     { id: 1114070, name: "My Child Lebensborn", developer: "Sarepta Studio", release: "Full", store: "Delisted/Retired" },
     { id: 316480, name: "Shadow Puppeteer", developer: "Sarepta Studio", release: "Full", store: "Live" },
+    { id: 2669450, name: "My Child New Beginnings", developer: "Sarepta Studio", release: "Upcoming", store: "Live" },
 
     // Grimnir Media
     { id: 513890, name: "The Frostrune", developer: "Grimnir Media", release: "Full", store: "Live" },
@@ -92,6 +98,7 @@
     // Machineboy
     { id: 544970, name: "Milkmaid of the Milky Way", developer: "Machineboy", release: "Full", store: "Live" },
     { id: 1311510, name: "Embracelet", developer: "Machineboy", release: "Full", store: "Live" },
+    { id: 3842900, name: "Cascadou", developer: "Machineboy", release: "Full", store: "Live" },
 
     // Henchman & Goon
     { id: 944080, name: "Pode", developer: "Henchman & Goon", release: "Full", store: "Live" },
@@ -105,6 +112,10 @@
     { id: 1127850, name: "Apple Slash", developer: "Agelvik", release: "Full", store: "Live" },
     { id: 1287040, name: "Gun Devil", developer: "Agelvik", release: "Full", store: "Live" },
     { id: 1919100, name: "Lulu's Temple", developer: "Agelvik", release: "Full", store: "Live" },
+    { id: 792860, name: "Road Doom", developer: "Agelvik", release: "Full", store: "Live" },
+    { id: 887340, name: "Owl Watch", developer: "Agelvik", release: "Full", store: "Live" },
+    { id: 1801220, name: "God Damn The Garden", developer: "Agelvik", release: "Full", store: "Live" },
+    { id: 2076520, name: "Death In Abyss", developer: "Agelvik", release: "Full", store: "Live" },
 
     // Perfectly Paranormal
     { id: 1095120, name: "Helheim Hassle", developer: "Perfectly Paranormal", release: "Full", store: "Live" },
@@ -113,6 +124,7 @@
 
     // Arik Games
     { id: 1288760, name: "Dude, Where Is My Beer?", developer: "Arik Games", release: "Full", store: "Live" },
+    { id: 2216060, name: "Another Bar Game", developer: "Arik Games", release: "Full", store: "Live" },
 
     // Slid Studio
     { id: 1639790, name: "Northern Journey", developer: "Slid Studio", release: "Full", store: "Live" },
@@ -122,6 +134,7 @@
 
     // Tidvis
     { id: 2184880, name: "The Widow's Boutique", developer: "Tidvis", release: "Full", store: "Live" },
+    { id: 2692430, name: "Historical Fashion Dress Up", developer: "Tidvis", release: "Full", store: "Live" },
       
     // High North Studios AS
     { id: 1069160, name: "SKALD: Against the Black Priory", developer: "High North Studios AS", release: "Full", store: "Live" },
@@ -129,6 +142,48 @@
     // Sindrex
     { id: 1212370, name: "Boolean", developer: "Sindrex", release: "Full", store: "Live" },
     { id: 4154720, name: "The Color Kitnapper", developer: "Sindrex", release: "Upcoming", store: "Live" },
+      
+    // Fremmed
+    { id: 2431100, name: "That Which Gave Chase", developer: "Aslak Karlsen Hauglid (Fremmed)", release: "Full", store: "Live" },
+
+    // Snow Leaf Studios
+    { id: 1793330, name: "Brew", developer: "Snow Leaf Studios", release: "Full", store: "Live" },
+
+    // Arctic Hazard AS
+    { id: 3054690, name: "NORSE: Oath of Blood", developer: "Arctic Hazard AS", release: "Full", store: "Live" },
+
+    // Ananki Game Studio
+    { id: 1601630, name: "The Fate of Baldr", developer: "Ananki Game Studio", release: "Full", store: "Live" },
+
+    // Encircle Games
+    { id: 1176060, name: "Wigged Out", developer: "Encircle Games", release: "Full", store: "Live" },
+    { id: 3873480, name: "LUUP", developer: "Encircle Games", release: "Full", store: "Live" },
+
+    // Agens Games
+    { id: 1361670, name: "Skate City", developer: "Agens Games", release: "Full", store: "Live" },
+
+    // Nightmare Studios
+    { id: 1813170, name: "Surrounded", developer: "Nightmare Studios", release: "Early Access", store: "Live" },
+    { id: 2541890, name: "Abnormality", developer: "Nightmare Studios", release: "Early Access", store: "Live" },
+    { id: 2115390, name: "Project Unknown", developer: "Nightmare Studios", release: "Full", store: "Live" },
+    { id: 2398920, name: "PREDATORS", developer: "Nightmare Studios", release: "Upcoming", store: "Live" },
+
+    // Dani
+    { id: 1625450, name: "Muck", developer: "Dani", release: "Full", store: "Live" },
+    { id: 1782210, name: "Crab Game", developer: "Dani", release: "Full", store: "Live" },
+    { id: 1228610, name: "KARLSON", developer: "Dani", release: "Upcoming", store: "Live" },
+
+    // EagleEye Games
+    { id: 2153770, name: "Coin Flipper", developer: "EagleEye Games", release: "Full", store: "Live" },
+    { id: 2422090, name: "Treasure Chest Clicker", developer: "EagleEye Games", release: "Full", store: "Live" },
+    { id: 2577760, name: "Just Click The Button", developer: "EagleEye Games", release: "Full", store: "Live" },
+    { id: 2821890, name: "PegIdle", developer: "EagleEye Games", release: "Full", store: "Live" },
+    { id: 3187730, name: "Clicker Clicker Clicker", developer: "EagleEye Games", release: "Full", store: "Live" },
+    { id: 3449900, name: "Slime Squisher", developer: "EagleEye Games", release: "Full", store: "Live" },
+    { id: 3769130, name: "Keep on Mining!", developer: "EagleEye Games", release: "Full", store: "Live" },
+
+    // Old Man Games
+    { id: 3567200, name: "Overvåkerne", developer: "Old Man Games", release: "Full", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
