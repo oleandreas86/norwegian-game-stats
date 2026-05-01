@@ -62,6 +62,7 @@
 
     // Snowcastle Games
     { id: 761030, name: "EARTHLOCK", developer: "Snowcastle Games", release: "Full", store: "Live" },
+    { id: 826640, name: "EARTHLOCK 2", developer: "Snowcastle Games", release: "Upcoming", store: "Live" },
     { id: 1550730, name: "Ikonei Island: An Earthlock Adventure", developer: "Snowcastle Games", release: "Full", store: "Live" },
     { id: 2994600, name: "Lysward", developer: "Snowcastle Games", release: "Upcoming", store: "Live" },
 
@@ -174,12 +175,23 @@
     { id: 2422090, name: "Treasure Chest Clicker", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 2577760, name: "Just Click The Button", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 2821890, name: "PegIdle", developer: "EagleEye Games", release: "Full", store: "Live" },
+    { id: 3110500, name: "The Best Duck Clicker", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 3187730, name: "Clicker Clicker Clicker", developer: "EagleEye Games", release: "Full", store: "Live" },
+    { id: 3327170, name: "Minutescape", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 3449900, name: "Slime Squisher", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 3769130, name: "Keep on Mining!", developer: "EagleEye Games", release: "Full", store: "Live" },
+    { id: 4286550, name: "Keep on Mining! - Worlds", developer: "EagleEye Games", release: "Full", store: "Live" },
 
     // Old Man Games
     { id: 3567200, name: "Overvåkerne", developer: "Old Man Games", release: "Full", store: "Live" },
+
+    // Erlend Kirkeboe
+    { id: 1451720, name: "Minesweeper Classy", developer: "Erlend Kirkeboe", release: "Full", store: "Live" },
+    { id: 1835970, name: "ICEwall", developer: "Erlend Kirkeboe", release: "Full", store: "Live" },
+    { id: 2452820, name: "Skogdal", developer: "Erlend Kirkeboe", release: "Full", store: "Live" },
+
+    // Pineleaf Studio
+    { id: 977650, name: "DwarfHeim", developer: "Pineleaf Studio", release: "Full", store: "Delisted" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
