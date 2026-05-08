@@ -35,6 +35,7 @@
     { id: 770390, name: "Draugen", developer: "Red Thread Games", release: "Full", store: "Live" },
     { id: 721180, name: "Dustborn", developer: "Red Thread Games", release: "Full", store: "Live" },
     { id: 237850, name: "Dreamfall Chapters", developer: "Red Thread Games", release: "Full", store: "Live" },
+    { id: 3245140, name: "Hello Sunshine", developer: "Red Thread Games", release: "Upcoming", store: "Live" },
 
     // Rain Games
     { id: 249590, name: "Teslagrad", developer: "Rain Games", release: "Full", store: "Live" },
@@ -64,6 +65,7 @@
     { id: 761030, name: "EARTHLOCK", developer: "Snowcastle Games", release: "Full", store: "Live" },
     { id: 1550730, name: "Ikonei Island: An Earthlock Adventure", developer: "Snowcastle Games", release: "Full", store: "Live" },
     { id: 2994600, name: "Lysward", developer: "Snowcastle Games", release: "Upcoming", store: "Live" },
+    { id: 826640, name: "EARTHLOCK 2", developer: "Snowcastle Games", release: "Upcoming", store: "Live" },
 
     // Megapop
     { id: 1655670, name: "Rob Riches", developer: "Megapop", release: "Full", store: "Live" },
@@ -125,6 +127,7 @@
     // Arik Games
     { id: 1288760, name: "Dude, Where Is My Beer?", developer: "Arik Games", release: "Full", store: "Live" },
     { id: 2216060, name: "Another Bar Game", developer: "Arik Games", release: "Full", store: "Live" },
+    { id: 3357000, name: "Dude, Where Is My Beer? A New Hop", developer: "Arik Games", release: "Upcoming", store: "Live" },
 
     // Slid Studio
     { id: 1639790, name: "Northern Journey", developer: "Slid Studio", release: "Full", store: "Live" },
@@ -193,6 +196,9 @@
 
     // Old Man Games
     { id: 3567200, name: "Overvåkerne", developer: "Old Man Games", release: "Full", store: "Live" },
+
+    // Mistical Studios
+    { id: 4096800, name: "GLONK", developer: "Mistical Studios", release: "Full", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
