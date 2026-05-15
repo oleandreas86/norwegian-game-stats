@@ -160,6 +160,7 @@
     // Encircle Games
     { id: 1176060, name: "Wigged Out", developer: "Encircle Games", release: "Full", store: "Live" },
     { id: 3873480, name: "LUUP", developer: "Encircle Games", release: "Full", store: "Live" },
+    { id: 446030, name: "Corroded", developer: "Encircle Games", release: "Early Access", store: "Live" },
 
     // Agens Games
     { id: 1361670, name: "Skate City", developer: "Agens Games", release: "Full", store: "Live" },
@@ -193,6 +194,44 @@
 
     // Old Man Games
     { id: 3567200, name: "Overvåkerne", developer: "Old Man Games", release: "Full", store: "Live" },
+
+    // Erlend Kirkeboe
+    { id: 1451720, name: "Minesweeper Classy", developer: "Erlend Kirkeboe", release: "Full", store: "Live" },
+    { id: 1835970, name: "ICEwall", developer: "Erlend Kirkeboe", release: "Full", store: "Live" },
+    { id: 2452820, name: "Skogdal", developer: "Erlend Kirkeboe", release: "Full", store: "Live" },
+
+    // Raidho Games
+    { id: 1754960, name: "Astride", developer: "Raidho Games", release: "Early Access", store: "Live" },
+
+    // Eight Bit Skyline
+    { id: 2148880, name: "Dagdrøm", developer: "Eight Bit Skyline", release: "Full", store: "Live" },
+
+    // Audvyr Studio
+    { id: 1236170, name: "The Fold: Ingression", developer: "Audvyr Studio", release: "Upcoming", store: "Live" },
+
+    // Studio Gauntlet
+    { id: 889260, name: "Bonkies", developer: "Studio Gauntlet", release: "Full", store: "Live" },
+    { id: 1597610, name: "Soccer With Satan", developer: "Studio Gauntlet", release: "Full", store: "Live" },
+    { id: 2943150, name: "SNØ: Ultimate Freeriding", developer: "Studio Gauntlet", release: "Full", store: "Live" },
+
+    // Frostisen Studio
+    { id: 2472010, name: "Eydigard", developer: "Frostisen Studio", release: "Early Access", store: "Live" },
+
+    // Filiokus
+    { id: 3660060, name: "Cal & Bomba", developer: "Filiokus", release: "Full", store: "Live" },
+    { id: 3524740, name: "Talystro", developer: "Filiokus", release: "Upcoming", store: "Live" },
+
+    // Lucidum Studio
+    { id: 1684650, name: "Pareidolia", developer: "Lucidum Studio", release: "Upcoming", store: "Live" },
+
+    // DefenceForce
+    { id: 3319780, name: "Encounter: A 8-Bit Noir Adventure", developer: "DefenceForce", release: "Full", store: "Live" },
+
+    // Magic Pie Games
+    { id: 2979810, name: "POLYARIS", developer: "Magic Pie Games", release: "Upcoming", store: "Live" },
+
+    // Team Fugl
+    { id: 643810, name: "Fugl", developer: "Team Fugl", release: "Early Access", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
