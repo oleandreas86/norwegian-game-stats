@@ -184,6 +184,7 @@
     { id: 3449900, name: "Slime Squisher", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 3769130, name: "Keep on Mining!", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 4286550, name: "Keep on Mining! - Worlds", developer: "EagleEye Games", release: "Full", store: "Live" },
+    { id: 3327170, name: "Minutescape", developer: "EagleEye Games", release: "Full", store: "Live" },
 
     // Billionworlds
     { id: 1561960, name: "Yield! Fall of Rome", developer: "Billionworlds", release: "Full", store: "Live" },
@@ -193,6 +194,15 @@
 
     // Old Man Games
     { id: 3567200, name: "Overvåkerne", developer: "Old Man Games", release: "Full", store: "Live" },
+
+    // Eight Bit Skyline
+    { id: 2148880, name: "Dagdrøm", developer: "Eight Bit Skyline", release: "Full", store: "Live" },
+
+    // Audvyr Studio
+    { id: 1236170, name: "The Fold: Ingression", developer: "Audvyr Studio", release: "Upcoming", store: "Live" },
+
+    // Turbo Tape Games
+    { id: 200050, name: "Naval War: Arctic Circle", developer: "Turbo Tape Games", release: "Full", store: "Delisted" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
