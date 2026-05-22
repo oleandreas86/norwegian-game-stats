@@ -197,12 +197,28 @@
 
     // Eight Bit Skyline
     { id: 2148880, name: "Dagdrøm", developer: "Eight Bit Skyline", release: "Full", store: "Live" },
+    { id: 2560820, name: "Dung Beetle Adventure", developer: "Eight Bit Skyline", release: "Full", store: "Live" },
 
     // Audvyr Studio
     { id: 1236170, name: "The Fold: Ingression", developer: "Audvyr Studio", release: "Upcoming", store: "Live" },
 
     // Turbo Tape Games
     { id: 200050, name: "Naval War: Arctic Circle", developer: "Turbo Tape Games", release: "Full", store: "Delisted" },
+
+    // Carbonara Games
+    { id: 3645050, name: "Crop", developer: "Carbonara Games", release: "Upcoming", store: "Live" },
+
+    // Rubarb Studio
+    { id: 3930130, name: "Basalt: The Cursed Vein", developer: "Rubarb Studio", release: "Upcoming", store: "Live" },
+
+    // Mistical Studios AS
+    { id: 4096800, name: "GLONK", developer: "Mistical Studios AS", release: "Full", store: "Live" },
+
+    // Frostzone Entertainment AS
+    { id: 2899310, name: "Card Engine", developer: "Frostzone Entertainment AS", release: "Early Access", store: "Live" },
+
+    // Peekio
+    { id: 1391070, name: "Stallion Squad", developer: "Peekio", release: "Upcoming", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
