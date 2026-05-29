@@ -13,7 +13,7 @@
     { id: 217750, name: "Age of Conan: Unchained", developer: "Funcom", release: "Full", store: "Live" },
     { id: 324790, name: "LEGO Minifigures Online", developer: "Funcom", release: "Full", store: "Delisted" },
     { id: 1061910, name: "Metal: Hellsinger", developer: "Funcom (The Outsiders)", release: "Full", store: "Delisted" },
-    { id: 1660080, name: "Aloft", developer: "Funcom (Astrolabe Interactive)", release: "Full", store: "Delisted" },
+    { id: 1660080, name: "Aloft", developer: "Funcom (Astrolabe Interactive)", release: "Early Access", store: "Live" },
     { id: 1605220, name: "Dune: Spice Wars", developer: "Funcom (Shiro Games)", release: "Full", store: "Delisted" },
     { id: 989690, name: "Conan Unconquered", developer: "Funcom (Petroglyph)", release: "Full", store: "Delisted" },
     { id: 2878270, name: "Metal: Hellsinger VR", developer: "Funcom (Lab42, The Outsiders)", release: "Full", store: "Delisted" },
@@ -35,6 +35,7 @@
     { id: 770390, name: "Draugen", developer: "Red Thread Games", release: "Full", store: "Live" },
     { id: 721180, name: "Dustborn", developer: "Red Thread Games", release: "Full", store: "Live" },
     { id: 237850, name: "Dreamfall Chapters", developer: "Red Thread Games", release: "Full", store: "Live" },
+    { id: 3245140, name: "Hello Sunshine", developer: "Red Thread Games", release: "Upcoming", store: "Live" },
 
     // Rain Games
     { id: 249590, name: "Teslagrad", developer: "Rain Games", release: "Full", store: "Live" },
@@ -44,6 +45,7 @@
     { id: 1308760, name: "Mesmer", developer: "Rain Games", release: "Full", store: "Live" },
     { id: 1789370, name: "Girl Genius: Adventures In Castle Heterodyne", developer: "Rain Games", release: "Full", store: "Live" },
     { id: 1133070, name: "Viking Chess: Hnefatafl", developer: "Rain Games", release: "Full", store: "Live" },
+    { id: 3199470, name: "Knuckle Jet", developer: "Rain Games", release: "Upcoming", store: "Live" },
 
     // Rock Pocket Games
     { id: 1012840, name: "Moons of Madness", developer: "Rock Pocket Games", release: "Full", store: "Live" },
@@ -58,7 +60,7 @@
     { id: 1808680, name: "Snufkin: Melody of Moominvalley", developer: "Hyper Games", release: "Full", store: "Live" },
     { id: 1331910, name: "Morkredd", developer: "Hyper Games", release: "Full", store: "Live" },
     { id: 638470, name: "Eggggg", developer: "Hyper Games", release: "Full", store: "Live" },
-    { id: 3256150, name: "Moomintroll: Winter's Warmth", developer: "Hyper Games", release: "Upcoming", store: "Live" },
+    { id: 3256150, name: "Moomintroll: Winter's Warmth", developer: "Hyper Games", release: "Full", store: "Live" },
 
     // Snowcastle Games
     { id: 761030, name: "EARTHLOCK", developer: "Snowcastle Games", release: "Full", store: "Live" },
@@ -69,7 +71,7 @@
     { id: 1655670, name: "Rob Riches", developer: "Megapop", release: "Full", store: "Live" },
     { id: 979800, name: "Haxity", developer: "Megapop", release: "Early Access", store: "Live" },
     { id: 2940040, name: "Trolls vs Vikings: Reborn", developer: "Megapop", release: "Full", store: "Live" },
-    { id: 2932150, name: "Life Below", developer: "Megapop", release: "Upcoming", store: "Live" },
+    { id: 2932150, name: "Life Below", developer: "Megapop", release: "Full", store: "Live" },
 
     // Misc Games
     { id: 501080, name: "Fishing: Barents Sea", developer: "Misc Games", release: "Full", store: "Live" },
@@ -193,6 +195,9 @@
 
     // Old Man Games
     { id: 3567200, name: "Overvåkerne", developer: "Old Man Games", release: "Full", store: "Live" },
+
+    // Never Say Never
+    { id: 3435710, name: "The Last Nordic Tribe", developer: "Never Say Never", release: "Full", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
