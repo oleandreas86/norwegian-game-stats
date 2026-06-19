@@ -35,6 +35,7 @@
     { id: 770390, name: "Draugen", developer: "Red Thread Games", release: "Full", store: "Live" },
     { id: 721180, name: "Dustborn", developer: "Red Thread Games", release: "Full", store: "Live" },
     { id: 237850, name: "Dreamfall Chapters", developer: "Red Thread Games", release: "Full", store: "Live" },
+    { id: 3245140, name: "Hello Sunshine", developer: "Red Thread Games", release: "Upcoming", store: "Live" },
 
     // Rain Games
     { id: 249590, name: "Teslagrad", developer: "Rain Games", release: "Full", store: "Live" },
@@ -44,6 +45,7 @@
     { id: 1308760, name: "Mesmer", developer: "Rain Games", release: "Full", store: "Live" },
     { id: 1789370, name: "Girl Genius: Adventures In Castle Heterodyne", developer: "Rain Games", release: "Full", store: "Live" },
     { id: 1133070, name: "Viking Chess: Hnefatafl", developer: "Rain Games", release: "Full", store: "Live" },
+    { id: 3199470, name: "Knuckle Jet", developer: "Rain Games", release: "Upcoming", store: "Live" },
 
     // Rock Pocket Games
     { id: 1012840, name: "Moons of Madness", developer: "Rock Pocket Games", release: "Full", store: "Live" },
@@ -64,6 +66,7 @@
     { id: 761030, name: "EARTHLOCK", developer: "Snowcastle Games", release: "Full", store: "Live" },
     { id: 1550730, name: "Ikonei Island: An Earthlock Adventure", developer: "Snowcastle Games", release: "Full", store: "Live" },
     { id: 2994600, name: "Lysward", developer: "Snowcastle Games", release: "Upcoming", store: "Live" },
+    { id: 826640, name: "EARTHLOCK 2", developer: "Snowcastle Games", release: "Upcoming", store: "Live" },
 
     // Megapop
     { id: 1655670, name: "Rob Riches", developer: "Megapop", release: "Full", store: "Live" },
@@ -125,12 +128,14 @@
     // Arik Games
     { id: 1288760, name: "Dude, Where Is My Beer?", developer: "Arik Games", release: "Full", store: "Live" },
     { id: 2216060, name: "Another Bar Game", developer: "Arik Games", release: "Full", store: "Live" },
+    { id: 4227560, name: "Legends of Rock", developer: "Arik Games", release: "Upcoming", store: "Live" },
 
     // Slid Studio
     { id: 1639790, name: "Northern Journey", developer: "Slid Studio", release: "Full", store: "Live" },
 
     // Skinny Bandit
     { id: 1725350, name: "Mari and Bayu: The Road Home", developer: "Skinny Bandit", release: "Full", store: "Live" },
+    { id: 2291210, name: "Mechjestic", developer: "Skinny Bandit", release: "Upcoming", store: "Live" },
 
     // Tidvis
     { id: 2184880, name: "The Widow's Boutique", developer: "Tidvis", release: "Full", store: "Live" },
@@ -193,6 +198,18 @@
 
     // Old Man Games
     { id: 3567200, name: "Overvåkerne", developer: "Old Man Games", release: "Full", store: "Live" },
+
+    // Leik Games
+    { id: 3783580, name: "Dicetris", developer: "Leik Games", release: "Upcoming", store: "Live" },
+
+    // Most Likely No Reason For Hysteria
+    { id: 3839500, name: "Cliff Kingdom", developer: "Most Likely No Reason For Hysteria", release: "Upcoming", store: "Live" },
+
+    // Carbonara Games
+    { id: 3645050, name: "Crop", developer: "Carbonara Games", release: "Upcoming", store: "Live" },
+
+    // Blipdip
+    { id: 2026040, name: "Dig Dig Boom", developer: "Blipdip", release: "Upcoming", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
