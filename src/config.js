@@ -35,6 +35,7 @@
     { id: 770390, name: "Draugen", developer: "Red Thread Games", release: "Full", store: "Live" },
     { id: 721180, name: "Dustborn", developer: "Red Thread Games", release: "Full", store: "Live" },
     { id: 237850, name: "Dreamfall Chapters", developer: "Red Thread Games", release: "Full", store: "Live" },
+    { id: 3245140, name: "Hello Sunshine", developer: "Red Thread Games", release: "Upcoming", store: "Live" },
 
     // Rain Games
     { id: 249590, name: "Teslagrad", developer: "Rain Games", release: "Full", store: "Live" },
@@ -158,6 +159,7 @@
     { id: 1601630, name: "The Fate of Baldr", developer: "Ananki Game Studio", release: "Full", store: "Live" },
 
     // Encircle Games
+    { id: 446030, name: "Corroded", developer: "Encircle Games", release: "Early Access", store: "Live" },
     { id: 1176060, name: "Wigged Out", developer: "Encircle Games", release: "Full", store: "Live" },
     { id: 3873480, name: "LUUP", developer: "Encircle Games", release: "Full", store: "Live" },
 
@@ -193,6 +195,31 @@
 
     // Old Man Games
     { id: 3567200, name: "Overvåkerne", developer: "Old Man Games", release: "Full", store: "Live" },
+
+    // Turbo Tape Games
+    { id: 200050, name: "Naval War: Arctic Circle", developer: "Turbo Tape Games", release: "Full", store: "Live" },
+
+    // 4Bit Games
+    { id: 348280, name: "ORBIT", developer: "4Bit Games", release: "Full", store: "Live" },
+    { id: 693700, name: "Prime Mover", developer: "4Bit Games", release: "Full", store: "Live" },
+    { id: 1018750, name: "Rubble Rush", developer: "4Bit Games", release: "Full", store: "Live" },
+
+    // Eight Bit Skyline
+    { id: 2148880, name: "Dagdrøm", developer: "Eight Bit Skyline", release: "Full", store: "Live" },
+    { id: 3443990, name: "Ismene", developer: "Eight Bit Skyline", release: "Upcoming", store: "Live" },
+
+    // Studio Gauntlet
+    { id: 889260, name: "Bonkies", developer: "Studio Gauntlet", release: "Full", store: "Live" },
+    { id: 1597610, name: "Soccer With Satan", developer: "Studio Gauntlet", release: "Full", store: "Live" },
+    { id: 2943150, name: "SNØ: Ultimate Freeriding", developer: "Studio Gauntlet", release: "Full", store: "Live" },
+
+    // Riddlebit Software
+    { id: 2865670, name: "JETRUNNER", developer: "Riddlebit Software", release: "Full", store: "Live" },
+    { id: 1119780, name: "Setback", developer: "Riddlebit Software", release: "Upcoming", store: "Live" },
+
+    // Artplant
+    { id: 299360, name: "Block N Load", developer: "Artplant", release: "Full", store: "Delisted" },
+    { id: 536640, name: "Grimm: Dark Legacy", developer: "Artplant", release: "Full", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
