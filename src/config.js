@@ -126,12 +126,14 @@
     // Arik Games
     { id: 1288760, name: "Dude, Where Is My Beer?", developer: "Arik Games", release: "Full", store: "Live" },
     { id: 2216060, name: "Another Bar Game", developer: "Arik Games", release: "Full", store: "Live" },
+    { id: 3357000, name: "Dude, Where Is My Beer? A New Hop", developer: "Arik Games", release: "Upcoming", store: "Live" },
 
     // Slid Studio
     { id: 1639790, name: "Northern Journey", developer: "Slid Studio", release: "Full", store: "Live" },
 
     // Skinny Bandit
     { id: 1725350, name: "Mari and Bayu: The Road Home", developer: "Skinny Bandit", release: "Full", store: "Live" },
+    { id: 2291210, name: "Mechjestic", developer: "Skinny Bandit", release: "Upcoming", store: "Live" },
 
     // Tidvis
     { id: 2184880, name: "The Widow's Boutique", developer: "Tidvis", release: "Full", store: "Live" },
@@ -159,6 +161,7 @@
     { id: 1601630, name: "The Fate of Baldr", developer: "Ananki Game Studio", release: "Full", store: "Live" },
 
     // Encircle Games
+    { id: 446030, name: "Corroded", developer: "Encircle Games", release: "Early Access", store: "Live" },
     { id: 1176060, name: "Wigged Out", developer: "Encircle Games", release: "Full", store: "Live" },
     { id: 3873480, name: "LUUP", developer: "Encircle Games", release: "Full", store: "Live" },
 
@@ -199,6 +202,8 @@
     { id: 2472010, name: "Eydigard", developer: "Frostisen Studio", release: "Early Access", store: "Live" },
 
     // Studio Gauntlet AS
+    { id: 889260, name: "Bonkies", developer: "Studio Gauntlet AS", release: "Full", store: "Live" },
+    { id: 1597610, name: "Soccer With Satan", developer: "Studio Gauntlet AS", release: "Full", store: "Live" },
     { id: 2943150, name: "SNØ: Ultimate Freeriding", developer: "Studio Gauntlet AS", release: "Full", store: "Live" },
 
     // Adventales
@@ -210,6 +215,12 @@
 
     // Myte Interactive
     { id: 4056820, name: "Northgale", developer: "Myte Interactive", release: "Upcoming", store: "Live" },
+
+    // Corebreak Interactive
+    { id: 2804610, name: "Tails of Glimmervale", developer: "Corebreak Interactive", release: "Full", store: "Live" },
+
+    // Mistical Studios
+    { id: 4096800, name: "GLONK!", developer: "Mistical Studios", release: "Full", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
