@@ -45,6 +45,7 @@
     { id: 1308760, name: "Mesmer", developer: "Rain Games", release: "Full", store: "Live" },
     { id: 1789370, name: "Girl Genius: Adventures In Castle Heterodyne", developer: "Rain Games", release: "Full", store: "Live" },
     { id: 1133070, name: "Viking Chess: Hnefatafl", developer: "Rain Games", release: "Full", store: "Live" },
+    { id: 3199470, name: "Knuckle Jet", developer: "Rain Games", release: "Upcoming", store: "Live" },
 
     // Rock Pocket Games
     { id: 1012840, name: "Moons of Madness", developer: "Rock Pocket Games", release: "Full", store: "Live" },
@@ -126,6 +127,7 @@
     // Arik Games
     { id: 1288760, name: "Dude, Where Is My Beer?", developer: "Arik Games", release: "Full", store: "Live" },
     { id: 2216060, name: "Another Bar Game", developer: "Arik Games", release: "Full", store: "Live" },
+    { id: 3357000, name: "Dude, Where Is My Beer? A New Hop", developer: "Arik Games", release: "Upcoming", store: "Live" },
 
     // Slid Studio
     { id: 1639790, name: "Northern Journey", developer: "Slid Studio", release: "Full", store: "Live" },
@@ -195,6 +197,18 @@
 
     // Old Man Games
     { id: 3567200, name: "Overvåkerne", developer: "Old Man Games", release: "Full", store: "Live" },
+
+    // Studio Gauntlet AS
+    { id: 2943150, name: "SNØ: Ultimate Freeriding", developer: "Studio Gauntlet AS", release: "Full", store: "Live" },
+
+    // Erlend Kirkebø
+    { id: 2452820, name: "Skogdal", developer: "Erlend Kirkebø", release: "Full", store: "Live" },
+
+    // Audvyr Studio
+    { id: 1236170, name: "The Fold: Ingression", developer: "Audvyr Studio", release: "Upcoming", store: "Live" },
+
+    // SteinMakesGames
+    { id: 2026040, name: "Dig Dig Boom", developer: "SteinMakesGames", release: "Upcoming", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
