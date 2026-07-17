@@ -35,6 +35,7 @@
     { id: 770390, name: "Draugen", developer: "Red Thread Games", release: "Full", store: "Live" },
     { id: 721180, name: "Dustborn", developer: "Red Thread Games", release: "Full", store: "Live" },
     { id: 237850, name: "Dreamfall Chapters", developer: "Red Thread Games", release: "Full", store: "Live" },
+    { id: 3245140, name: "Hello Sunshine", developer: "Red Thread Games", release: "Upcoming", store: "Live" },
 
     // Rain Games
     { id: 249590, name: "Teslagrad", developer: "Rain Games", release: "Full", store: "Live" },
@@ -58,7 +59,7 @@
     { id: 1808680, name: "Snufkin: Melody of Moominvalley", developer: "Hyper Games", release: "Full", store: "Live" },
     { id: 1331910, name: "Morkredd", developer: "Hyper Games", release: "Full", store: "Live" },
     { id: 638470, name: "Eggggg", developer: "Hyper Games", release: "Full", store: "Live" },
-    { id: 3256150, name: "Moomintroll: Winter's Warmth", developer: "Hyper Games", release: "Upcoming", store: "Live" },
+    { id: 3256150, name: "Moomintroll: Winter's Warmth", developer: "Hyper Games", release: "Full", store: "Live" },
 
     // Snowcastle Games
     { id: 761030, name: "EARTHLOCK", developer: "Snowcastle Games", release: "Full", store: "Live" },
@@ -69,7 +70,7 @@
     { id: 1655670, name: "Rob Riches", developer: "Megapop", release: "Full", store: "Live" },
     { id: 979800, name: "Haxity", developer: "Megapop", release: "Early Access", store: "Live" },
     { id: 2940040, name: "Trolls vs Vikings: Reborn", developer: "Megapop", release: "Full", store: "Live" },
-    { id: 2932150, name: "Life Below", developer: "Megapop", release: "Upcoming", store: "Live" },
+    { id: 2932150, name: "Life Below", developer: "Megapop", release: "Full", store: "Live" },
 
     // Misc Games
     { id: 501080, name: "Fishing: Barents Sea", developer: "Misc Games", release: "Full", store: "Live" },
@@ -131,6 +132,7 @@
 
     // Skinny Bandit
     { id: 1725350, name: "Mari and Bayu: The Road Home", developer: "Skinny Bandit", release: "Full", store: "Live" },
+    { id: 2291210, name: "Mechjestic", developer: "Skinny Bandit", release: "Upcoming", store: "Live" },
 
     // Tidvis
     { id: 2184880, name: "The Widow's Boutique", developer: "Tidvis", release: "Full", store: "Live" },
@@ -143,7 +145,7 @@
   
     // Sindrex
     { id: 1212370, name: "Boolean", developer: "Sindrex", release: "Full", store: "Live" },
-    { id: 4154720, name: "The Color Kitnapper", developer: "Sindrex", release: "Upcoming", store: "Live" },
+    { id: 4154720, name: "The Color Kitnapper", developer: "Sindrex", release: "Full", store: "Live" },
       
     // Fremmed
     { id: 2431100, name: "That Which Gave Chase", developer: "Aslak Karlsen Hauglid (Fremmed)", release: "Full", store: "Live" },
