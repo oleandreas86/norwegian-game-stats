@@ -176,6 +176,7 @@
     { id: 2541890, name: "Abnormality", developer: "Nightmare Studios", release: "Early Access", store: "Live" },
     { id: 2115390, name: "Project Unknown", developer: "Nightmare Studios", release: "Full", store: "Live" },
     { id: 2398920, name: "PREDATORS", developer: "Nightmare Studios", release: "Upcoming", store: "Live" },
+    { id: 4341550, name: "After Hours", developer: "Nightmare Studios (Lunar Entertainment)", release: "Upcoming", store: "Live" },
 
     // Dani
     { id: 1625450, name: "Muck", developer: "Dani", release: "Full", store: "Live" },
@@ -298,6 +299,9 @@
 
     // Magic Pie Games
     { id: 2979810, name: "POLYARIS", developer: "Magic Pie Games", release: "Upcoming", store: "Live" },
+
+    // Proletary Games
+    { id: 2359880, name: "Late Stage", developer: "Proletary Games", release: "Upcoming", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
