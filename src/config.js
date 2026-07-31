@@ -55,6 +55,7 @@
     { id: 3352670, name: "Pinchcliffe Grand Prix Anniversary Edition", developer: "Rock Pocket Games (Ravn)", release: "Full", store: "Live" },
     { id: 3607210, name: "Pinchcliffe Grand Prix Mini games", developer: "Rock Pocket Games (Ravn)", release: "Full", store: "Live" },
     { id: 310810, name: "Shiftlings", developer: "Rock Pocket Games", release: "Full", store: "Live" },
+    { id: 4023510, name: "Outsail The Sun", developer: "Rock Pocket Games", release: "Upcoming", store: "Live" },
 
     // Hyper Games
     { id: 1808680, name: "Snufkin: Melody of Moominvalley", developer: "Hyper Games", release: "Full", store: "Live" },
@@ -302,6 +303,12 @@
 
     // Proletary Games
     { id: 2359880, name: "Late Stage", developer: "Proletary Games", release: "Upcoming", store: "Live" },
+
+    // Surrealist
+    { id: 1609070, name: "Calluna", developer: "Surrealist", release: "Full", store: "Live" },
+
+    // Storedraumen Games
+    { id: 3004410, name: "Love in Space", developer: "Storedraumen Games", release: "Upcoming", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
