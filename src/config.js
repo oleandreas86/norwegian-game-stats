@@ -261,7 +261,7 @@
     { id: 536640, name: "Grimm: Dark Legacy", developer: "Artplant", release: "Full", store: "Live" },
 
     // Leik Games
-    { id: 3783580, name: "Dicetris", developer: "Leik Games", release: "Upcoming", store: "Live" },
+    { id: 3783580, name: "Dicetris", developer: "Leik Games", release: "Full", store: "Live" },
 
     // Most Likely No Reason For Hysteria
     { id: 3839500, name: "Cliff Kingdom", developer: "Most Likely No Reason For Hysteria", release: "Upcoming", store: "Live" },
