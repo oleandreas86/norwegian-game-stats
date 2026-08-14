@@ -279,7 +279,7 @@
     { id: 2899310, name: "Card Engine", developer: "Frostzone Entertainment AS", release: "Early Access", store: "Live" },
 
     // Peekio
-    { id: 1391070, name: "Stallion Squad", developer: "Peekio", release: "Upcoming", store: "Live" },
+    { id: 1391070, name: "Stallion Squad", developer: "Peekio", release: "Early Access", store: "Live" },
 
     // Team Fugl
     { id: 643810, name: "Fugl", developer: "Team Fugl", release: "Early Access", store: "Live" },
@@ -302,6 +302,9 @@
 
     // Proletary Games
     { id: 2359880, name: "Late Stage", developer: "Proletary Games", release: "Upcoming", store: "Live" },
+
+    // Pixfork Games
+    { id: 2316280, name: "On Tape << Rewind", developer: "Pixfork Games", release: "Upcoming", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
