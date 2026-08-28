@@ -78,7 +78,7 @@
     // Misc Games
     { id: 501080, name: "Fishing: Barents Sea", developer: "Misc Games", release: "Full", store: "Live" },
     { id: 1264250, name: "Fishing: North Atlantic", developer: "Misc Games", release: "Full", store: "Live" },
-    { id: 1266540, name: "Ships At Sea", developer: "Misc Games", release: "Full", store: "Live" },
+    { id: 1266540, name: "Ships At Sea", developer: "Misc Games", release: "Early Access", store: "Live" },
 
     // D-Pad Studio
     { id: 115800, name: "Owlboy", developer: "D-Pad Studio", release: "Full", store: "Live" },
