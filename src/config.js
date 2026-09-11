@@ -312,6 +312,10 @@
 
     // Pixfork Games
     { id: 2316280, name: "On Tape << Rewind", developer: "Pixfork Games", release: "Upcoming", store: "Live" },
+
+    // Games People Play
+    { id: 2966550, name: "SpreadCheat", developer: "Games People Play", release: "Full", store: "Live" },
+    { id: 3699850, name: "The Devil's Due", developer: "Games People Play", release: "Upcoming", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
