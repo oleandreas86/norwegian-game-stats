@@ -189,12 +189,14 @@
     { id: 2422090, name: "Treasure Chest Clicker", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 2577760, name: "Just Click The Button", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 2821890, name: "PegIdle", developer: "EagleEye Games", release: "Full", store: "Live" },
+    { id: 3094490, name: "Ascend The Well", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 3110500, name: "The Best Duck Clicker", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 3187730, name: "Clicker Clicker Clicker", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 3327170, name: "Minutescape", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 3449900, name: "Slime Squisher", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 3769130, name: "Keep on Mining!", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 4286550, name: "Keep on Mining! - Worlds", developer: "EagleEye Games", release: "Full", store: "Live" },
+    { id: 5100710, name: "Orbital Madness", developer: "EagleEye Games", release: "Upcoming", store: "Live" },
 
     // Billionworlds
     { id: 1561960, name: "Yield! Fall of Rome", developer: "Billionworlds", release: "Full", store: "Live" },
