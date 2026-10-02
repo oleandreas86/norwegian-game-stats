@@ -155,6 +155,10 @@
     // Fremmed
     { id: 2431100, name: "That Which Gave Chase", developer: "Aslak Karlsen Hauglid (Fremmed)", release: "Full", store: "Live" },
 
+    // Tinimations
+    { id: 412660, name: "Klang", developer: "Tinimations", release: "Full", store: "Live" },
+    { id: 1111600, name: "Klang 2", developer: "Tinimations", release: "Full", store: "Live" },
+
     // Snow Leaf Studios
     { id: 1793330, name: "Brew", developer: "Snow Leaf Studios", release: "Full", store: "Live" },
 
@@ -241,6 +245,7 @@
 
     // Mistical Studios
     { id: 4096800, name: "GLONK", developer: "Mistical Studios", release: "Full", store: "Live" },
+    { id: 4550120, name: "Hyper Sphere", developer: "Mistical Studios", release: "Full", store: "Live" },
 
     // Turbo Tape Games
     { id: 200050, name: "Naval War: Arctic Circle", developer: "Turbo Tape Games", release: "Full", store: "Live" },
