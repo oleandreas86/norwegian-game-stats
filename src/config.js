@@ -323,6 +323,13 @@
     // Games People Play
     { id: 2966550, name: "SpreadCheat", developer: "Games People Play", release: "Full", store: "Live" },
     { id: 3699850, name: "The Devil's Due", developer: "Games People Play", release: "Upcoming", store: "Live" },
+
+    // Breach
+    { id: 1574510, name: "Kartoffl", developer: "Breach", release: "Full", store: "Live" },
+    { id: 3337350, name: "FYR: The Lost Island", developer: "Breach", release: "Upcoming", store: "Live" },
+
+    // 13B Productions
+    { id: 4579540, name: "Arc of Icarus", developer: "13B Productions", release: "Upcoming", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
