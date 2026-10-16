@@ -330,6 +330,10 @@
 
     // 13B Productions
     { id: 4579540, name: "Arc of Icarus", developer: "13B Productions", release: "Upcoming", store: "Live" },
+
+    // Bromantic Games
+    { id: 1808620, name: "Dragon Evo", developer: "Bromantic Games", release: "Full", store: "Live" },
+    { id: 2282890, name: "Folklands", developer: "Bromantic Games", release: "Full", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
