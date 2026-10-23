@@ -120,6 +120,7 @@
     { id: 887340, name: "Owl Watch", developer: "Agelvik", release: "Full", store: "Live" },
     { id: 1801220, name: "God Damn The Garden", developer: "Agelvik", release: "Full", store: "Live" },
     { id: 2076520, name: "Death In Abyss", developer: "Agelvik", release: "Full", store: "Live" },
+    { id: 4548120, name: "Tumblebee", developer: "Agelvik", release: "Full", store: "Live" },
 
     // Perfectly Paranormal
     { id: 1095120, name: "Helheim Hassle", developer: "Perfectly Paranormal", release: "Full", store: "Live" },
@@ -138,6 +139,7 @@
     // Skinny Bandit
     { id: 1725350, name: "Mari and Bayu: The Road Home", developer: "Skinny Bandit", release: "Full", store: "Live" },
     { id: 2291210, name: "Mechjestic", developer: "Skinny Bandit", release: "Upcoming", store: "Live" },
+    { id: 5058650, name: "LullaBye-Bye", developer: "Skinny Bandit", release: "Upcoming", store: "Live" },
 
     // Tidvis
     { id: 2184880, name: "The Widow's Boutique", developer: "Tidvis", release: "Full", store: "Live" },
@@ -182,6 +184,8 @@
     { id: 2115390, name: "Project Unknown", developer: "Nightmare Studios", release: "Full", store: "Live" },
     { id: 2398920, name: "PREDATORS", developer: "Nightmare Studios", release: "Upcoming", store: "Live" },
     { id: 4341550, name: "After Hours", developer: "Nightmare Studios (Lunar Entertainment)", release: "Upcoming", store: "Live" },
+    { id: 4990940, name: "PC Store Together", developer: "Nightmare Studios", release: "Upcoming", store: "Live" },
+    { id: 5406170, name: "HUNTED", developer: "Nightmare Studios", release: "Upcoming", store: "Live" },
 
     // Dani
     { id: 1625450, name: "Muck", developer: "Dani", release: "Full", store: "Live" },
@@ -249,6 +253,7 @@
 
     // Turbo Tape Games
     { id: 200050, name: "Naval War: Arctic Circle", developer: "Turbo Tape Games", release: "Full", store: "Live" },
+    { id: 583190, name: "The Astonishing Game", developer: "Turbo Tape Games", release: "Full", store: "Live" },
 
     // 4Bit Games
     { id: 348280, name: "ORBIT", developer: "4Bit Games", release: "Full", store: "Live" },
@@ -278,6 +283,7 @@
     { id: 3645050, name: "Crop", developer: "Carbonara Games", release: "Upcoming", store: "Live" },
 
     // Never Say Never
+    { id: 1897480, name: "Devil's Island", developer: "Never Say Never", release: "Full", store: "Live" },
     { id: 3435710, name: "The Last Nordic Tribe", developer: "Never Say Never", release: "Full", store: "Live" },
 
     // Rubarb Studio
@@ -309,24 +315,31 @@
     { id: 2979810, name: "POLYARIS", developer: "Magic Pie Games", release: "Upcoming", store: "Live" },
 
     // Proletary Games
+    { id: 3295220, name: "GeoJet", developer: "Proletary Games", release: "Full", store: "Live" },
     { id: 2359880, name: "Late Stage", developer: "Proletary Games", release: "Upcoming", store: "Live" },
 
     // Surrealist
     { id: 1609070, name: "Calluna", developer: "Surrealist", release: "Full", store: "Live" },
+    { id: 4197030, name: "Epic Duo", developer: "Surrealist", release: "Upcoming", store: "Live" },
 
     // Storedraumen Games
     { id: 3004410, name: "Love in Space", developer: "Storedraumen Games", release: "Upcoming", store: "Live" },
+    { id: 4958630, name: "Bad Dogs", developer: "Storedraumen Games", release: "Full", store: "Live" },
 
     // Pixfork Games
     { id: 2316280, name: "On Tape << Rewind", developer: "Pixfork Games", release: "Upcoming", store: "Live" },
 
     // Games People Play
+    { id: 1382190, name: "Killer in the cabin", developer: "Games People Play", release: "Full", store: "Live" },
     { id: 2966550, name: "SpreadCheat", developer: "Games People Play", release: "Full", store: "Live" },
     { id: 3699850, name: "The Devil's Due", developer: "Games People Play", release: "Upcoming", store: "Live" },
 
     // Breach
     { id: 1574510, name: "Kartoffl", developer: "Breach", release: "Full", store: "Live" },
     { id: 3337350, name: "FYR: The Lost Island", developer: "Breach", release: "Upcoming", store: "Live" },
+    { id: 4391890, name: "Aerosurfer", developer: "Breach", release: "Upcoming", store: "Live" },
+    { id: 4733960, name: "Heim", developer: "Breach", release: "Upcoming", store: "Live" },
+    { id: 5242290, name: "Demon Face Punching Club", developer: "Breach", release: "Upcoming", store: "Live" },
 
     // 13B Productions
     { id: 4579540, name: "Arc of Icarus", developer: "13B Productions", release: "Upcoming", store: "Live" },
