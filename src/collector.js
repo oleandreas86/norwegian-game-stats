@@ -19,10 +19,12 @@ async function fetchPlayerCount(appid) {
 async function fetchReviews(appid) {
   try {
     const allTimeUrl = `https://store.steampowered.com/appreviews/${appid}?json=1&num_per_page=0&purchase_type=all&language=all`;
-    const allTimeResponse = await axios.get(allTimeUrl);
+    // Steam sometimes redirects this endpoint to the store front page; treat that as a failure
+    // instead of silently following it and parsing HTML.
+    const allTimeResponse = await axios.get(allTimeUrl, { maxRedirects: 0 });
     
     const recentUrl = `https://store.steampowered.com/appreviews/${appid}?json=1&num_per_page=0&purchase_type=all&language=all&day_range=30`;
-    const recentResponse = await axios.get(recentUrl);
+    const recentResponse = await axios.get(recentUrl, { maxRedirects: 0 });
 
     let result = {
       total_reviews: null,
@@ -53,7 +55,31 @@ async function fetchReviews(appid) {
 
     return result;
   } catch (error) {
-    console.error(`Error fetching reviews for ${appid}:`, error.message);
+    console.warn(`Error fetching reviews for ${appid}: ${error.message}, falling back to store summary`);
+    return fetchReviewSummary(appid);
+  }
+}
+
+// All-time review summary from the store browse API (no 30-day breakdown available here)
+async function fetchReviewSummary(appid) {
+  try {
+    const input = { ids: [{ appid }], context: { language: 'english', country_code: 'NO' }, data_request: { include_reviews: true } };
+    const url = `https://api.steampowered.com/IStoreBrowseService/GetItems/v1/?input_json=${encodeURIComponent(JSON.stringify(input))}`;
+    const response = await axios.get(url);
+    const item = response.data && response.data.response && response.data.response.store_items && response.data.response.store_items[0];
+    const summary = item && item.reviews && item.reviews.summary_filtered;
+    if (!summary) return null;
+
+    return {
+      total_reviews: summary.review_count,
+      review_score: summary.review_count > 0 ? summary.percent_positive : null,
+      review_score_desc: summary.review_score_label || null,
+      recent_review_score: null,
+      recent_review_score_desc: null,
+      recent_reviews: null
+    };
+  } catch (error) {
+    console.error(`Error fetching review summary for ${appid}:`, error.message);
     return null;
   }
 }
@@ -129,8 +155,13 @@ async function collectAll() {
       const reviewData = await fetchReviews(game.id);
       const appDetails = await fetchAppDetails(game.id);
 
-      if (reviewData && reviewData.total_reviews !== null) {
-        const reviews = reviewData.total_reviews;
+      // Fall back to the store's recommendation count when the reviews API is unavailable
+      let reviews = reviewData && reviewData.total_reviews !== null ? reviewData.total_reviews : null;
+      if (reviews === null && appDetails && appDetails.recommendations) {
+        reviews = appDetails.recommendations.total;
+      }
+
+      if (reviews !== null && reviews !== undefined) {
         let multiplier = 15; // Base multiplier adjusted for language=all and purchase_type=all
 
         let finalPrice = null;
@@ -201,11 +232,11 @@ async function collectAll() {
           game.id, 
           reviews, 
           estimatedSales,
-          reviewData.review_score,
-          reviewData.review_score_desc,
-          reviewData.recent_review_score,
-          reviewData.recent_review_score_desc,
-          reviewData.recent_reviews,
+          reviewData ? reviewData.review_score : null,
+          reviewData ? reviewData.review_score_desc : null,
+          reviewData ? reviewData.recent_review_score : null,
+          reviewData ? reviewData.recent_review_score_desc : null,
+          reviewData ? reviewData.recent_reviews : null,
           finalPrice,
           initialPrice,
           discountPercent,
@@ -214,7 +245,7 @@ async function collectAll() {
           hasIap ? 1 : 0,
           isMmo ? 1 : 0
         );
-        console.log(`Updated metadata for ${game.name}: ${reviews} reviews (${reviewData.review_score}%), ~${estimatedSales} owners`);
+        console.log(`Updated metadata for ${game.name}: ${reviews} reviews (${reviewData ? reviewData.review_score : '?'}%), ~${estimatedSales} owners`);
       }
 
       // Respectful delay between requests
