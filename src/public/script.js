@@ -5,7 +5,6 @@ const COLORS = ['#66c0f4', '#f5a623', '#7ed957', '#e86fd1', '#ff6b6b', '#a78bfa'
 const CHART_BORDER_COLOR = '#66c0f4';
 const TEXT_COLOR = '#8f9bab';
 const GRID_COLOR = 'rgba(255, 255, 255, 0.06)';
-const LEADERBOARD_PAGE = 10;
 
 // Legacy (unhashed) Steam CDN paths still resolve for nearly every app; used when the collector
 // hasn't stored the hashed asset URLs yet, and for the logo which the store API doesn't expose.
@@ -156,12 +155,6 @@ function setupControls() {
         const gotoBtn = e.target.closest('[data-goto]');
         if (gotoBtn) {
             scrollToGame(parseInt(gotoBtn.dataset.goto));
-            return;
-        }
-        const moreBtn = e.target.closest('.lb-more');
-        if (moreBtn) {
-            moreBtn.closest('.tab-content').querySelector('.leaderboard').classList.add('expanded');
-            moreBtn.remove();
         }
     });
 
@@ -377,7 +370,7 @@ function populateLeaderboard(listId, data, countKey) {
         const priceTag = price ? `<span class="price-tag ${onSale ? 'sale' : ''}">${onSale ? `-${meta.discount_percent}% ` : ''}${price}</span>` : '';
 
         const row = document.createElement('li');
-        row.className = `lb-row ${rank <= 3 ? `top-${rank}` : ''} ${rank > LEADERBOARD_PAGE ? 'lb-extra' : ''}`;
+        row.className = `lb-row ${rank <= 3 ? `top-${rank}` : ''}`;
         row.innerHTML = `
             <span class="lb-rank">${rank}</span>
             <img class="lb-thumb" src="${art(game.id, 'header')}" alt="" loading="lazy" width="92" height="43">
@@ -394,14 +387,6 @@ function populateLeaderboard(listId, data, countKey) {
         `;
         list.appendChild(row);
     });
-
-    if (rows.length > LEADERBOARD_PAGE) {
-        const more = document.createElement('button');
-        more.className = 'lb-more';
-        more.type = 'button';
-        more.textContent = `Show all ${rows.length}`;
-        list.after(more);
-    }
 }
 
 function updateControlsUI() {

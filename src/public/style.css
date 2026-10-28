@@ -556,17 +556,25 @@ main {
 /* ---------- Leaderboard ---------- */
 
 .leaderboard {
+    --lb-row-height: 66px;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0 4px 0 0;
+    /* Ten and a half rows: the cut-off row hints that the list scrolls */
+    max-height: calc(var(--lb-row-height) * 10.5);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    scrollbar-color: var(--surface-hover) transparent;
 }
 
-.leaderboard .lb-extra {
-    display: none;
+.leaderboard::-webkit-scrollbar {
+    width: 6px;
 }
 
-.leaderboard.expanded .lb-extra {
-    display: grid;
+.leaderboard::-webkit-scrollbar-thumb {
+    background: var(--surface-hover);
+    border-radius: 3px;
 }
 
 .lb-row {
@@ -693,25 +701,6 @@ main {
     font-size: 0.7rem;
     font-weight: 500;
     color: var(--text-muted);
-}
-
-.lb-more {
-    display: block;
-    width: 100%;
-    margin-top: 8px;
-    padding: 9px;
-    border-radius: var(--radius-sm);
-    border: 1px dashed var(--border-strong);
-    background: none;
-    color: var(--text-muted);
-    font-weight: 600;
-    font-size: 0.82rem;
-    cursor: pointer;
-}
-
-.lb-more:hover {
-    color: #fff;
-    border-color: var(--primary);
 }
 
 .lb-empty {
@@ -1543,6 +1532,10 @@ footer {
     .lb-thumb {
         width: 64px;
         height: 30px;
+    }
+
+    .leaderboard {
+        --lb-row-height: 62px;
     }
 
     .lb-sub .price-tag {
