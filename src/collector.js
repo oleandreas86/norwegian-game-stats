@@ -16,7 +16,7 @@ async function fetchPlayerCount(appid) {
   }
 }
 
-async function fetchReviews(appid) {
+async function fetchReviews(appid, storeItem) {
   try {
     const allTimeUrl = `https://store.steampowered.com/appreviews/${appid}?json=1&num_per_page=0&purchase_type=all&language=all`;
     // Steam sometimes redirects this endpoint to the store front page; treat that as a failure
@@ -56,32 +56,55 @@ async function fetchReviews(appid) {
     return result;
   } catch (error) {
     console.warn(`Error fetching reviews for ${appid}: ${error.message}, falling back to store summary`);
-    return fetchReviewSummary(appid);
+    return reviewSummaryFromStoreItem(storeItem);
   }
 }
 
-// All-time review summary from the store browse API (no 30-day breakdown available here)
-async function fetchReviewSummary(appid) {
+const STORE_ASSET_BASE = 'https://shared.akamai.steamstatic.com/store_item_assets/';
+
+// Store item from the store browse API: review summary, artwork and short description in one call
+async function fetchStoreItem(appid) {
   try {
-    const input = { ids: [{ appid }], context: { language: 'english', country_code: 'NO' }, data_request: { include_reviews: true } };
+    const input = {
+      ids: [{ appid }],
+      context: { language: 'english', country_code: 'NO' },
+      data_request: { include_reviews: true, include_assets: true, include_basic_info: true }
+    };
     const url = `https://api.steampowered.com/IStoreBrowseService/GetItems/v1/?input_json=${encodeURIComponent(JSON.stringify(input))}`;
     const response = await axios.get(url);
-    const item = response.data && response.data.response && response.data.response.store_items && response.data.response.store_items[0];
-    const summary = item && item.reviews && item.reviews.summary_filtered;
-    if (!summary) return null;
-
-    return {
-      total_reviews: summary.review_count,
-      review_score: summary.review_count > 0 ? summary.percent_positive : null,
-      review_score_desc: summary.review_score_label || null,
-      recent_review_score: null,
-      recent_review_score_desc: null,
-      recent_reviews: null
-    };
+    const items = response.data && response.data.response && response.data.response.store_items;
+    return items && items[0] && items[0].success === 1 ? items[0] : null;
   } catch (error) {
-    console.error(`Error fetching review summary for ${appid}:`, error.message);
+    console.error(`Error fetching store item for ${appid}:`, error.message);
     return null;
   }
+}
+
+// All-time review summary (no 30-day breakdown available from the store item)
+function reviewSummaryFromStoreItem(item) {
+  const summary = item && item.reviews && item.reviews.summary_filtered;
+  if (!summary) return null;
+
+  return {
+    total_reviews: summary.review_count,
+    review_score: summary.review_count > 0 ? summary.percent_positive : null,
+    review_score_desc: summary.review_score_label || null,
+    recent_review_score: null,
+    recent_review_score_desc: null,
+    recent_reviews: null
+  };
+}
+
+function assetsFromStoreItem(item) {
+  const assets = item && item.assets;
+  if (!assets || !assets.asset_url_format) return null;
+
+  const url = (file) => file ? STORE_ASSET_BASE + assets.asset_url_format.replace('${FILENAME}', file) : null;
+  return {
+    header_image: url(assets.header),
+    hero_image: url(assets.library_hero),
+    short_description: (item.basic_info && item.basic_info.short_description) || null
+  };
 }
 
 async function fetchAppDetails(appid) {
@@ -151,8 +174,14 @@ async function collectAll() {
         console.log(`Collected ${game.name} (${game.id}): ${count}`);
       }
 
-      // Collect review metadata
-      const reviewData = await fetchReviews(game.id);
+      // Collect review metadata and store artwork
+      const storeItem = await fetchStoreItem(game.id);
+      const assets = assetsFromStoreItem(storeItem);
+      if (assets) {
+        await db.updateAssets(game.id, assets);
+      }
+
+      const reviewData = await fetchReviews(game.id, storeItem);
       const appDetails = await fetchAppDetails(game.id);
 
       // Fall back to the store's recommendation count when the reviews API is unavailable
