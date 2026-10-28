@@ -49,7 +49,10 @@ db.serialize(() => {
     { name: 'is_free', type: 'INTEGER' },
     { name: 'dlc_count', type: 'INTEGER' },
     { name: 'has_iap', type: 'INTEGER' },
-    { name: 'is_mmo', type: 'INTEGER' }
+    { name: 'is_mmo', type: 'INTEGER' },
+    { name: 'header_image', type: 'TEXT' },
+    { name: 'hero_image', type: 'TEXT' },
+    { name: 'short_description', type: 'TEXT' }
   ];
 
   columns.forEach(col => {
@@ -110,6 +113,24 @@ module.exports = {
         recent_review_score, recent_review_score_desc,
         recent_reviews, price, initial_price, discount_percent, is_free,
         dlc_count, has_iap, is_mmo
+      ], function(err) {
+        if (err) reject(err);
+        else resolve();
+      });
+    });
+  },
+  updateAssets: (appid, assets) => {
+    return new Promise((resolve, reject) => {
+      const query = `
+        INSERT INTO game_metadata (appid, header_image, hero_image, short_description)
+        VALUES (?, ?, ?, ?)
+        ON CONFLICT(appid) DO UPDATE SET
+          header_image = COALESCE(excluded.header_image, game_metadata.header_image),
+          hero_image = COALESCE(excluded.hero_image, game_metadata.hero_image),
+          short_description = COALESCE(excluded.short_description, game_metadata.short_description)
+      `;
+      db.run(query, [
+        appid, assets.header_image, assets.hero_image, assets.short_description
       ], function(err) {
         if (err) reject(err);
         else resolve();

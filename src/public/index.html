@@ -3,215 +3,213 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
-    <title>🇳🇴 Norwegian Game Stats</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+    <title>Norwegian Game Stats</title>
+    <meta name="description" content="Real-time Steam player counts, sales estimates and ratings for Norwegian-made games.">
+    <meta name="theme-color" content="#0e141b">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>
-            <svg class="flag-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 16">
-                <path fill="#ba0c2f" d="M0 0h22v16H0z"/>
-                <path fill="#fff" d="M0 6h22v4H0zM6 0h4v16H6z"/>
-                <path fill="#00205b" d="M0 7h22v2H0zM7 0h2v16H7z"/>
-            </svg>
-            Norwegian Game Stats
-        </h1>
-        <p>Real-time player counts for Norwegian-made games on Steam.</p>
+    <header class="topbar">
+        <div class="topbar-inner">
+            <a class="brand" href="#">
+                <svg class="flag-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 16" aria-hidden="true">
+                    <path fill="#ba0c2f" d="M0 0h22v16H0z"/>
+                    <path fill="#fff" d="M0 6h22v4H0zM6 0h4v16H6z"/>
+                    <path fill="#00205b" d="M0 7h22v2H0zM7 0h2v16H7z"/>
+                </svg>
+                <span class="brand-text">
+                    <span class="brand-title">Norwegian Game Stats</span>
+                    <span class="brand-sub">Norwegian-made games on Steam</span>
+                </span>
+            </a>
+            <div class="live-indicator" title="Player counts are collected every 10 minutes">
+                <span class="live-dot"></span>
+                <span>Live</span>
+            </div>
+        </div>
     </header>
 
     <main>
-        <section id="global-stats">
-            <div class="stat-item featured">
-                <span id="total-players" class="stat-value">-</span>
-                <span class="stat-label">Total Players Now</span>
+        <section id="spotlight" class="spotlight is-loading" aria-label="Most played right now">
+            <div class="spotlight-bg" id="spotlight-bg"></div>
+            <div class="spotlight-content">
+                <div class="spotlight-game">
+                    <span class="eyebrow">Most played right now</span>
+                    <img id="spotlight-logo" class="spotlight-logo" alt="" hidden>
+                    <h1 id="spotlight-name" class="spotlight-name">&nbsp;</h1>
+                    <p id="spotlight-meta" class="spotlight-meta">&nbsp;</p>
+                    <div class="spotlight-actions">
+                        <a id="spotlight-steam" class="btn btn-primary" href="#" target="_blank" rel="noopener">View on Steam</a>
+                        <button id="spotlight-view" class="btn btn-ghost" type="button">Player history</button>
+                    </div>
+                </div>
+                <div class="spotlight-numbers">
+                    <div class="big-number">
+                        <span id="spotlight-players" class="big-value">-</span>
+                        <span class="big-label">playing now</span>
+                    </div>
+                    <div class="big-number total">
+                        <span id="total-players" class="big-value">-</span>
+                        <span class="big-label">players across <span id="total-games">-</span> Norwegian games</span>
+                    </div>
+                </div>
             </div>
-            <div class="stat-item">
-                <span id="top-game" class="stat-value stat-name">-</span>
-                <span id="top-game-val" class="stat-sub-value"></span>
-                <span class="stat-label">Current Peak</span>
-            </div>
-            <div class="stat-item">
-                <span id="top-seller" class="stat-value stat-name">-</span>
+        </section>
+
+        <section id="global-stats" aria-label="Highlights">
+            <button class="stat-card" type="button" data-stat="sales">
+                <span class="stat-art" id="top-seller-art"></span>
+                <span class="stat-label">Most copies <span class="est">est.</span></span>
+                <span id="top-seller" class="stat-name">-</span>
                 <span id="top-seller-val" class="stat-sub-value"></span>
-                <span class="stat-label">Most Copies (Est.)</span>
-            </div>
-            <div class="stat-item">
-                <span id="top-revenue" class="stat-value stat-name">-</span>
+            </button>
+            <button class="stat-card" type="button" data-stat="revenue">
+                <span class="stat-art" id="top-revenue-art"></span>
+                <span class="stat-label">Top grossing <span class="est">est.</span></span>
+                <span id="top-revenue" class="stat-name">-</span>
                 <span id="top-revenue-val" class="stat-sub-value"></span>
-                <span class="stat-label">Top Grossing (Est.)</span>
-            </div>
-            <div class="stat-item">
-                <span id="best-rated" class="stat-value stat-name">-</span>
+            </button>
+            <button class="stat-card" type="button" data-stat="rating">
+                <span class="stat-art" id="best-rated-art"></span>
+                <span class="stat-label">Best rated</span>
+                <span id="best-rated" class="stat-name">-</span>
                 <span id="best-rated-val" class="stat-sub-value"></span>
-                <span class="stat-label">Best Rated</span>
-            </div>
-            <div class="stat-item">
-                <span id="peak-record" class="stat-value stat-name">-</span>
+            </button>
+            <button class="stat-card" type="button" data-stat="peak">
+                <span class="stat-art" id="peak-record-art"></span>
+                <span class="stat-label">All-time peak</span>
+                <span id="peak-record" class="stat-name">-</span>
                 <span id="peak-record-val" class="stat-sub-value"></span>
-                <span class="stat-label">All-Time Peak</span>
-            </div>
-            <div class="stat-item">
-                <span id="total-games" class="stat-value">-</span>
-                <span class="stat-label">Games Tracked</span>
-            </div>
+            </button>
         </section>
 
         <div class="layout-container">
             <aside class="sidebar">
-                <section id="leaderboards">
-                    <div class="card leaderboard-card">
-                        <h2>Top Projects</h2>
-                        <div class="tabs">
-                            <button class="tab-btn active" onclick="switchTab('current')">Players</button>
-                            <button class="tab-btn" onclick="switchTab('peak')">Peak</button>
-                            <button class="tab-btn" onclick="switchTab('sales')">Owners</button>
-                            <button class="tab-btn" onclick="switchTab('revenue')">Revenue</button>
-                            <button class="tab-btn" onclick="switchTab('rating')">Rating</button>
-                        </div>
-                        
-                        <div id="current-tab" class="tab-content active">
-                            <table id="current-leaderboard">
-                                <thead>
-                                    <tr>
-                                        <th class="rank-cell">#</th>
-                                        <th class="game-cell">Game</th>
-                                        <th class="count-cell">Players</th>
-                                    </tr>
-                                </thead>
-                                <tbody></tbody>
-                            </table>
-                        </div>
+                <section id="leaderboards" class="card leaderboard-card">
+                    <div class="card-head">
+                        <h2>Top games</h2>
+                    </div>
+                    <div class="tabs" role="tablist" aria-label="Leaderboard">
+                        <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="current-tab" data-tab="current">Players</button>
+                        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="peak-tab" data-tab="peak">Peak</button>
+                        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="sales-tab" data-tab="sales">Owners</button>
+                        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="revenue-tab" data-tab="revenue">Revenue</button>
+                        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="rating-tab" data-tab="rating">Rating</button>
+                    </div>
 
-                        <div id="peak-tab" class="tab-content">
-                            <table id="peak-leaderboard">
-                                <thead>
-                                    <tr>
-                                        <th class="rank-cell">#</th>
-                                        <th class="game-cell">Game</th>
-                                        <th class="count-cell">Peak</th>
-                                    </tr>
-                                </thead>
-                                <tbody></tbody>
-                            </table>
-                        </div>
+                    <div id="current-tab" class="tab-content active" role="tabpanel">
+                        <ol id="current-leaderboard" class="leaderboard"></ol>
+                    </div>
 
-                        <div id="sales-tab" class="tab-content">
-                            <table id="sales-leaderboard">
-                                <thead>
-                                    <tr>
-                                        <th class="rank-cell">#</th>
-                                        <th class="game-cell">Game</th>
-                                        <th class="score-cell">Score</th>
-                                        <th class="count-cell">Est. Owners</th>
-                                    </tr>
-                                </thead>
-                                <tbody></tbody>
-                            </table>
-                            <p class="methodology-note">* Owners are estimated using a refined Boxleiter-based model with dynamic multipliers. We adjust for Steam's 2019 review system changes, release eras (pre-2014, 2014-2016, etc.), and price categories to provide more realistic ownership figures for both legacy hits and modern releases.</p>
-                        </div>
+                    <div id="peak-tab" class="tab-content" role="tabpanel">
+                        <ol id="peak-leaderboard" class="leaderboard"></ol>
+                    </div>
 
-                        <div id="revenue-tab" class="tab-content">
-                            <table id="revenue-leaderboard">
-                                <thead>
-                                    <tr>
-                                        <th class="rank-cell">#</th>
-                                        <th class="game-cell">Game</th>
-                                        <th class="count-cell">Est. Revenue</th>
-                                    </tr>
-                                </thead>
-                                <tbody></tbody>
-                            </table>
-                            <p class="methodology-note">* Revenue is estimated by multiplying the estimated number of owners by the average price. For paid games, we assume an average price of 80% of the initial price to account for sales and regional pricing. For Free to Play games, we estimate an Average Revenue Per User (ARPU) based on monetization markers such as In-App Purchases, DLC count, and genre (e.g., MMOs). It does not account for Steam's 30% platform fee.</p>
-                        </div>
+                    <div id="sales-tab" class="tab-content" role="tabpanel">
+                        <ol id="sales-leaderboard" class="leaderboard"></ol>
+                        <details class="methodology-note">
+                            <summary>How owners are estimated</summary>
+                            <p>Owners are estimated using a refined Boxleiter-based model with dynamic multipliers. We adjust for Steam's 2019 review system changes, release eras (pre-2014, 2014-2016, etc.), and price categories to provide more realistic ownership figures for both legacy hits and modern releases.</p>
+                        </details>
+                    </div>
 
-                        <div id="rating-tab" class="tab-content">
-                            <table id="rating-leaderboard">
-                                <thead>
-                                    <tr>
-                                        <th class="rank-cell">#</th>
-                                        <th class="game-cell">Game</th>
-                                        <th class="count-cell">Rating</th>
-                                    </tr>
-                                </thead>
-                                <tbody></tbody>
-                            </table>
-                            <p class="methodology-note">* Games are ranked by positive review percentage. Only games with at least 10 reviews are included in this ranking.</p>
-                        </div>
+                    <div id="revenue-tab" class="tab-content" role="tabpanel">
+                        <ol id="revenue-leaderboard" class="leaderboard"></ol>
+                        <details class="methodology-note">
+                            <summary>How revenue is estimated</summary>
+                            <p>Revenue is estimated by multiplying the estimated number of owners by the average price. For paid games, we assume an average price of 80% of the initial price to account for sales and regional pricing. For Free to Play games, we estimate an Average Revenue Per User (ARPU) based on monetization markers such as In-App Purchases, DLC count, and genre (e.g., MMOs). It does not account for Steam's 30% platform fee.</p>
+                        </details>
+                    </div>
+
+                    <div id="rating-tab" class="tab-content" role="tabpanel">
+                        <ol id="rating-leaderboard" class="leaderboard"></ol>
+                        <details class="methodology-note">
+                            <summary>How ratings are ranked</summary>
+                            <p>Games are ranked by positive review percentage. Only games with at least 10 reviews are included in this ranking.</p>
+                        </details>
                     </div>
                 </section>
             </aside>
 
             <div class="main-content">
-                <section id="charts">
-                    <div class="card dashboard-card">
-                        <h2>Analytics Dashboard</h2>
-                        
-                        <div class="dashboard-container">
-                            <div id="controls">
-                                <div class="control-group">
-                                    <label>Time Period</label>
-                                    <select id="time-range-type">
-                                        <option value="24h">Last 24 Hours</option>
-                                        <option value="7d">Last 7 Days</option>
-                                        <option value="30d" selected>Last 30 Days</option>
-                                        <option value="custom">Custom Range</option>
-                                    </select>
-                                    <div id="custom-range-inputs" style="display: none; margin-top: 10px;">
-                                        <input type="datetime-local" id="start-date">
-                                        <span>to</span>
-                                        <input type="datetime-local" id="end-date">
-                                    </div>
-                                </div>
-
-                                <div class="control-group">
-                                    <label>Compare Projects</label>
-                                    <select id="compare-selector">
-                                        <option value="" disabled selected>Add game to compare...</option>
-                                    </select>
-                                    <div id="comparison-list" class="comparison-tags">
-                                        <!-- Selected projects will appear as tags here -->
-                                    </div>
-                                </div>
-
-                                <div class="control-actions" id="comparison-actions" style="display: none;">
-                                    <button id="clear-comparison-btn" class="secondary">Reset Comparison</button>
-                                </div>
-                            </div>
-
-                            <div id="comparison-section" class="chart-area">
-                                <div id="no-comparison-placeholder" class="placeholder-msg">
-                                    <div class="placeholder-icon">📊</div>
-                                    <h3>Comparison Analysis</h3>
-                                    <p>Select games from the leaderboards or search below to compare trends.</p>
-                                </div>
-                                <div id="comparison-chart-wrapper" style="display: none;">
-                                    <h3>Comparison Analysis</h3>
-                                    <div class="chart-container">
-                                        <canvas id="comparison-chart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
+                <section id="charts" class="card dashboard-card">
+                    <div class="card-head">
+                        <h2>Compare games</h2>
+                        <div class="range-picker" role="group" aria-label="Time period">
+                            <button class="range-btn" data-range="24h">24h</button>
+                            <button class="range-btn" data-range="7d">7d</button>
+                            <button class="range-btn active" data-range="30d">30d</button>
+                            <button class="range-btn" data-range="custom">Custom</button>
                         </div>
                     </div>
 
-                    <div class="search-container">
-                        <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-                        <input type="text" id="game-search" placeholder="Search games, studios...">
+                    <div id="custom-range-inputs" class="custom-range" hidden>
+                        <label>From <input type="datetime-local" id="start-date"></label>
+                        <label>To <input type="datetime-local" id="end-date"></label>
                     </div>
 
-                    <div id="individual-charts-grid" class="chart-grid">
-                        <!-- Individual charts will be injected here -->
+                    <div id="controls">
+                        <select id="compare-selector" aria-label="Add game to compare">
+                            <option value="" disabled selected>+ Add a game to compare…</option>
+                        </select>
+                        <div id="comparison-list" class="comparison-tags"></div>
+                        <button id="clear-comparison-btn" class="btn btn-ghost btn-small" type="button" hidden>Clear</button>
+                    </div>
+
+                    <div id="comparison-section" class="chart-area">
+                        <div id="no-comparison-placeholder" class="placeholder-msg">
+                            <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 6-6"/></svg>
+                            <h3>Nothing to compare yet</h3>
+                            <p>Add up to six games with the <strong>+</strong> buttons on the leaderboard or game cards to see their player counts side by side.</p>
+                        </div>
+                        <div id="comparison-chart-wrapper" class="chart-container comparison-chart" hidden>
+                            <canvas id="comparison-chart"></canvas>
+                        </div>
                     </div>
                 </section>
             </div>
         </div>
+
+        <section id="library" aria-label="All games">
+            <div class="library-head">
+                <h2>All games <span id="library-count" class="count-pill"></span></h2>
+                <div class="library-toolbar">
+                    <div class="search-container">
+                        <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                        <input type="search" id="game-search" placeholder="Search games or studios…" aria-label="Search games or studios">
+                    </div>
+                    <div class="filter-chips" role="group" aria-label="Filter by release status">
+                        <button class="chip active" data-filter="all">All</button>
+                        <button class="chip" data-filter="Full">Released</button>
+                        <button class="chip" data-filter="Early Access">Early Access</button>
+                        <button class="chip" data-filter="Upcoming">Upcoming</button>
+                    </div>
+                    <label class="sort-select">
+                        <span>Sort</span>
+                        <select id="sort-select">
+                            <option value="players">Players now</option>
+                            <option value="owners">Est. owners</option>
+                            <option value="rating">Rating</option>
+                            <option value="name">Name</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div id="individual-charts-grid" class="chart-grid"></div>
+            <p id="no-results" class="no-results" hidden>No games match your search.</p>
+        </section>
     </main>
 
     <footer>
-        <p>Data provided by Steam Web API. Similar to SteamDB.</p>
+        <p>Data from the Steam Web API and SteamCharts. Artwork © the respective publishers, served from Steam. Sales and revenue figures are estimates.</p>
     </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
     <script src="script.js"></script>
 </body>
