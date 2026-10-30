@@ -347,6 +347,12 @@
     // Bromantic Games
     { id: 1808620, name: "Dragon Evo", developer: "Bromantic Games", release: "Full", store: "Live" },
     { id: 2282890, name: "Folklands", developer: "Bromantic Games", release: "Full", store: "Live" },
+
+    // erdetsokrates
+    { id: 4887360, name: "erdetspill", developer: "erdetsokrates", release: "Full", store: "Live" },
+
+    // Salty Olives
+    { id: 3861100, name: "1492 - Colonization of the New World", developer: "Salty Olives", release: "Full", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
