@@ -353,6 +353,20 @@
 
     // Salty Olives
     { id: 3861100, name: "1492 - Colonization of the New World", developer: "Salty Olives", release: "Full", store: "Live" },
+
+    // Dreamware Games
+    { id: 2005800, name: "NinjaThea", developer: "Dreamware Games", release: "Full", store: "Live" },
+    { id: 2170700, name: "Arcade Classics", developer: "Dreamware Games", release: "Full", store: "Live" },
+    { id: 2567920, name: "NinjaThea 2", developer: "Dreamware Games", release: "Full", store: "Live" },
+    { id: 3685030, name: "Neon Strike", developer: "Dreamware Games", release: "Full", store: "Live" },
+    { id: 5231360, name: "Thinki - Brain Games", developer: "Dreamware Games", release: "Full", store: "Live" },
+
+    // Nalycan
+    { id: 2921360, name: "The Mare of Jonah", developer: "Nalycan", release: "Full", store: "Live" },
+    { id: 3652920, name: "Netherwake", developer: "Nalycan", release: "Upcoming", store: "Live" },
+
+    // Zellah Games
+    { id: 4369310, name: "Skate Style", developer: "Zellah Games", release: "Upcoming", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
