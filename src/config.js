@@ -131,7 +131,7 @@
     { id: 1288760, name: "Dude, Where Is My Beer?", developer: "Arik Games", release: "Full", store: "Live" },
     { id: 2216060, name: "Another Bar Game", developer: "Arik Games", release: "Full", store: "Live" },
     { id: 3357000, name: "Dude, Where Is My Beer? A New Hop", developer: "Arik Games", release: "Upcoming", store: "Live" },
-    { id: 4227560, name: "Legends of Rock", developer: "Arik Games", release: "Upcoming", store: "Live" },
+    { id: 4227560, name: "Legends of Rock", developer: "Arik Games", release: "Full", store: "Live" },
 
     // Slid Studio
     { id: 1639790, name: "Northern Journey", developer: "Slid Studio", release: "Full", store: "Live" },
@@ -204,7 +204,7 @@
     { id: 3449900, name: "Slime Squisher", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 3769130, name: "Keep on Mining!", developer: "EagleEye Games", release: "Full", store: "Live" },
     { id: 4286550, name: "Keep on Mining! - Worlds", developer: "EagleEye Games", release: "Full", store: "Live" },
-    { id: 5100710, name: "Orbital Madness", developer: "EagleEye Games", release: "Upcoming", store: "Live" },
+    { id: 5100710, name: "Orbital Madness", developer: "EagleEye Games", release: "Full", store: "Live" },
 
     // Billionworlds
     { id: 1561960, name: "Yield! Fall of Rome", developer: "Billionworlds", release: "Full", store: "Live" },
@@ -332,7 +332,7 @@
     // Games People Play
     { id: 1382190, name: "Killer in the cabin", developer: "Games People Play", release: "Full", store: "Live" },
     { id: 2966550, name: "SpreadCheat", developer: "Games People Play", release: "Full", store: "Live" },
-    { id: 3699850, name: "The Devil's Due", developer: "Games People Play", release: "Upcoming", store: "Live" },
+    { id: 3699850, name: "The Devil's Due", developer: "Games People Play", release: "Full", store: "Live" },
 
     // Breach
     { id: 1574510, name: "Kartoffl", developer: "Breach", release: "Full", store: "Live" },
@@ -367,6 +367,15 @@
 
     // Zellah Games
     { id: 4369310, name: "Skate Style", developer: "Zellah Games", release: "Upcoming", store: "Live" },
+
+    // SURT
+    { id: 2769290, name: "Ringo's Roundup", developer: "SURT", release: "Full", store: "Live" },
+
+    // SunDeer Studios
+    { id: 3360780, name: "Bloodmoon Rush", developer: "SunDeer Studios", release: "Full", store: "Live" },
+
+    // Badger Punch Games
+    { id: 3674680, name: "Roguecraft DX", developer: "Badger Punch Games", release: "Full", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
