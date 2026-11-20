@@ -367,6 +367,16 @@
 
     // Zellah Games
     { id: 4369310, name: "Skate Style", developer: "Zellah Games", release: "Upcoming", store: "Live" },
+
+    // SURT
+    { id: 1475840, name: "Rhythm Sprout: Sick Beats & Bad Sweets", developer: "SURT", release: "Full", store: "Live" },
+    { id: 2769290, name: "Ringo's Roundup", developer: "SURT", release: "Full", store: "Live" },
+
+    // Badger Punch Games
+    { id: 3674680, name: "Roguecraft DX", developer: "Badger Punch Games", release: "Full", store: "Live" },
+
+    // SunDeer Studios
+    { id: 3360780, name: "Bloodmoon Rush", developer: "SunDeer Studios", release: "Full", store: "Live" },
   ],
   databasePath: "./src/data/stats.db",
   collectionInterval: "*/10 * * * *" // Every 10 minutes
