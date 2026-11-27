@@ -98,6 +98,7 @@
 
     // Antagonist
     { id: 368430, name: "Through the Woods", developer: "Antagonist", release: "Full", store: "Live" },
+    { id: 4504460, name: "Lihiman", developer: "Antagonist", release: "Full", store: "Live" },
 
     // Machineboy
     { id: 544970, name: "Milkmaid of the Milky Way", developer: "Machineboy", release: "Full", store: "Live" },
@@ -184,6 +185,7 @@
     { id: 2115390, name: "Project Unknown", developer: "Nightmare Studios", release: "Full", store: "Live" },
     { id: 2398920, name: "PREDATORS", developer: "Nightmare Studios", release: "Upcoming", store: "Live" },
     { id: 4341550, name: "After Hours", developer: "Nightmare Studios (Lunar Entertainment)", release: "Upcoming", store: "Live" },
+    { id: 2846930, name: "Starlit Stories", developer: "Nightmare Studios (Lunar Entertainment)", release: "Full", store: "Live" },
     { id: 4990940, name: "PC Store Together", developer: "Nightmare Studios", release: "Upcoming", store: "Live" },
     { id: 5406170, name: "HUNTED", developer: "Nightmare Studios", release: "Upcoming", store: "Live" },
 
